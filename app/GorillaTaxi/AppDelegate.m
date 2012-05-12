@@ -20,10 +20,8 @@
     [map from:@"db://leaveFeedback" toViewController:[LeaveFeedbackController class]];
     
     [map from:@"db://home" toViewController:[HomeController class]];
-    [map from:@"db://new" toViewController:[ProductSearchController class]];
-    [map from:@"db://brands" toViewController:[CompanySearchController class]];
     
-    [map from:@"db://product/(initWithID:)" toViewController:[ProductController class]];
+    [map from:@"db://product/" toViewController:[ProductController class]];
     [map from:@"db://company/(initWithID:)" toViewController:[CompanyController class]];
     
     [map from:@"db://newProduct" toViewController:[NewProductController class]];

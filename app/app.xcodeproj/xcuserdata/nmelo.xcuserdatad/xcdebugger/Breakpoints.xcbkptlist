@@ -37,11 +37,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "GorillaTaxi/AppDelegate.m"
-         timestampString = "358498852.329393"
+         timestampString = "358501879.351346"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "121"
-         endingLineNumber = "121"
+         startingLineNumber = "119"
+         endingLineNumber = "119"
          landmarkName = "-application:didFinishLaunchingWithOptions:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -51,11 +51,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "GorillaTaxi/AppDelegate.m"
-         timestampString = "358498852.329393"
+         timestampString = "358501879.351346"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "47"
-         endingLineNumber = "47"
+         startingLineNumber = "45"
+         endingLineNumber = "45"
          landmarkName = "-initRestKit"
          landmarkType = "5">
       </FileBreakpoint>
@@ -303,11 +303,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "GorillaTaxi/HomeController.m"
-         timestampString = "358499694.974347"
+         timestampString = "358501555.742084"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "37"
-         endingLineNumber = "37"
+         startingLineNumber = "48"
+         endingLineNumber = "48"
          landmarkName = "-loadView"
          landmarkType = "5">
       </FileBreakpoint>

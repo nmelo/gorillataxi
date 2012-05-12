@@ -30,71 +30,45 @@
     
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// IBActions
+- (void)drive_OnClick
+{
+    TTOpenURL(@"db://new");
+}
+- (void)request_OnClick
+{
+    TTOpenURL(@"db://new");
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //UIViewController
 - (void)loadView {
     [super loadView];
+    self.navigationController.navigationBar.hidden = YES;
     
-    CGRect applicationFrame = [UIScreen mainScreen].applicationFrame;
+    UIImage* background = [UIImage imageNamed:@"background.jpg"];
+	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
+	[headerBackgroundImage setImage:background];
+    [self.view addSubview:headerBackgroundImage];
+    [self.view sendSubviewToBack:headerBackgroundImage];
     
     UIImage* drive_image = [UIImage imageNamed:@"drive.png"];
     self.driveButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.driveButton.frame = CGRectMake(40, 385, 160, 38);
+    self.driveButton.frame = CGRectMake(20, 385, 133, 38);
     [self.driveButton setBackgroundImage:drive_image forState:UIControlStateNormal];
+    [self.driveButton  addTarget:self action:@selector(drive_OnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:driveButton];
 
     UIImage* request_image = [UIImage imageNamed:@"request.png"];
     self.requestButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.requestButton.frame = CGRectMake(240, 385, 160, 38);
+    self.requestButton.frame = CGRectMake(170, 385, 133, 38);
     [self.requestButton setBackgroundImage:request_image forState:UIControlStateNormal];
+    [self.requestButton  addTarget:self action:@selector(request_OnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:requestButton];
-
-    
 }
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// IBActions
-- (void)segmentAction:(id)sender
-{
-    if([sender selectedSegmentIndex] == 0) {
-
-    }
-    else {
-
-    }
-}
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// TTTabDelegate
-- (void)tabBar:(TTTabBar*)tabBar tabSelected:(NSInteger)selectedIndex 
-{ 
-    
-} 
-- (id<TTTableViewDataSource>)getDataSourceWithIndex:(NSInteger) selectedIndex { 
-        
-    TTTableViewDataSource *dSource = nil; 
-    
-    switch (selectedIndex) {
-        case 0:
-            dSource = [TTListDataSource dataSourceWithObjects:
-                       [TTTableTextItem itemWithText:@"Adidas XP1" URL:@"db://feedback/1"],
-                       [TTTableTextItem itemWithText:@"Sony PlayStation 3" URL:@"db://feedback/2"],
-                       nil];
-            break;
-        case 1:
-            dSource = [TTListDataSource dataSourceWithObjects:
-                       [TTTableTextItem itemWithText:@"Call of Duty" URL:@"db://feedback/1"],
-                       [TTTableTextItem itemWithText:@"Nike Kobe" URL:@"db://feedback/2"],
-                       nil];
-            break;
-        default:
-            dSource = nil;
-            break;
-    }
-    return dSource;
-}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // NSObject

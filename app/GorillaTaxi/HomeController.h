@@ -12,5 +12,6 @@
 
 @property (nonatomic, retain) UIButton *driveButton;
 @property (nonatomic, retain) UIButton *requestButton;
-
+- (IBAction)drive_OnClick;
+- (IBAction)request_OnClick;
 @end

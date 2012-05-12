@@ -1,15 +1,17 @@
-#import "FeedbackableController.h"
-#import "DBEnvironment.h"
+#import <Three20/Three20.h>
+#import <Three20/Three20+Additions.h>
 
-@interface ProductController : FeedbackableController {
+#import <RestKit/RestKit.h>
+#import <RestKit/CoreData/CoreData.h>
+#import <RestKit/Three20/Three20.h>
+
+@interface ProductController : TTViewController {
     
     IBOutlet TTLabel *productName;
     IBOutlet TTLabel *modelName;
-    IBOutlet TTImageView *productImage;
 }
 
 @property(nonatomic, retain) IBOutlet TTLabel *productName;
 @property(nonatomic, retain) IBOutlet TTLabel *modelName;
-@property(nonatomic, retain) IBOutlet TTImageView *productImage;
 
 @end
