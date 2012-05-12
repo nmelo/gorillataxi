@@ -6,7 +6,6 @@
 #import <RestKit/Three20/Three20.h>
 
 
-
 @interface ProductController : TTViewController <UIPickerViewDataSource, UIPickerViewDelegate>  {
     
     IBOutlet TTLabel *productName;

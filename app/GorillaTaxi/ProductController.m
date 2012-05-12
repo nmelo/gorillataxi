@@ -4,6 +4,7 @@
  
 @synthesize productName, modelName, address, price, prices, letsGoButton;
 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // TTViewController
 - (id)initWithNavigatorURL:(NSURL*)URL query:(NSDictionary*)query {
@@ -26,7 +27,7 @@
     [prices addObject:@"$30.00"];
     [prices addObject:@"$35.00"];
     
-    UIImage* background = [UIImage imageNamed:@"background.jpg"];
+    UIImage* background = [UIImage imageNamed:@"GC_background.png"];
 	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
 	[headerBackgroundImage setImage:background];
     [self.view addSubview:headerBackgroundImage];
@@ -60,7 +61,6 @@
 
     
 }
-
 
 
 - (void)viewWillAppear:(BOOL)animated {  

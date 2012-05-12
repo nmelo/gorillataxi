@@ -48,7 +48,7 @@
     [super loadView];
     self.navigationController.navigationBar.hidden = YES;
     
-    UIImage* background = [UIImage imageNamed:@"background.jpg"];
+    UIImage* background = [UIImage imageNamed:@"GC_background.png"];
 	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
 	[headerBackgroundImage setImage:background];
     [self.view addSubview:headerBackgroundImage];

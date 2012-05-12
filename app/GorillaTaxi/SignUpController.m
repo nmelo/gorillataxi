@@ -36,7 +36,7 @@
     self.navigationController.navigationBar.hidden = YES;
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:NO];
     
-    UIImage* background = [UIImage imageNamed:@"background.jpg"];
+    UIImage* background = [UIImage imageNamed:@"GC_background_login.png"];
 	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
 	[headerBackgroundImage setImage:background];
     [self.view addSubview:headerBackgroundImage];
