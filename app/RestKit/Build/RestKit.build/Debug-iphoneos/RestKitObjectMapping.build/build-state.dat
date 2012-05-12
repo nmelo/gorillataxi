@@ -1,0 +1,856 @@
+TRestKitObjectMapping
+v3
+r1
+cCheck dependencies
+cCpHeader Code/ObjectMapping/RKObject.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObject.h
+cCpHeader Code/ObjectMapping/RKObjectLoader.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectLoader.h
+cCpHeader Code/ObjectMapping/RKObjectManager.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectManager.h
+cCpHeader Code/ObjectMapping/RKObjectMappable.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMappable.h
+cCpHeader Code/ObjectMapping/RKObjectMapper.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMapper.h
+cCpHeader Code/ObjectMapping/RKObjectPropertyInspector.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectPropertyInspector.h
+cCpHeader Code/ObjectMapping/RKRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRouter.h
+cCpHeader Code/ObjectMapping/ObjectMapping.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/ObjectMapping.h
+cCpHeader Code/ObjectMapping/RKDynamicRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKDynamicRouter.h
+cCpHeader Code/ObjectMapping/RKRailsRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRailsRouter.h
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObject.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectLoader.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectManager.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMapper.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectPropertyInspector.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKDynamicRouter.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKRailsRouter.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMappable.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObject.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectLoader.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectManager.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMapper.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/libRestKitObjectMapping.a normal armv6
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectPropertyInspector.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKDynamicRouter.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKRailsRouter.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMappable.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/libRestKitObjectMapping.a normal armv7
+cCreateUniversalBinary /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitObjectMapping.a normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DB0743A0000000000000110
+t1303409722
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D93E24E000000000000046B
+t1301537358
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D93E1420000000000001A58
+t1301537090
+s6744
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D99FA7C0000000000000AA1
+t1301936764
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/objc/message.h
+c000000004D93DB580000000000001F13
+t1301535576
+s7955
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/ObjectMapping.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKDynamicRouter.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObject.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectLoader.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectManager.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMappable.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMapper.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectPropertyInspector.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRailsRouter.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRouter.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitObjectMapping.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKDynamicRouter.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObject.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectLoader.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectManager.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMappable.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMapper.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectPropertyInspector.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKRailsRouter.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RestKitObjectMapping.LinkFileList
+c000000004DC1C5520000000000000450
+t1304544594
+s1104
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/libRestKitObjectMapping.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKDynamicRouter.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObject.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectLoader.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectManager.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMappable.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMapper.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectPropertyInspector.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKRailsRouter.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RestKitObjectMapping.LinkFileList
+c000000004DC1C5520000000000000450
+t1304544594
+s1104
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/libRestKitObjectMapping.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/CoreData/CoreData.h
+c000000004DC1ABE5000000000000014D
+t1304538085
+s333
+i<CoreData/CoreData.h>
+i"../ObjectMapping/ObjectMapping.h"
+i"RKManagedObject.h"
+i"RKManagedObjectStore.h"
+i"RKManagedObjectSeeder.h"
+i"RKManagedObjectCache.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/CoreData/RKManagedObject.h
+c000000004DC1ABE50000000000001087
+t1304538085
+s4231
+i<Foundation/Foundation.h>
+i"../ObjectMapping/ObjectMapping.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/CoreData/RKManagedObjectCache.h
+c000000004DC1ABE50000000000000205
+t1304538085
+s517
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/CoreData/RKManagedObjectLoader.h
+c000000004DC1ABE5000000000000015C
+t1304538085
+s348
+i"../ObjectMapping/RKObjectLoader.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/CoreData/RKManagedObjectSeeder.h
+c000000004DC1ABE500000000000009BD
+t1304538085
+s2493
+i"../ObjectMapping/ObjectMapping.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/CoreData/RKManagedObjectStore.h
+c000000004DC1ABE50000000000000EC9
+t1304538085
+s3785
+i<CoreData/CoreData.h>
+i"RKManagedObject.h"
+i"RKManagedObjectCache.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/NSDictionary+RKRequestSerialization.h
+c000000004DC1ABE500000000000001A0
+t1304538085
+s416
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/Network.h
+c000000004DC1ABE50000000000000125
+t1304538085
+s293
+i"RKClient.h"
+i"RKRequest.h"
+i"RKResponse.h"
+i"RKRequestSerializable.h"
+i"RKReachabilityObserver.h"
+i"RKRequestQueue.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKClient.h
+c000000004DC1ABE50000000000001BD3
+t1304538085
+s7123
+i"RKRequest.h"
+i"RKParams.h"
+i"RKResponse.h"
+i"NSDictionary+RKRequestSerialization.h"
+i"RKReachabilityObserver.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKJSONSerialization.h
+c000000004DC1ABE50000000000000267
+t1304538085
+s615
+i"RKRequestSerializable.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKNotifications.h
+c000000004DC1ABE500000000000002B6
+t1304538085
+s694
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKParams.h
+c000000004DC1ABE5000000000000095A
+t1304538085
+s2394
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+i"RKParamsAttachment.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKParamsAttachment.h
+c000000004DC1ABE50000000000000879
+t1304538085
+s2169
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKReachabilityObserver.h
+c000000004DC1ABE50000000000000580
+t1304538085
+s1408
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKRequest.h
+c000000004DC1ABE500000000000012E5
+t1304538085
+s4837
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"RKRequestSerializable.h"
+i"RKJSONSerialization.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKRequestQueue.h
+c000000004DC1ABE5000000000000057A
+t1304538085
+s1402
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKRequestSerializable.h
+c000000004DC1ABE500000000000005FC
+t1304538085
+s1532
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Network/RKResponse.h
+c000000004DC1ABE50000000000001030
+t1304538085
+s4144
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/ObjectMapping.h
+c000000004DC1ABE500000000000000D5
+t1304538085
+s213
+i"RKObjectManager.h"
+i"RKObject.h"
+i"RKObjectLoader.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.h
+c000000004DC1ABE50000000000000513
+t1304538085
+s1299
+i"RKRouter.h"
+i"RKObjectMappable.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m
+c000000004DC1ABE50000000000000C43
+t1304538085
+s3139
+i"RKDynamicRouter.h"
+i"RKDynamicRouter.h"
+i"NSDictionary+RKRequestSerialization.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.h
+c000000004DC1ABE5000000000000011F
+t1304538085
+s287
+i"RKObjectMappable.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m
+c000000004DC1ABE5000000000000020F
+t1304538085
+s527
+i"RKObject.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.h
+c000000004DC1ABE50000000000000CB8
+t1304538085
+s3256
+i"../Network/Network.h"
+i"RKObjectMappable.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m
+c000000004DC1ABE5000000000000209E
+t1304538085
+s8350
+i<UIKit/UIKit.h>
+i"RKObjectLoader.h"
+i"RKObjectManager.h"
+i"Errors.h"
+i"RKNotifications.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.h
+c000000004DC1ABE5000000000000208C
+t1304538085
+s8332
+i"../Network/Network.h"
+i"RKObjectMapper.h"
+i"RKObjectLoader.h"
+i"RKDynamicRouter.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m
+c000000004DC1ABE50000000000001F9E
+t1304538085
+s8094
+i"RKObjectManager.h"
+i"../CoreData/RKManagedObjectStore.h"
+i"../CoreData/RKManagedObjectLoader.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.h
+c000000004DC1ABE50000000000000B08
+t1304538085
+s2824
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m
+c000000004DC1ABE50000000000000624
+t1304538085
+s1572
+i"RKObjectMappable.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.h
+c000000004DC1ABE50000000000001533
+t1304538085
+s5427
+i<Foundation/Foundation.h>
+i"RKObjectMappable.h"
+i"RKObjectPropertyInspector.h"
+i"../Support/RKParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m
+c000000004DC1ABE500000000000056AF
+t1304538085
+s22191
+i<objc/message.h>
+i"../CoreData/CoreData.h"
+i"RKObjectManager.h"
+i"RKObjectMapper.h"
+i"NSDictionary+RKAdditions.h"
+i"RKJSONParser.h"
+i"RKXMLParser.h"
+i"Errors.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.h
+c000000004DC1ABE500000000000001BC
+t1304538085
+s444
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m
+c000000004DC1ABE50000000000000ABD
+t1304538085
+s2749
+i<objc/message.h>
+i"RKObjectPropertyInspector.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.h
+c000000004DC1ABE50000000000000350
+t1304538085
+s848
+i<Foundation/Foundation.h>
+i"RKDynamicRouter.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m
+c000000004DC1ABE50000000000000731
+t1304538085
+s1841
+i"RKRailsRouter.h"
+i"../Support/NSString+InflectionSupport.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRouter.h
+c000000004DC1ABE500000000000002F3
+t1304538085
+s755
+i"../Network/Network.h"
+i"RKObjectMappable.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.h
+c000000004DC1ABE50000000000000146
+t1304538085
+s326
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.h
+c000000004DC1ABE50000000000000234
+t1304538085
+s564
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.h
+c000000004DC1ABE50000000000000378
+t1304538085
+s888
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKJSONParser.h
+c000000004DC1ABE500000000000000E2
+t1304538085
+s226
+i"RKParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKXMLParser.h
+c000000004DC1ABE50000000000000263
+t1304538085
+s611
+i<Foundation/Foundation.h>
+i"RKParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKParser.h
+c000000004DC1ABE5000000000000024A
+t1304538085
+s586
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004DC1ABE500000000000000BC
+t1304538085
+s188
+i<Foundation/Foundation.h>
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies98a698d0fc71b341^c98e11d2fc71b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKDynamicRouter.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237398.736772
+e326237398.981584
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKDynamicRouter.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m59c0bcd6fc71b341^6f48fbd6fc71b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m0000000000000000^1974"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKDynamicRouter.o Code/ObjectMapping/RKDynamicRouter.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKDynamicRouter.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObject.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237398.262781
+e326237398.459674
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObject.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m986943d6fc71b341^e1b375d6fc71b341^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m0000000000000000^1946"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObject.o Code/ObjectMapping/RKObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObject.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectLoader.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237398.351559
+e326237398.835011
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectLoader.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.md1235ad6fc71b341^f4c2d5d6fc71b341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m0000000000000000^1970"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectLoader.o Code/ObjectMapping/RKObjectLoader.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectLoader.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectManager.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237398.427290
+e326237398.767330
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectManager.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m98866dd6fc71b341^d579c4d6fc71b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m0000000000000000^1974"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectManager.o Code/ObjectMapping/RKObjectManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectManager.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMappable.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237398.835280
+e326237399.032582
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMappable.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m7bf9d5d6fc71b341^505608d7fc71b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m0000000000000000^1978"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMappable.o Code/ObjectMapping/RKObjectMappable.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMappable.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMapper.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237398.449185
+e326237398.895224
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMapper.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m642073d6fc71b341^e02ce5d6fc71b341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m0000000000000000^1970"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMapper.o Code/ObjectMapping/RKObjectMapper.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectMapper.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectPropertyInspector.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237398.477773
+e326237398.712610
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectPropertyInspector.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m93737ad6fc71b341^e36cb6d6fc71b341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m0000000000000000^2014"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectPropertyInspector.o Code/ObjectMapping/RKObjectPropertyInspector.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKObjectPropertyInspector.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKRailsRouter.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237398.768423
+e326237399.003031
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKRailsRouter.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.mf5dac4d6fc71b341^3fc600d7fc71b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m0000000000000000^1966"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKRailsRouter.o Code/ObjectMapping/RKRailsRouter.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RKRailsRouter.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKDynamicRouter.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237399.294742
+e326237399.546689
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKDynamicRouter.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.ma6984bd7fc71b341^863a8cd7fc71b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m0000000000000000^1974"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKDynamicRouter.o Code/ObjectMapping/RKDynamicRouter.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKDynamicRouter.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObject.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237398.895482
+e326237399.087040
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObject.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m3962e5d6fc71b341^ce5216d7fc71b341^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m0000000000000000^1946"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObject.o Code/ObjectMapping/RKObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObject.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectLoader.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237398.981838
+e326237399.357061
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectLoader.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.me97dfbd6fc71b341^7f675bd7fc71b341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m0000000000000000^1970"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectLoader.o Code/ObjectMapping/RKObjectLoader.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectLoader.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectManager.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237399.003254
+e326237399.294088
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectManager.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.ma5f800d7fc71b341^334e4bd7fc71b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m0000000000000000^1974"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectManager.o Code/ObjectMapping/RKObjectManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectManager.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMappable.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237399.357373
+e326237399.560914
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMappable.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.md7a05bd7fc71b341^6f9d8fd7fc71b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m0000000000000000^1978"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMappable.o Code/ObjectMapping/RKObjectMappable.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMappable.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMapper.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237399.032820
+e326237399.412864
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMapper.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m7a8a08d7fc71b341^79b069d7fc71b341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m0000000000000000^1970"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMapper.o Code/ObjectMapping/RKObjectMapper.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectMapper.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectPropertyInspector.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237399.102327
+e326237399.333392
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectPropertyInspector.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.md2551ad7fc71b341^076255d7fc71b341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m0000000000000000^2014"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectPropertyInspector.o Code/ObjectMapping/RKObjectPropertyInspector.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKObjectPropertyInspector.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKRailsRouter.o /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237399.333824
+e326237399.559938
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKRailsRouter.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.mf29455d7fc71b341^ef598fd7fc71b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m0000000000000000^1966"CompileC Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKRailsRouter.o Code/ObjectMapping/RKRailsRouter.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/RestKitObjectMapping-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RKRailsRouter.o
+
+CCpHeader Code/ObjectMapping/ObjectMapping.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/ObjectMapping.h
+s326237394.924264
+e326237394.926666
+r1
+xCpHeader
+xCode/ObjectMapping/ObjectMapping.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/ObjectMapping.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/ObjectMapping.hefadecd2fc71b341^2e3aedd2fc71b341^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/ObjectMapping.h0000204d2205f041^538"CpHeader Code/ObjectMapping/ObjectMapping.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/ObjectMapping.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/ObjectMapping.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKDynamicRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKDynamicRouter.h
+s326237394.926804
+e326237394.929915
+r1
+xCpHeader
+xCode/ObjectMapping/RKDynamicRouter.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKDynamicRouter.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKDynamicRouter.h3657edd2fc71b341^950eeed2fc71b341^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKDynamicRouter.h0000204d2205f041^544"CpHeader Code/ObjectMapping/RKDynamicRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKDynamicRouter.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKDynamicRouter.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKObject.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObject.h
+s326237394.898277
+e326237394.905112
+r1
+xCpHeader
+xCode/ObjectMapping/RKObject.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKObject.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObject.h070ce6d2fc71b341^36e8e7d2fc71b341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObject.h0000204d2205f041^523"CpHeader Code/ObjectMapping/RKObject.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObject.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObject.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKObjectLoader.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectLoader.h
+s326237394.905933
+e326237394.908923
+r1
+xCpHeader
+xCode/ObjectMapping/RKObjectLoader.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectLoader.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectLoader.h9b03e8d2fc71b341^cdb1e8d2fc71b341^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectLoader.h0000204d2205f041^541"CpHeader Code/ObjectMapping/RKObjectLoader.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectLoader.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectLoader.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKObjectManager.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectManager.h
+s326237394.909098
+e326237394.912192
+r1
+xCpHeader
+xCode/ObjectMapping/RKObjectManager.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectManager.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectManager.hc8d1e8d2fc71b341^b5c5e9d2fc71b341^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectManager.h0000204d2205f041^544"CpHeader Code/ObjectMapping/RKObjectManager.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectManager.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectManager.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKObjectMappable.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMappable.h
+s326237394.912375
+e326237394.916074
+r1
+xCpHeader
+xCode/ObjectMapping/RKObjectMappable.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMappable.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMappable.h79ace9d2fc71b341^3c83ead2fc71b341^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMappable.h0000204d2205f041^547"CpHeader Code/ObjectMapping/RKObjectMappable.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMappable.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMappable.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKObjectMapper.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMapper.h
+s326237394.916345
+e326237394.920274
+r1
+xCpHeader
+xCode/ObjectMapping/RKObjectMapper.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMapper.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMapper.hc9acead2fc71b341^b79cebd2fc71b341^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMapper.h0000204d2205f041^541"CpHeader Code/ObjectMapping/RKObjectMapper.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMapper.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectMapper.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKObjectPropertyInspector.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectPropertyInspector.h
+s326237394.920609
+e326237394.923315
+r1
+xCpHeader
+xCode/ObjectMapping/RKObjectPropertyInspector.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectPropertyInspector.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectPropertyInspector.h12c2ebd2fc71b341^af5fecd2fc71b341^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectPropertyInspector.h0000204d2205f041^574"CpHeader Code/ObjectMapping/RKObjectPropertyInspector.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectPropertyInspector.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKRailsRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRailsRouter.h
+s326237394.931072
+e326237394.935976
+r1
+xCpHeader
+xCode/ObjectMapping/RKRailsRouter.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKRailsRouter.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRailsRouter.hd66feed2fc71b341^ada6efd2fc71b341^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRailsRouter.h0000204d2205f041^538"CpHeader Code/ObjectMapping/RKRailsRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRailsRouter.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRailsRouter.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCpHeader Code/ObjectMapping/RKRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRouter.h
+s326237394.923470
+e326237394.926248
+r1
+xCpHeader
+xCode/ObjectMapping/RKRouter.h
+xBuild/Debug-iphoneos/include/RestKit/ObjectMapping/RKRouter.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRouter.he57decd2fc71b341^7023edd2fc71b341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRouter.h0000204d2205f041^523"CpHeader Code/ObjectMapping/RKRouter.h Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRouter.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/ObjectMapping/RKRouter.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+
+CCreateUniversalBinary /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitObjectMapping.a normal "armv6 armv7"
+s326237399.617720
+e326237399.646235
+r1
+xCreateUniversalBinary
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitObjectMapping.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Create universal binary /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitObjectMapping.a4f3d9ed7fc71b341^7d79a5d7fc71b341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitObjectMapping.a0000204d2205f041^714"CreateUniversalBinary Build/Debug-iphoneos/libRestKitObjectMapping.a normal "armv6 armv7"    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/libRestKitObjectMapping.a /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/libRestKitObjectMapping.a -o /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitObjectMapping.a
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/libRestKitObjectMapping.a normal armv6
+s326237399.087673
+e326237399.101867
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/libRestKitObjectMapping.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Libtool Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/libRestKitObjectMapping.a normal armv6c58e16d7fc71b341^0c1e1ad7fc71b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--895"Libtool Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/libRestKitObjectMapping.a normal armv6    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/RestKitObjectMapping.LinkFileList -ObjC -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6/libRestKitObjectMapping.a
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/libRestKitObjectMapping.a normal armv7
+s326237399.594664
+e326237399.610169
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/libRestKitObjectMapping.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Libtool Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/libRestKitObjectMapping.a normal armv7295b98d7fc71b341^f9849cd7fc71b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--895"Libtool Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/libRestKitObjectMapping.a normal armv7    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/RestKitObjectMapping.LinkFileList -ObjC -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7/libRestKitObjectMapping.a
+

@@ -1,0 +1,287 @@
+TRestKitJSONParser+JSONKit
+v3
+r1
+cCheck dependencies
+cCpHeader Vendor/JSONKit/JSONKit.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/JSONKit/JSONKit.h
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/RKJSONParser+JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004DB074A10000000000000110
+t1303409825
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004D93DEBA0000000000007AC8
+t1301536442
+s31432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h
+c000000004D93DEBA00000000000080D0
+t1301536442
+s32976
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h
+c000000004D93DEBA0000000000000EDF
+t1301536442
+s3807
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004D93DEBB000000000000B7CA
+t1301536443
+s47050
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004D93DFDD0000000000001B27
+t1301536733
+s6951
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h
+c000000004D93DFDD00000000000001CB
+t1301536733
+s459
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSData.h
+c000000004D93DFDD0000000000001777
+t1301536733
+s6007
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004D93DFDE0000000000000E3B
+t1301536734
+s3643
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004D93DFDE0000000000001DE5
+t1301536734
+s7653
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004D93DFDE0000000000002033
+t1301536734
+s8243
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNull.h
+c000000004D93DFDE00000000000000B8
+t1301536734
+s184
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004D93DFDE0000000000002E87
+t1301536734
+s11911
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004D93DFDE0000000000006506
+t1301536734
+s25862
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/AvailabilityMacros.h
+c000000004D4F7A2B0000000000007A5E
+t1297054251
+s31326
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/TargetConditionals.h
+c000000004D4F7A2B00000000000031E9
+t1297054251
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/assert.h
+c000000004D4F6E990000000000000F6E
+t1297051289
+s3950
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/objc/runtime.h
+c000000004D93DBDB00000000000063AF
+t1301535707
+s25519
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9A00000000000030A7
+t1297051290
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/string.h
+c000000004D4F6E9A0000000000001A3A
+t1297051290
+s6714
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/errno.h
+c000000004D93E0AC0000000000002A36
+t1301536940
+s10806
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A1198340000000000000C7E
+t1242667060
+s3198
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A1198340000000000003197
+t1242667060
+s12695
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/JSONKit/JSONKit.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/JSONKit.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/RKJSONParser+JSONKit.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/RestKitJSONParserJSONKit.LinkFileList
+c000000004DC1C5470000000000000127
+t1304544583
+s295
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m
+c000000004DC1ABE50000000000000189
+t1304538085
+s393
+i"RKJSONParser.h"
+i"JSONKit.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKJSONParser.h
+c000000004DC1ABE500000000000000E2
+t1304538085
+s226
+i"RKParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKParser.h
+c000000004DC1ABE5000000000000024A
+t1304538085
+s586
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004DC1ABE500000000000000BC
+t1304538085
+s188
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.h
+c000000004DC1ABE7000000000000204C
+t1304538087
+s8268
+i<stddef.h>
+i<stdint.h>
+i<limits.h>
+i<TargetConditionals.h>
+i<AvailabilityMacros.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSData.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSError.h>
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSString.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m
+c000000004DC1ABE70000000000026739
+t1304538087
+s157497
+i<stdio.h>
+i<stdlib.h>
+i<stdint.h>
+i<string.h>
+i<assert.h>
+i<sys/errno.h>
+i<math.h>
+i<limits.h>
+i<objc/runtime.h>
+i"JSONKit.h"
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFDictionary.h>
+i<CoreFoundation/CFNumber.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSAutoreleasePool.h>
+i<Foundation/NSData.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSException.h>
+i<Foundation/NSNull.h>
+i<Foundation/NSObjCRuntime.h>
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa3570fc7fc71b341^04e57ac7fc71b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237383.612503
+e326237384.377616
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/JSONKit.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m904ea1c7fc71b341^b5c660c8fc71b341^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m0000000000000000^2185"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/JSONKit.o Vendor/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/JSONKit.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/RKJSONParser+JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237383.629376
+e326237383.897604
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/RKJSONParser+JSONKit.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m8046a1c7fc71b341^5fd1e5c7fc71b341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m0000000000000000^2259"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/RKJSONParser+JSONKit.o Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/RKJSONParser+JSONKit.o
+
+CCpHeader Vendor/JSONKit/JSONKit.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/JSONKit/JSONKit.h
+s326237383.603156
+e326237383.608508
+r1
+xCpHeader
+xVendor/JSONKit/JSONKit.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/JSONKit/JSONKit.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/JSONKit/JSONKit.hed9c9ac7fc71b341^ecbe9bc7fc71b341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/JSONKit/JSONKit.h0000204d2205f041^547"CpHeader Vendor/JSONKit/JSONKit.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/JSONKit/JSONKit.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/JSONKit
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a normal i386
+s326237384.380860
+e326237384.408797
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a
+xnormal
+xi386
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Libtool Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a normal i386709761c8fc71b341^d3a068c8fc71b341^-136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--840"Libtool Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a normal i386    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+JSONKit.build/Objects-normal/i386/RestKitJSONParserJSONKit.LinkFileList -ObjC -o /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a
+

@@ -1,0 +1,435 @@
+TRestKitSupport
+v3
+r1
+cCheck dependencies
+cCpHeader Code/Support/Errors.h Build/Release-iphoneos/include/RestKit/Support/Errors.h
+cCpHeader Code/Support/NSDictionary+RKAdditions.h Build/Release-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h
+cCpHeader Code/Support/NSObject+RKJSONSerialization.h Build/Release-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h
+cCpHeader Code/Support/NSString+InflectionSupport.h Build/Release-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h
+cCpHeader Code/Support/RKSearchEngine.h Build/Release-iphoneos/include/RestKit/Support/RKSearchEngine.h
+cCpHeader Code/Support/RKParser.h Build/Release-iphoneos/include/RestKit/Support/RKParser.h
+cCpHeader Code/Support/Parsers/RKJSONParser.h Build/Release-iphoneos/include/RestKit/Support/RKJSONParser.h
+cCpHeader Code/Support/Parsers/RKXMLParser.h Build/Release-iphoneos/include/RestKit/Support/RKXMLParser.h
+cCpHeader Code/Support/Support.h Build/Release-iphoneos/include/RestKit/Support/Support.h
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a normal armv6
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a normal armv7
+cCreateUniversalBinary /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitSupport.a normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DB0743A0000000000000110
+t1303409722
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/Errors.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/RKJSONParser.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/RKParser.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/RKSearchEngine.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/RKXMLParser.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/Support.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitSupport.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/RestKitSupport.LinkFileList
+c000000004DC1C5B90000000000000222
+t1304544697
+s546
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/RestKitSupport.LinkFileList
+c000000004DC1C5B90000000000000222
+t1304544697
+s546
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.h
+c000000004DC1ABE50000000000000146
+t1304538085
+s326
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m
+c000000004DC1ABE500000000000000E5
+t1304538085
+s229
+i"Errors.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.h
+c000000004DC1ABE50000000000000234
+t1304538085
+s564
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m
+c000000004DC1ABE500000000000002AA
+t1304538085
+s682
+i"NSDictionary+RKAdditions.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSObject+RKJSONSerialization.h
+c000000004DC1ABE500000000000001AD
+t1304538085
+s429
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.h
+c000000004DC1ABE50000000000000378
+t1304538085
+s888
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m
+c000000004DC1ABE500000000000009E5
+t1304538085
+s2533
+i"NSString+InflectionSupport.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKJSONParser.h
+c000000004DC1ABE500000000000000E2
+t1304538085
+s226
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKXMLParser.h
+c000000004DC1ABE50000000000000263
+t1304538085
+s611
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKParser.h
+c000000004DC1ABE5000000000000024A
+t1304538085
+s586
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.h
+c000000004DC1ABE50000000000000775
+t1304538085
+s1909
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m
+c000000004DC1ABE50000000000000C30
+t1304538085
+s3120
+i"RKSearchEngine.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004DC1ABE500000000000000BC
+t1304538085
+s188
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Support.h
+c000000004DC1ABE500000000000000BB
+t1304538085
+s187
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9d9e6338fd71b341^22541939fd71b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237498.497705
+e326237498.691456
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m44887f3afd71b341^0b46b13afd71b341^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m0000000000000000^1874"CompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o Code/Support/Errors.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237498.500921
+e326237498.715802
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m8d5f803afd71b341^a186b73afd71b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m0000000000000000^1946"CompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o Code/Support/NSDictionary+RKAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237498.693713
+e326237498.967538
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m38bbb13afd71b341^34baf73afd71b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m0000000000000000^1954"CompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o Code/Support/NSString+InflectionSupport.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237498.716030
+e326237499.004039
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m0c76b73afd71b341^2d08013bfd71b341^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m0000000000000000^1906"CompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o Code/Support/RKSearchEngine.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237498.968154
+e326237499.157877
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m0403f83afd71b341^7f6a283bfd71b341^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m0000000000000000^1874"CompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o Code/Support/Errors.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237499.004257
+e326237499.201961
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.ma839013bfd71b341^23be333bfd71b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m0000000000000000^1946"CompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o Code/Support/NSDictionary+RKAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237499.171278
+e326237499.439950
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.mf0fb2b3bfd71b341^c5ab703bfd71b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m0000000000000000^1954"CompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o Code/Support/NSString+InflectionSupport.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237499.202550
+e326237499.502191
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m5400343bfd71b341^f299803bfd71b341^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m0000000000000000^1906"CompileC Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o Code/Support/RKSearchEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o
+
+CCpHeader Code/Support/Errors.h Build/Release-iphoneos/include/RestKit/Support/Errors.h
+s326237498.097062
+e326237498.103441
+r1
+xCpHeader
+xCode/Support/Errors.h
+xBuild/Release-iphoneos/include/RestKit/Support/Errors.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Release-iphoneos/include/RestKit/Support/Errors.h74f0183afd71b341^30821a3afd71b341^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/Errors.h0000204d2205f041^518"CpHeader Code/Support/Errors.h Build/Release-iphoneos/include/RestKit/Support/Errors.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Errors.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/NSDictionary+RKAdditions.h Build/Release-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h
+s326237498.254742
+e326237498.257772
+r1
+xCpHeader
+xCode/Support/NSDictionary+RKAdditions.h
+xBuild/Release-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Release-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h3f55413afd71b341^15fd413afd71b341^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h0000204d2205f041^572"CpHeader Code/Support/NSDictionary+RKAdditions.h Build/Release-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSDictionary+RKAdditions.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/NSObject+RKJSONSerialization.h Build/Release-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h
+s326237498.268911
+e326237498.272171
+r1
+xCpHeader
+xCode/Support/NSObject+RKJSONSerialization.h
+xBuild/Release-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Release-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h83f8443afd71b341^47ac453afd71b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h0000204d2205f041^584"CpHeader Code/Support/NSObject+RKJSONSerialization.h Build/Release-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSObject+RKJSONSerialization.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/NSString+InflectionSupport.h Build/Release-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h
+s326237498.272356
+e326237498.275791
+r1
+xCpHeader
+xCode/Support/NSString+InflectionSupport.h
+xBuild/Release-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy Build/Release-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h20d0453afd71b341^1fa1463afd71b341^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h0000204d2205f041^578"CpHeader Code/Support/NSString+InflectionSupport.h Build/Release-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/NSString+InflectionSupport.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/Parsers/RKJSONParser.h Build/Release-iphoneos/include/RestKit/Support/RKJSONParser.h
+s326237498.281896
+e326237498.284456
+r1
+xCpHeader
+xCode/Support/Parsers/RKJSONParser.h
+xBuild/Release-iphoneos/include/RestKit/Support/RKJSONParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Release-iphoneos/include/RestKit/Support/RKJSONParser.hf547483afd71b341^3dd2483afd71b341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/RKJSONParser.h0000204d2205f041^552"CpHeader Code/Support/Parsers/RKJSONParser.h Build/Release-iphoneos/include/RestKit/Support/RKJSONParser.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKJSONParser.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/Parsers/RKXMLParser.h Build/Release-iphoneos/include/RestKit/Support/RKXMLParser.h
+s326237498.284665
+e326237498.288721
+r1
+xCpHeader
+xCode/Support/Parsers/RKXMLParser.h
+xBuild/Release-iphoneos/include/RestKit/Support/RKXMLParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Release-iphoneos/include/RestKit/Support/RKXMLParser.hbaf7483afd71b341^29e9493afd71b341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/RKXMLParser.h0000204d2205f041^549"CpHeader Code/Support/Parsers/RKXMLParser.h Build/Release-iphoneos/include/RestKit/Support/RKXMLParser.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKXMLParser.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/RKParser.h Build/Release-iphoneos/include/RestKit/Support/RKParser.h
+s326237498.279039
+e326237498.281647
+r1
+xCpHeader
+xCode/Support/RKParser.h
+xBuild/Release-iphoneos/include/RestKit/Support/RKParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Release-iphoneos/include/RestKit/Support/RKParser.h2b86473afd71b341^261a483afd71b341^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/RKParser.h0000204d2205f041^524"CpHeader Code/Support/RKParser.h Build/Release-iphoneos/include/RestKit/Support/RKParser.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKParser.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/RKSearchEngine.h Build/Release-iphoneos/include/RestKit/Support/RKSearchEngine.h
+s326237498.276135
+e326237498.278855
+r1
+xCpHeader
+xCode/Support/RKSearchEngine.h
+xBuild/Release-iphoneos/include/RestKit/Support/RKSearchEngine.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Release-iphoneos/include/RestKit/Support/RKSearchEngine.hdeca463afd71b341^1b63473afd71b341^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/RKSearchEngine.h0000204d2205f041^542"CpHeader Code/Support/RKSearchEngine.h Build/Release-iphoneos/include/RestKit/Support/RKSearchEngine.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKSearchEngine.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/Support.h Build/Release-iphoneos/include/RestKit/Support/Support.h
+s326237498.288904
+e326237498.299035
+r1
+xCpHeader
+xCode/Support/Support.h
+xBuild/Release-iphoneos/include/RestKit/Support/Support.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Build/Release-iphoneos/include/RestKit/Support/Support.h5b0c4a3afd71b341^57964c3afd71b341^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/Support.h0000204d2205f041^521"CpHeader Code/Support/Support.h Build/Release-iphoneos/include/RestKit/Support/Support.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Support.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support
+
+CCreateUniversalBinary /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitSupport.a normal "armv6 armv7"
+s326237499.694612
+e326237499.711177
+r1
+xCreateUniversalBinary
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitSupport.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Create universal binary /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitSupport.a57eab13bfd71b341^a10fb63bfd71b341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitSupport.a0000204d2205f041^686"CreateUniversalBinary Build/Release-iphoneos/libRestKitSupport.a normal "armv6 armv7"    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a -o /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitSupport.a
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a normal armv6
+s326237499.158138
+e326237499.171062
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Libtool Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a normal armv63d98283bfd71b341^eaca2b3bfd71b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--867"Libtool Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a normal armv6    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/RestKitSupport.LinkFileList -ObjC -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a normal armv7
+s326237499.638551
+e326237499.651962
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Libtool Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a normal armv7c894a33bfd71b341^75e6a63bfd71b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--867"Libtool Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a normal armv7    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/RestKitSupport.LinkFileList -ObjC -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a
+

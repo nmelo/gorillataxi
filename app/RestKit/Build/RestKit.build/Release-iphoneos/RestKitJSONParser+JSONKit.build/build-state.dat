@@ -1,0 +1,359 @@
+TRestKitJSONParser+JSONKit
+v3
+r1
+cCheck dependencies
+cCpHeader Vendor/JSONKit/JSONKit.h Build/Release-iphoneos/include/RestKit/Support/JSON/JSONKit/JSONKit.h
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/RKJSONParser+JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/RKJSONParser+JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/libRestKitJSONParserJSONKit.a normal armv6
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/libRestKitJSONParserJSONKit.a normal armv7
+cCreateUniversalBinary /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitJSONParserJSONKit.a normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DB0743A0000000000000110
+t1303409722
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004D93DFE90000000000007AC8
+t1301536745
+s31432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h
+c000000004D93DFE900000000000080D0
+t1301536745
+s32976
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h
+c000000004D93DFEA0000000000000EDF
+t1301536746
+s3807
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004D93DFEA000000000000B7CA
+t1301536746
+s47050
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004D93E1E60000000000001B27
+t1301537254
+s6951
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h
+c000000004D93E1E600000000000001CB
+t1301537254
+s459
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSData.h
+c000000004D93E1E60000000000001777
+t1301537254
+s6007
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004D93E1E60000000000000E3B
+t1301537254
+s3643
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004D93E1E60000000000001DE5
+t1301537254
+s7653
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004D93E1E60000000000002033
+t1301537254
+s8243
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNull.h
+c000000004D93E1E600000000000000B8
+t1301537254
+s184
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004D93E1E60000000000002E87
+t1301537254
+s11911
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004D93E1E60000000000006506
+t1301537254
+s25862
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/AvailabilityMacros.h
+c000000004D4F74C20000000000007A5E
+t1297052866
+s31326
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/TargetConditionals.h
+c000000004D4F74C200000000000031E9
+t1297052866
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/assert.h
+c000000004D4F6E900000000000000F6E
+t1297051280
+s3950
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/math.h
+c000000004D4F6E4300000000000004F1
+t1297051203
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/objc/runtime.h
+c000000004D93DB5800000000000063AF
+t1301535576
+s25519
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D4F6E910000000000001A3A
+t1297051281
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/errno.h
+c000000004D93DB9C0000000000002A36
+t1301535644
+s10806
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004D09AC6C0000000000000C7E
+t1292479596
+s3198
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
+c000000004D09AC6C0000000000003197
+t1292479596
+s12695
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdint.h
+c000000004D09AD56000000000000190C
+t1292479830
+s6412
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/JSON/JSONKit/JSONKit.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitJSONParserJSONKit.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/JSONKit.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/RKJSONParser+JSONKit.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/RestKitJSONParserJSONKit.LinkFileList
+c000000004DC1C5B9000000000000011F
+t1304544697
+s287
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/libRestKitJSONParserJSONKit.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/JSONKit.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/RKJSONParser+JSONKit.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/RestKitJSONParserJSONKit.LinkFileList
+c000000004DC1C5B9000000000000011F
+t1304544697
+s287
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/libRestKitJSONParserJSONKit.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m
+c000000004DC1ABE50000000000000189
+t1304538085
+s393
+i"RKJSONParser.h"
+i"JSONKit.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKJSONParser.h
+c000000004DC1ABE500000000000000E2
+t1304538085
+s226
+i"RKParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKParser.h
+c000000004DC1ABE5000000000000024A
+t1304538085
+s586
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004DC1ABE500000000000000BC
+t1304538085
+s188
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.h
+c000000004DC1ABE7000000000000204C
+t1304538087
+s8268
+i<stddef.h>
+i<stdint.h>
+i<limits.h>
+i<TargetConditionals.h>
+i<AvailabilityMacros.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSData.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSError.h>
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSString.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m
+c000000004DC1ABE70000000000026739
+t1304538087
+s157497
+i<stdio.h>
+i<stdlib.h>
+i<stdint.h>
+i<string.h>
+i<assert.h>
+i<sys/errno.h>
+i<math.h>
+i<limits.h>
+i<objc/runtime.h>
+i"JSONKit.h"
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFDictionary.h>
+i<CoreFoundation/CFNumber.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSAutoreleasePool.h>
+i<Foundation/NSData.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSException.h>
+i<Foundation/NSNull.h>
+i<Foundation/NSObjCRuntime.h>
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescc416838fd71b341^9c180a39fd71b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237497.200235
+e326237500.251808
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/JSONKit.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m32753339fd71b341^d575403cfd71b341^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m0000000000000000^2010"CompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/JSONKit.o Vendor/JSONKit/JSONKit.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/JSONKit.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/RKJSONParser+JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326237497.200377
+e326237497.471584
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/RKJSONParser+JSONKit.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m2d7a3339fd71b341^519f7839fd71b341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m0000000000000000^2084"CompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/RKJSONParser+JSONKit.o Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/RKJSONParser+JSONKit.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237497.477445
+e326237500.364860
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/JSONKit.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.ma52c7b39fd71b341^e3715d3cfd71b341^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m0000000000000000^2010"CompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/JSONKit.o Vendor/JSONKit/JSONKit.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/JSONKit.o
+
+CCompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/RKJSONParser+JSONKit.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326237497.881637
+e326237498.076788
+r1
+xCompileC
+xBuild/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/RKJSONParser+JSONKit.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m98dfe139fd71b341^fca7133afd71b341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m0000000000000000^2084"CompileC Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/RKJSONParser+JSONKit.o Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/RestKitJSONParserJSONKit-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/RKJSONParser+JSONKit.o
+
+CCpHeader Vendor/JSONKit/JSONKit.h Build/Release-iphoneos/include/RestKit/Support/JSON/JSONKit/JSONKit.h
+s326237497.193334
+e326237497.197778
+r1
+xCpHeader
+xVendor/JSONKit/JSONKit.h
+xBuild/Release-iphoneos/include/RestKit/Support/JSON/JSONKit/JSONKit.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Release-iphoneos/include/RestKit/Support/JSON/JSONKit/JSONKit.hfca53139fd71b341^909e3239fd71b341^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/JSON/JSONKit/JSONKit.h0000204d2205f041^551"CpHeader Vendor/JSONKit/JSONKit.h Build/Release-iphoneos/include/RestKit/Support/JSON/JSONKit/JSONKit.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/JSONKit/JSONKit.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/include/RestKit/Support/JSON/JSONKit
+
+CCreateUniversalBinary /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitJSONParserJSONKit.a normal "armv6 armv7"
+s326237500.444070
+e326237500.468562
+r1
+xCreateUniversalBinary
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitJSONParserJSONKit.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Create universal binary /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitJSONParserJSONKit.a9bc7713cfd71b341^98fc773cfd71b341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitJSONParserJSONKit.a0000204d2205f041^748"CreateUniversalBinary Build/Release-iphoneos/libRestKitJSONParserJSONKit.a normal "armv6 armv7"    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/libRestKitJSONParserJSONKit.a /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/libRestKitJSONParserJSONKit.a -o /Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos/libRestKitJSONParserJSONKit.a
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/libRestKitJSONParserJSONKit.a normal armv6
+s326237500.292499
+e326237500.309159
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/libRestKitJSONParserJSONKit.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Libtool Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/libRestKitJSONParserJSONKit.a normal armv63bfb4a3cfd71b341^9d7f4f3cfd71b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--930"Libtool Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/libRestKitJSONParserJSONKit.a normal armv6    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/RestKitJSONParserJSONKit.LinkFileList -ObjC -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6/libRestKitJSONParserJSONKit.a
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/libRestKitJSONParserJSONKit.a normal armv7
+s326237500.414714
+e326237500.427214
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/libRestKitJSONParserJSONKit.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Libtool Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/libRestKitJSONParserJSONKit.a normal armv7e9486a3cfd71b341^e6936d3cfd71b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--930"Libtool Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/libRestKitJSONParserJSONKit.a normal armv7    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Release-iphoneos -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/RestKitJSONParserJSONKit.LinkFileList -ObjC -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Release-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7/libRestKitJSONParserJSONKit.a
+

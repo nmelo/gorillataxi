@@ -1,0 +1,917 @@
+TRestKitJSONParser+YAJL
+v3
+r1
+cCheck dependencies
+cCpHeader Vendor/YAJL/NSBundle+YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+cCpHeader Vendor/YAJL/NSObject+YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_common.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+cCpHeader Vendor/YAJL/YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJL.h
+cCpHeader Vendor/YAJL/YAJLDocument.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+cCpHeader Vendor/YAJL/YAJLGen.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+cCpHeader Vendor/YAJL/YAJLIOS.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+cCpHeader Vendor/YAJL/YAJLParser.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+cCpHeader Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+cCpHeader Vendor/YAJL/Libraries/GTM/GTMBase64.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSBundle+YAJL.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSObject+YAJL.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_alloc.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_buf.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_encode.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_gen.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_lex.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_parser.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLDocument.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLGen.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLParser.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GHNSBundle+Utils.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GTMBase64.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/RKJSONParser+YAJL.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004DB074A10000000000000110
+t1303409825
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/assert.h
+c000000004D4F6E990000000000000F6E
+t1297051289
+s3950
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/ctype.h
+c000000004D4F6E9A0000000000002C18
+t1297051290
+s11288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/errno.h
+c000000004D4F6E9900000000000003EB
+t1297051289
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9A00000000000030A7
+t1297051290
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/string.h
+c000000004D4F6E9A0000000000001A3A
+t1297051290
+s6714
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A1198340000000000001538
+t1242667060
+s5432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A1198340000000000000C7E
+t1242667060
+s3198
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJL.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_common.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GHNSBundle+Utils.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GTMBase64.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSBundle+YAJL.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSObject+YAJL.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/RKJSONParser+YAJL.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/RestKitJSONParserYAJL.LinkFileList
+c000000004DC1C548000000000000084A
+t1304544584
+s2122
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLDocument.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLGen.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLParser.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_alloc.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_buf.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_encode.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_gen.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_lex.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_parser.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+c000000004DC1ABE5000000000000018D
+t1304538085
+s397
+i"RKJSONParser.h"
+i"YAJL.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKJSONParser.h
+c000000004DC1ABE500000000000000E2
+t1304538085
+s226
+i"RKParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKParser.h
+c000000004DC1ABE5000000000000024A
+t1304538085
+s586
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004DC1ABE500000000000000BC
+t1304538085
+s188
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h
+c000000004DC1ABE70000000000000275
+t1304538087
+s629
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m
+c000000004DC1ABE700000000000004FF
+t1304538087
+s1279
+i"GHNSBundle+Utils.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.h
+c000000004DC1ABE70000000000001700
+t1304538087
+s5888
+i<Foundation/Foundation.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m
+c000000004DC1ABE7000000000000628D
+t1304538087
+s25229
+i"GTMBase64.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.h
+c000000004DC1ABE70000000000000715
+t1304538087
+s1813
+i"YAJLParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.m
+c000000004DC1ABE70000000000000756
+t1304538087
+s1878
+i"NSBundle+YAJL.h"
+i"GHNSBundle+Utils.h"
+i"NSObject+YAJL.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.h
+c000000004DC1ABE70000000000000F28
+t1304538087
+s3880
+i"YAJLGen.h"
+i"YAJLParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.m
+c000000004DC1ABE70000000000000AD6
+t1304538087
+s2774
+i"NSObject+YAJL.h"
+i"YAJLGen.h"
+i"YAJLDocument.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJL.h
+c000000004DC1ABE70000000000000539
+t1304538087
+s1337
+i"YAJLParser.h"
+i"YAJLDocument.h"
+i"YAJLGen.h"
+i"NSObject+YAJL.h"
+i"NSBundle+YAJL.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.h
+c000000004DC1ABE70000000000000CA5
+t1304538087
+s3237
+i"YAJLParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.m
+c000000004DC1ABE700000000000014A8
+t1304538087
+s5288
+i"YAJLDocument.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.h
+c000000004DC1ABE70000000000000AD7
+t1304538087
+s2775
+i"yajl_gen.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.m
+c000000004DC1ABE7000000000000123B
+t1304538087
+s4667
+i"YAJLGen.h"
+i"GTMBase64.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLIOS.h
+c000000004DC1ABE70000000000000539
+t1304538087
+s1337
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.h
+c000000004DC1ABE70000000000000EB6
+t1304538087
+s3766
+i"yajl_parse.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.m
+c000000004DC1ABE700000000000022C4
+t1304538087
+s8900
+i"YAJLParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h
+c000000004DC1ABE70000000000000C3B
+t1304538087
+s3131
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h
+c000000004DC1ABE70000000000001C28
+t1304538087
+s7208
+i"yajl_common.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h
+c000000004DC1ABE70000000000002132
+t1304538087
+s8498
+i"yajl_common.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c
+c000000004DC1ABE70000000000001331
+t1304538087
+s4913
+i"api/yajl_parse.h"
+i"yajl_lex.h"
+i"yajl_parser.h"
+i"yajl_alloc.h"
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c
+c000000004DC1ABE7000000000000089F
+t1304538087
+s2207
+i"yajl_alloc.h"
+i<stdlib.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h
+c000000004DC1ABE700000000000007B9
+t1304538087
+s1977
+i"api/yajl_common.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c
+c000000004DC1ABE70000000000000CDC
+t1304538087
+s3292
+i"yajl_buf.h"
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h
+c000000004DC1ABE70000000000000A2D
+t1304538087
+s2605
+i"api/yajl_common.h"
+i"yajl_alloc.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h
+c000000004DC1ABE70000000000000C47
+t1304538087
+s3143
+i"api/yajl_common.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c
+c000000004DC1ABE70000000000001A23
+t1304538087
+s6691
+i"yajl_encode.h"
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h
+c000000004DC1ABE700000000000007FF
+t1304538087
+s2047
+i"yajl_buf.h"
+i"api/yajl_gen.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c
+c000000004DC1ABE700000000000026A9
+t1304538087
+s9897
+i"api/yajl_gen.h"
+i"yajl_buf.h"
+i"yajl_encode.h"
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+i<math.h>
+i<float.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c
+c000000004DC1ABE700000000000064D5
+t1304538087
+s25813
+i"yajl_lex.h"
+i"yajl_buf.h"
+i<stdlib.h>
+i<stdio.h>
+i<assert.h>
+i<string.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h
+c000000004DC1ABE70000000000001383
+t1304538087
+s4995
+i"api/yajl_common.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c
+c000000004DC1ABE70000000000004E22
+t1304538087
+s20002
+i"yajl_lex.h"
+i"yajl_parser.h"
+i"yajl_encode.h"
+i"yajl_bytestack.h"
+i<stdlib.h>
+i<limits.h>
+i<errno.h>
+i<stdio.h>
+i<string.h>
+i<ctype.h>
+i<assert.h>
+i<math.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h
+c000000004DC1ABE70000000000000B5E
+t1304538087
+s2910
+i"api/yajl_parse.h"
+i"yajl_bytestack.h"
+i"yajl_buf.h"
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.m
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c
+r0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies732d0ec7fc71b341^9baa6bc8fc71b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GHNSBundle+Utils.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237387.447918
+e326237387.660189
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GHNSBundle+Utils.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m5bd172cbfc71b341^6f0ca9cbfc71b341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m0000000000000000^2318"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GHNSBundle+Utils.o Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GHNSBundle+Utils.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GTMBase64.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237387.607159
+e326237387.788230
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GTMBase64.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m069e9bcbfc71b341^4fc9c9cbfc71b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m0000000000000000^2286"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GTMBase64.o Vendor/YAJL/Libraries/GTM/GTMBase64.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/GTMBase64.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSBundle+YAJL.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237386.889468
+e326237387.165895
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSBundle+YAJL.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.mc006e4cafc71b341^0da92acbfc71b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.m0000000000000000^2274"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSBundle+YAJL.o Vendor/YAJL/NSBundle+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSBundle+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSObject+YAJL.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237387.077499
+e326237387.343929
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSObject+YAJL.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.m0c0114cbfc71b341^371658cbfc71b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.m0000000000000000^2274"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSObject+YAJL.o Vendor/YAJL/NSObject+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/NSObject+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/RKJSONParser+YAJL.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237387.610048
+e326237387.762795
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/RKJSONParser+YAJL.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.ma8519ccbfc71b341^8846c3cbfc71b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m0000000000000000^2318"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/RKJSONParser+YAJL.o Code/Support/Parsers/JSON/RKJSONParser+YAJL.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/RKJSONParser+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLDocument.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237387.344627
+e326237387.609605
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLDocument.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.m466058cbfc71b341^be169ccbfc71b341^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.m0000000000000000^2270"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLDocument.o Vendor/YAJL/YAJLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLDocument.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLGen.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237387.372651
+e326237387.606880
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLGen.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.ma88c5fcbfc71b341^185c9bcbfc71b341^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.m0000000000000000^2250"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLGen.o Vendor/YAJL/YAJLGen.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLGen.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLParser.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326237387.433986
+e326237387.680792
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLParser.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.mdb526fcbfc71b341^dc47aecbfc71b341^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.m0000000000000000^2262"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLParser.o Vendor/YAJL/YAJLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/YAJLParser.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c normal i386 c com.apple.compilers.gcc.4_2
+s326237387.110095
+e326237387.189208
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c2e561ccbfc71b341^fc7030cbfc71b341^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c0000000000000000^2204"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl.o Vendor/YAJL/yajl-1.0.9/src/yajl.c normal i386 c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_alloc.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c normal i386 c com.apple.compilers.gcc.4_2
+s326237387.138715
+e326237387.229847
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_alloc.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.cb9ab23cbfc71b341^982f3bcbfc71b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c0000000000000000^2228"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_alloc.o Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c normal i386 c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_alloc.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_buf.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c normal i386 c com.apple.compilers.gcc.4_2
+s326237387.189564
+e326237387.301983
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_buf.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c97aa30cbfc71b341^35cf4dcbfc71b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c0000000000000000^2220"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_buf.o Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c normal i386 c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_buf.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_encode.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c normal i386 c com.apple.compilers.gcc.4_2
+s326237387.191762
+e326237387.303082
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_encode.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c043831cbfc71b341^eb024ecbfc71b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c0000000000000000^2232"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_encode.o Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c normal i386 c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_encode.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_gen.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c normal i386 c com.apple.compilers.gcc.4_2
+s326237387.230134
+e326237387.372385
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_gen.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c77143bcbfc71b341^499e5fcbfc71b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c0000000000000000^2220"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_gen.o Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c normal i386 c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_gen.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_lex.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c normal i386 c com.apple.compilers.gcc.4_2
+s326237387.302240
+e326237387.447667
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_lex.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.cd3844dcbfc71b341^f7ad72cbfc71b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c0000000000000000^2220"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_lex.o Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c normal i386 c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_lex.o
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_parser.o /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c normal i386 c com.apple.compilers.gcc.4_2
+s326237387.303221
+e326237387.433728
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_parser.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.cd3be4dcbfc71b341^d53c6fcbfc71b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c0000000000000000^2232"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_parser.o Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c normal i386 c com.apple.compilers.gcc.4_2    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/yajl_parser.o
+
+CCpHeader Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+s326237386.285701
+e326237386.301505
+r1
+xCpHeader
+xVendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.ha83949cafc71b341^bc764dcafc71b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h0000204d2205f041^594"CpHeader Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/Libraries/GTM/GTMBase64.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+s326237386.287089
+e326237386.302894
+r1
+xCpHeader
+xVendor/YAJL/Libraries/GTM/GTMBase64.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GTMBase64.h689549cafc71b341^698d4dcafc71b341^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GTMBase64.h0000204d2205f041^569"CpHeader Vendor/YAJL/Libraries/GTM/GTMBase64.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/GTMBase64.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/NSBundle+YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+s326237386.231501
+e326237386.236684
+r1
+xCpHeader
+xVendor/YAJL/NSBundle+YAJL.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h575d3bcafc71b341^e09d3ccafc71b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h0000204d2205f041^553"CpHeader Vendor/YAJL/NSBundle+YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSBundle+YAJL.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/NSObject+YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+s326237386.237248
+e326237386.240686
+r1
+xCpHeader
+xVendor/YAJL/NSObject+YAJL.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h91d23ccafc71b341^38843ecafc71b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h0000204d2205f041^553"CpHeader Vendor/YAJL/NSObject+YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/NSObject+YAJL.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJL.h
+s326237386.274936
+e326237386.278501
+r1
+xCpHeader
+xVendor/YAJL/YAJL.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJL.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJL.h7d7846cafc71b341^7b4d47cafc71b341^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJL.h0000204d2205f041^526"CpHeader Vendor/YAJL/YAJL.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJL.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJL.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/YAJLDocument.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+s326237386.275473
+e326237386.279277
+r1
+xCpHeader
+xVendor/YAJL/YAJLDocument.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLDocument.hed9c46cafc71b341^cb8047cafc71b341^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLDocument.h0000204d2205f041^550"CpHeader Vendor/YAJL/YAJLDocument.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLDocument.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLDocument.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/YAJLGen.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+s326237386.278638
+e326237386.281330
+r1
+xCpHeader
+xVendor/YAJL/YAJLGen.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLGen.h596c47cafc71b341^b80448cafc71b341^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLGen.h0000204d2205f041^535"CpHeader Vendor/YAJL/YAJLGen.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLGen.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLGen.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/YAJLIOS.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+s326237386.279402
+e326237386.282476
+r1
+xCpHeader
+xVendor/YAJL/YAJLIOS.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLIOS.h4a9a47cafc71b341^a37948cafc71b341^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLIOS.h0000204d2205f041^535"CpHeader Vendor/YAJL/YAJLIOS.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLIOS.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLIOS.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/YAJLParser.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+s326237386.282560
+e326237386.286879
+r1
+xCpHeader
+xVendor/YAJL/YAJLParser.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLParser.hd76948cafc71b341^117349cafc71b341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLParser.h0000204d2205f041^544"CpHeader Vendor/YAJL/YAJLParser.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/YAJLParser.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/YAJLParser.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_common.h
+s326237386.240842
+e326237386.245392
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/api/yajl_common.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_common.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_common.h27bf3dcafc71b341^d5d03ecafc71b341^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_common.h0000204d2205f041^585"CpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_common.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+s326237386.246450
+e326237386.249836
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_gen.h8c2e3fcafc71b341^8c4c40cafc71b341^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_gen.h0000204d2205f041^576"CpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_gen.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+s326237386.251843
+e326237386.254632
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parse.hab9240cafc71b341^6a4f41cafc71b341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parse.h0000204d2205f041^582"CpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parse.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+s326237386.255437
+e326237386.258815
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_alloc.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_alloc.h2d7c41cafc71b341^8f5142cafc71b341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_alloc.h0000204d2205f041^574"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_alloc.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+s326237386.259287
+e326237386.263051
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_buf.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_buf.h897942cafc71b341^865643cafc71b341^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_buf.h0000204d2205f041^568"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_buf.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+s326237386.263439
+e326237386.270084
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h198e43cafc71b341^8cbf45cafc71b341^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h0000204d2205f041^586"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+s326237386.264690
+e326237386.270983
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_encode.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_encode.h49d843cafc71b341^69c345cafc71b341^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_encode.h0000204d2205f041^577"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_encode.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+s326237386.270239
+e326237386.273803
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_lex.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_lex.h2c4a45cafc71b341^941646cafc71b341^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_lex.h0000204d2205f041^568"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_lex.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+s326237386.271098
+e326237386.273842
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_parser.h
+xBuild/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parser.h297945cafc71b341^f81a46cafc71b341^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parser.h0000204d2205f041^577"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL/yajl_parser.h    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nmelo/Desktop/Frankly/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include/RestKit/Support/JSON/YAJL
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a normal i386
+s326237387.788459
+e326237387.802445
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a
+xnormal
+xi386
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Libtool Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a normal i386c8efc9cbfc71b341^f86ccdcbfc71b341^-251"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--838"Libtool Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a normal i386    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitJSONParser+YAJL.build/Objects-normal/i386/RestKitJSONParserYAJL.LinkFileList -all_load -ObjC -o /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a
+

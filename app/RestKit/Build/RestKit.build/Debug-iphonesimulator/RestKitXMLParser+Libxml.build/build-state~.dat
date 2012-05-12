@@ -1,0 +1,117 @@
+TRestKitXMLParser+Libxml
+v3
+r1
+cCheck dependencies
+cProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-afivjezkdqkxidalhpexcotkpnyy/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/Objects-normal/i386/RKXMLParser+libXML.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitXMLParserLibxml.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004DB074A10000000000000110
+t1303409825
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/parser.h
+c000000004D93DF7200000000000098A9
+t1301536626
+s39081
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitXMLParserLibxml.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/Objects-normal/i386/RKXMLParser+libXML.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/Objects-normal/i386/RestKitXMLParserLibxml.LinkFileList
+c000000004DC1C5470000000000000096
+t1304544583
+s150
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKXMLParser.h
+c000000004DC1ABE50000000000000263
+t1304538085
+s611
+i<Foundation/Foundation.h>
+i"RKParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+c000000004DC1ABE500000000000010AD
+t1304538085
+s4269
+i"RKXMLParser.h"
+i<libxml2/libxml/parser.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKParser.h
+c000000004DC1ABE5000000000000024A
+t1304538085
+s586
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004DC1ABE500000000000000BC
+t1304538085
+s188
+i<Foundation/Foundation.h>
+
+N/var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-afivjezkdqkxidalhpexcotkpnyy/RestKit_Prefix.pch.gch
+t2
+s0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese0680fc7fc71b341^039773c7fc71b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/Objects-normal/i386/RKXMLParser+libXML.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s326237384.826448
+e326237385.001739
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/Objects-normal/i386/RKXMLParser+libXML.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m06b9d3c8fc71b341^757800c9fc71b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m0000000000000000^2440"CompileC Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/Objects-normal/i386/RKXMLParser+libXML.o Code/Support/Parsers/XML/RKXMLParser+libXML.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -include /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-afivjezkdqkxidalhpexcotkpnyy/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/Objects-normal/i386/RKXMLParser+libXML.o
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitXMLParserLibxml.a normal i386
+s326237385.046673
+e326237385.061942
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitXMLParserLibxml.a
+xnormal
+xi386
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Libtool Build/Debug-iphonesimulator/libRestKitXMLParserLibxml.a normal i386490e0cc9fc71b341^c7da0fc9fc71b341^-136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--854"Libtool Build/Debug-iphonesimulator/libRestKitXMLParserLibxml.a normal i386    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/Objects-normal/i386/RestKitXMLParserLibxml.LinkFileList -ObjC -framework Foundation -o /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/libRestKitXMLParserLibxml.a
+
+CProcessPCH /Users/nmelo/Library/Developer/Xcode/DerivedData/RestKit-biflzwxdwlrleybqimlitqrxfcam/Index/PrecompiledHeaders/RestKit_Prefix-dzwpkgwwenoiaubbldcmlustjock_ast/RestKit_Prefix.pch.pth Code/Support/RestKit_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-afivjezkdqkxidalhpexcotkpnyy/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s326237383.477071
+e326237384.787002
+r1
+xProcessPCH
+x/var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-afivjezkdqkxidalhpexcotkpnyy/RestKit_Prefix.pch.gch
+xCode/Support/RestKit_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Code/Support/RestKit_Prefix.pchfd4b7ac7fc71b341^8483c9c8fc71b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch0000000000000000^2318"ProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-afivjezkdqkxidalhpexcotkpnyy/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/DerivedSources/i386 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphonesimulator/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphonesimulator -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -o /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-afivjezkdqkxidalhpexcotkpnyy/RestKit_Prefix.pch.gch
+

@@ -1,0 +1,192 @@
+TRestKitXMLParser+Libxml
+v3
+r1
+cCheck dependencies
+cProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dqlusqlfniulidbkzhrncyvcgcnc/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dhbypdndldxiyghcxqpoquoffdwa/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv6
+cLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv7
+cCreateUniversalBinary /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DB0743A0000000000000110
+t1303409722
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93E1FD00000000003E22F0
+t1301537277
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2/libxml/parser.h
+c000000004D93E10E00000000000098A9
+t1301537038
+s39081
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RestKitXMLParserLibxml.LinkFileList
+c000000004DC1C5510000000000000090
+t1304544593
+s144
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RestKitXMLParserLibxml.LinkFileList
+c000000004DC1C5510000000000000090
+t1304544593
+s144
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a
+t2
+s0
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/RKXMLParser.h
+c000000004DC1ABE50000000000000263
+t1304538085
+s611
+i<Foundation/Foundation.h>
+i"RKParser.h"
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+c000000004DC1ABE500000000000010AD
+t1304538085
+s4269
+i"RKXMLParser.h"
+i<libxml2/libxml/parser.h>
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RKParser.h
+c000000004DC1ABE5000000000000024A
+t1304538085
+s586
+
+N/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004DC1ABE500000000000000BC
+t1304538085
+s188
+i<Foundation/Foundation.h>
+
+N/var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dhbypdndldxiyghcxqpoquoffdwa/RestKit_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dqlusqlfniulidbkzhrncyvcgcnc/RestKit_Prefix.pch.gch
+t2
+s0
+
+CBuild AST from /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0114bfd0fc71b341^0075afd1fc71b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s326237395.370510
+e326237395.522120
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m05fc5ed3fc71b341^aed685d3fc71b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m0000000000000000^2231"CompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dqlusqlfniulidbkzhrncyvcgcnc/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s326237395.438269
+e326237395.594022
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o
+x/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m2a5770d3fc71b341^401898d3fc71b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m0000000000000000^2231"CompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -include /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dhbypdndldxiyghcxqpoquoffdwa/RestKit_Prefix.pch -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o
+
+CCreateUniversalBinary /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a normal "armv6 armv7"
+s326237395.656792
+e326237395.694805
+r1
+xCreateUniversalBinary
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Create universal binary /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.ade3da8d3fc71b341^92e8b1d3fc71b341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a0000204d2205f041^728"CreateUniversalBinary Build/Debug-iphoneos/libRestKitXMLParserLibxml.a normal "armv6 armv7"    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a -o /Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv6
+s326237395.589801
+e326237395.601117
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv64c1a97d3fc71b341^25ea99d3fc71b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--932"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv6    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RestKitXMLParserLibxml.LinkFileList -ObjC -framework Foundation -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a
+
+CLibtool /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv7
+s326237395.601452
+e326237395.611465
+r1
+xLibtool
+x/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv7a31e9ad3fc71b341^d7889cd3fc71b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--932"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv7    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -filelist /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RestKitXMLParserLibxml.LinkFileList -ObjC -framework Foundation -o /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a
+
+CProcessPCH /Users/nmelo/Library/Developer/Xcode/DerivedData/RestKit-biflzwxdwlrleybqimlitqrxfcam/Index/PrecompiledHeaders/RestKit_Prefix-ejfavxoxgdsqvccerqtfymbmjjhe_ast/RestKit_Prefix.pch.pth Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/nmelo/Library/Developer/Xcode/DerivedData/RestKit-biflzwxdwlrleybqimlitqrxfcam/Index/PrecompiledHeaders/RestKit_Prefix-ghhfvypuklhrjhgemzbjvqtmtpku_ast/RestKit_Prefix.pch.pth Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dhbypdndldxiyghcxqpoquoffdwa/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s326237394.727171
+e326237395.388485
+r1
+xProcessPCH
+x/var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dhbypdndldxiyghcxqpoquoffdwa/RestKit_Prefix.pch.gch
+xCode/Support/RestKit_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Code/Support/RestKit_Prefix.pchbe4ebad2fc71b341^827263d3fc71b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch0000000000000000^2121"ProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dhbypdndldxiyghcxqpoquoffdwa/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv7 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -o /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dhbypdndldxiyghcxqpoquoffdwa/RestKit_Prefix.pch.gch
+
+CProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dqlusqlfniulidbkzhrncyvcgcnc/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s326237394.653164
+e326237395.223243
+r1
+xProcessPCH
+x/var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dqlusqlfniulidbkzhrncyvcgcnc/RestKit_Prefix.pch.gch
+xCode/Support/RestKit_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Code/Support/RestKit_Prefix.pch3659a7d2fc71b341^5e2f39d3fc71b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch0000000000000000^2121"ProcessPCH /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dqlusqlfniulidbkzhrncyvcgcnc/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/nmelo/Desktop/Frankly/RestKit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv6 -I/Users/nmelo/Desktop/Frankly/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/nmelo/Desktop/Frankly/RestKit/Build/Debug-iphoneos -c /Users/nmelo/Desktop/Frankly/RestKit/Code/Support/RestKit_Prefix.pch -o /var/folders/QM/QM97+-EFF1KS1Z+dnhP5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RestKit_Prefix-dqlusqlfniulidbkzhrncyvcgcnc/RestKit_Prefix.pch.gch
+

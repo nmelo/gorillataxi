@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>app.xcscheme</key>
+		<key>Frankly.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F9AF55E8155E0AFB001159E5</key>
+		<key>F960C9A01371F56100793D86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F960C9CA1371F56200793D86</key>
 		<dict>
 			<key>primary</key>
 			<true/>
