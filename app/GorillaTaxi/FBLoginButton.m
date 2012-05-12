@@ -33,9 +33,11 @@
  */
 - (UIImage*)buttonImage {
   if (_isLoggedIn) {
-    return [UIImage imageNamed:@"FBConnect.bundle/images/LogoutNormal.png"];
+//    return [UIImage imageNamed:@"FBConnect.bundle/images/LogoutNormal.png"];
+      return [UIImage imageNamed:@"facebook_login.png"];      
   } else {
-    return [UIImage imageNamed:@"FBConnect.bundle/images/LoginNormal.png"];
+//    return [UIImage imageNamed:@"FBConnect.bundle/images/LoginNormal.png"];
+      return [UIImage imageNamed:@"facebook_login.png"];      
   }
 }
 

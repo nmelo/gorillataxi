@@ -36,7 +36,7 @@
     self.navigationController.navigationBar.hidden = YES;
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:NO];
     
-    UIImage* background = [UIImage imageNamed:@"background.png"];
+    UIImage* background = [UIImage imageNamed:@"background.jpg"];
 	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
 	[headerBackgroundImage setImage:background];
     [self.view addSubview:headerBackgroundImage];
@@ -48,7 +48,7 @@
     [self.createButton setBackgroundImage:create_image forState:UIControlStateNormal];
     [self.view addSubview:createButton];
     
-    self.fbButton = [[FBLoginButton alloc] initWithFrame:CGRectMake(122, 325, 480, 114)];
+    self.fbButton = [[FBLoginButton alloc] initWithFrame:CGRectMake(60, 325, 200, 47)];
     [self.view addSubview:fbButton];
     
     self.fbButton.isLoggedIn = NO;
@@ -103,7 +103,7 @@
 - (void)sendUserToHomepage {
     
     //I already have you logged-in, you can continue. 
-    TTOpenURL(@"db://tabBar");
+    TTOpenURL(@"db://home");
 }
 
 - (void)sendUserToLeaveFeedback {
