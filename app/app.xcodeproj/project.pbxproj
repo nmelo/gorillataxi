@@ -38,6 +38,7 @@
 		F9911639155E335400B1F8FD /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96128E114E9FAF200619AB7 /* libThree20UICommon.a */; };
 		F991163A155E335400B1F8FD /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96128E914E9FAF300619AB7 /* libThree20UINavigator.a */; };
 		F991163C155E33E500B1F8FD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F991163B155E33E500B1F8FD /* Model.xcdatamodeld */; };
+		F997D755155EA79B00BDC4EA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997D754155EA79B00BDC4EA /* MapKit.framework */; };
 		F9AAC11F155E5C92005FC587 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AAC11E155E5C92005FC587 /* accept.png */; };
 		F9AAC122155E5D24005FC587 /* ConfirmationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AAC121155E5D23005FC587 /* ConfirmationController.m */; };
 		F9AAC124155E5D8D005FC587 /* confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AAC123155E5D8D005FC587 /* confirm.png */; };
@@ -325,6 +326,7 @@
 		F960C9A11371F56100793D86 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F960C9CB1371F56200793D86 /* appTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F991161D155E2FC600B1F8FD /* app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "app-Info.plist"; path = "GorillaTaxi/app-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F997D754155EA79B00BDC4EA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F9AAC11E155E5C92005FC587 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accept.png; path = Resources/accept.png; sourceTree = SOURCE_ROOT; };
 		F9AAC120155E5D23005FC587 /* ConfirmationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmationController.h; path = GorillaTaxi/ConfirmationController.h; sourceTree = SOURCE_ROOT; };
 		F9AAC121155E5D23005FC587 /* ConfirmationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmationController.m; path = GorillaTaxi/ConfirmationController.m; sourceTree = SOURCE_ROOT; };
@@ -383,6 +385,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F997D755155EA79B00BDC4EA /* MapKit.framework in Frameworks */,
 				F991162D155E335400B1F8FD /* libfacebook_ios_sdk.a in Frameworks */,
 				F991162E155E335400B1F8FD /* libRestKitCoreData.a in Frameworks */,
 				F991162F155E335400B1F8FD /* libRestKitJSONParserJSONKit.a in Frameworks */,
@@ -516,6 +519,7 @@
 		F960C9A41371F56100793D86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F997D754155EA79B00BDC4EA /* MapKit.framework */,
 				F92F4D2C13F1856A002421FC /* QuartzCore.framework */,
 				F9580AAC13F1831A007A5ABE /* UIKit.framework */,
 				F9580AAE13F18375007A5ABE /* CoreGraphics.framework */,
@@ -1212,6 +1216,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = app;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -1231,6 +1236,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = app;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

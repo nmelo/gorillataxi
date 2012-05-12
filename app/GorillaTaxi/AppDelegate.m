@@ -25,7 +25,7 @@
     [[TTURLRequestQueue mainQueue] setMaxContentLength:0]; // Don't limit content length.	
     
     // Fire up the UI!
-	TTOpenURL(@"db://signup");
+	TTOpenURL(@"db://newProduct");
     
 }
 

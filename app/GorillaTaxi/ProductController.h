@@ -5,6 +5,8 @@
 #import <RestKit/CoreData/CoreData.h>
 #import <RestKit/Three20/Three20.h>
 
+
+
 @interface ProductController : TTViewController <UIPickerViewDataSource, UIPickerViewDelegate>  {
     
     IBOutlet TTLabel *productName;
@@ -13,6 +15,7 @@
     IBOutlet UITextView *address;
     IBOutlet UIPickerView *price;
     NSMutableArray *prices;
+
 }
 
 
@@ -22,6 +25,8 @@
 @property(nonatomic, retain) IBOutlet TTLabel *modelName;
 @property(nonatomic, retain) IBOutlet UITextView *address;
 @property(nonatomic, retain) IBOutlet UIPickerView *price;
+
+
 - (IBAction)letsGo_OnClick;
 
 @end

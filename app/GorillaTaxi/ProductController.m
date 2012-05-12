@@ -57,6 +57,14 @@
     [self.letsGoButton  addTarget:self action:@selector(letsGo_OnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:letsGoButton];
 
+
+    
+}
+
+
+
+- (void)viewWillAppear:(BOOL)animated {  
+         
 }
     
 - (void)letsGo_OnClick
