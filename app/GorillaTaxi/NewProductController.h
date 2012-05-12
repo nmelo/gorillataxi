@@ -14,13 +14,12 @@
 #import <RestKit/Three20/Three20.h>
 #import <MapKit/MapKit.h>
 
-#import "CEPubnub.h"
 #import "DisplayMap.h"
 #import "FBConnect.h"
 
 #define METERS_PER_MILE 1609.344
 
-@interface NewProductController : TTViewController <MKMapViewDelegate, CEPubnubDelegate, FBRequestDelegate,
+@interface NewProductController : TTViewController <MKMapViewDelegate, FBRequestDelegate,
 FBDialogDelegate,
 FBSessionDelegate>
 {

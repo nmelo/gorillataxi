@@ -31,6 +31,10 @@
 		F9120D10155EF53F00E76A61 /* getaride.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120D08155EF53F00E76A61 /* getaride.png */; };
 		F9120D13155F04F000E76A61 /* dialog.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120D11155F04EF00E76A61 /* dialog.png */; };
 		F9120D14155F04F000E76A61 /* rideconfirmation.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120D12155F04F000E76A61 /* rideconfirmation.png */; };
+		F9120D17155F0D8100E76A61 /* PassengerConfirmationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9120D16155F0D8000E76A61 /* PassengerConfirmationController.m */; };
+		F9120D1A155F0D8800E76A61 /* DriverConfirmationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9120D19155F0D8800E76A61 /* DriverConfirmationController.m */; };
+		F9120D1D155F0DF700E76A61 /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120D1B155F0DF700E76A61 /* pass.png */; };
+		F9120D1E155F0DF700E76A61 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120D1C155F0DF700E76A61 /* accept.png */; };
 		F92F4D2D13F1856A002421FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F4D2C13F1856A002421FC /* QuartzCore.framework */; };
 		F9580AAD13F1831A007A5ABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9580AAC13F1831A007A5ABE /* UIKit.framework */; };
 		F9580AAF13F18375007A5ABE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9580AAE13F18375007A5ABE /* CoreGraphics.framework */; };
@@ -287,6 +291,12 @@
 		F9120D08155EF53F00E76A61 /* getaride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = getaride.png; path = Resources/getaride.png; sourceTree = SOURCE_ROOT; };
 		F9120D11155F04EF00E76A61 /* dialog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dialog.png; path = Resources/dialog.png; sourceTree = SOURCE_ROOT; };
 		F9120D12155F04F000E76A61 /* rideconfirmation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideconfirmation.png; path = Resources/rideconfirmation.png; sourceTree = SOURCE_ROOT; };
+		F9120D15155F0D8000E76A61 /* PassengerConfirmationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassengerConfirmationController.h; path = GorillaTaxi/PassengerConfirmationController.h; sourceTree = SOURCE_ROOT; };
+		F9120D16155F0D8000E76A61 /* PassengerConfirmationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassengerConfirmationController.m; path = GorillaTaxi/PassengerConfirmationController.m; sourceTree = SOURCE_ROOT; };
+		F9120D18155F0D8700E76A61 /* DriverConfirmationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverConfirmationController.h; path = GorillaTaxi/DriverConfirmationController.h; sourceTree = SOURCE_ROOT; };
+		F9120D19155F0D8800E76A61 /* DriverConfirmationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverConfirmationController.m; path = GorillaTaxi/DriverConfirmationController.m; sourceTree = SOURCE_ROOT; };
+		F9120D1B155F0DF700E76A61 /* pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pass.png; path = Resources/pass.png; sourceTree = SOURCE_ROOT; };
+		F9120D1C155F0DF700E76A61 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accept.png; path = Resources/accept.png; sourceTree = SOURCE_ROOT; };
 		F92F4D2C13F1856A002421FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F9580AAC13F1831A007A5ABE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F9580AAE13F18375007A5ABE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -521,6 +531,8 @@
 		F960C9AC1371F56100793D86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9120D1B155F0DF700E76A61 /* pass.png */,
+				F9120D1C155F0DF700E76A61 /* accept.png */,
 				F9120D11155F04EF00E76A61 /* dialog.png */,
 				F9120D12155F04F000E76A61 /* rideconfirmation.png */,
 				F9120D01155EF53E00E76A61 /* background_screen3.png */,
@@ -637,6 +649,10 @@
 		F960CA5F1371F6E900793D86 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F9120D18155F0D8700E76A61 /* DriverConfirmationController.h */,
+				F9120D19155F0D8800E76A61 /* DriverConfirmationController.m */,
+				F9120D15155F0D8000E76A61 /* PassengerConfirmationController.h */,
+				F9120D16155F0D8000E76A61 /* PassengerConfirmationController.m */,
 				F9AAC120155E5D23005FC587 /* ConfirmationController.h */,
 				F9AAC121155E5D23005FC587 /* ConfirmationController.m */,
 				F9E5029F155E1AC0001514E8 /* ProductController.h */,
@@ -1011,6 +1027,8 @@
 				F9120D10155EF53F00E76A61 /* getaride.png in Resources */,
 				F9120D13155F04F000E76A61 /* dialog.png in Resources */,
 				F9120D14155F04F000E76A61 /* rideconfirmation.png in Resources */,
+				F9120D1D155F0DF700E76A61 /* pass.png in Resources */,
+				F9120D1E155F0DF700E76A61 /* accept.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1073,6 +1091,8 @@
 				F997D7A9155EB51F00BDC4EA /* JSON.m in Sources */,
 				F997D7AC155EBF6C00BDC4EA /* JSONKit.m in Sources */,
 				F997D7B0155EC33E00BDC4EA /* DisplayMap.m in Sources */,
+				F9120D17155F0D8100E76A61 /* PassengerConfirmationController.m in Sources */,
+				F9120D1A155F0D8800E76A61 /* DriverConfirmationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

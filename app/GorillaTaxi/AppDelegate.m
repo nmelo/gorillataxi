@@ -21,11 +21,13 @@
     [map from:@"db://product" toViewController:[ProductController class]];
     [map from:@"db://newProduct" toViewController:[NewProductController class]];
     [map from:@"db://confirm" toViewController:[ConfirmationController class]];
+    [map from:@"db://passengerConfirm" toViewController:[PassengerConfirmationController class]];
+    [map from:@"db://driverConfirm" toViewController:[DriverConfirmationController class]];
     
     [[TTURLRequestQueue mainQueue] setMaxContentLength:0]; // Don't limit content length.	
     
     // Fire up the UI!
-	TTOpenURL(@"db://confirm");
+	TTOpenURL(@"db://home");
     
 }
 

@@ -4,7 +4,7 @@
  
 @synthesize productName, modelName, address, price, prices, letsGoButton, getAride;
 
-
+CEPubnub *pubnub;
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // TTViewController
 - (id)initWithNavigatorURL:(NSURL*)URL query:(NSDictionary*)query {
@@ -85,7 +85,19 @@
     
 - (void)letsGo_OnClick
 {
-    TTOpenURL(@"db://newProduct");
+    UIAlertView *alert =
+    [[UIAlertView alloc] initWithTitle: @"Success"
+                               message: @"We'll let you know when a driver is ready to pick you up."
+                              delegate: self
+                     cancelButtonTitle: @"Done"
+                     otherButtonTitles: nil];
+    [alert show];
+    [alert release];
+
+    NSString * text=@"Passenger found.";
+    [pubnub publish:[NSDictionary dictionaryWithObjectsAndKeys:@"hello_world",@"channel",text,@"message", nil]];
+
+    TTOpenURL(@"db://home");
 }
 
 

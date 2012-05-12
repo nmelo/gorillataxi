@@ -4,9 +4,9 @@
 #import <RestKit/RestKit.h>
 #import <RestKit/CoreData/CoreData.h>
 #import <RestKit/Three20/Three20.h>
+#import "CEPubnub.h"
 
-
-@interface ProductController : TTViewController <UIPickerViewDataSource, UIPickerViewDelegate>  {
+@interface ProductController : TTViewController <UIPickerViewDataSource, UIPickerViewDelegate, CEPubnubDelegate>  {
     
     IBOutlet UIImageView *productName;
     IBOutlet UIImageView *modelName;

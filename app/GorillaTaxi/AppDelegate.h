@@ -11,6 +11,8 @@
 
 #import "NewProductController.h"
 #import "ConfirmationController.h"
+#import "PassengerConfirmationController.h"
+#import "DriverConfirmationController.h"
 #import "SignUpController.h"
 #import "LeaveFeedbackController.h"
 #import "NewFeedbackController.h"
