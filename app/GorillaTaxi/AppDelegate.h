@@ -1,7 +1,6 @@
 #import <Three20/Three20.h>
 #import <Three20/Three20+Additions.h>
 
-#import "TabBarController.h"
 #import "HomeController.h"
 #import "ProductController.h"
 

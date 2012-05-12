@@ -16,19 +16,11 @@
 
 @implementation HomeController
 
-@synthesize  _resourcePath, _resourceClass;
+@synthesize driveButton, requestButton;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // TTViewController
 - (id)initWithNavigatorURL:(NSURL*)URL query:(NSDictionary*)query {
-	if ((self = [super initWithStyle:UITableViewStyleGrouped])) {
-        
-        UIImage* image = [UIImage imageNamed:@"home.png"];
-        self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Home" image:image tag:0] autorelease];
-               
-        _resourcePath = [@"/products" retain];
-        _resourceClass = [DBProduct class];
-	}
     return self;
 }
 
@@ -36,32 +28,6 @@
 //TTTableViewController
 - (void)createModel {
     
-    self.model = [[[RKRequestTTModel alloc] initWithResourcePath:_resourcePath params:nil objectClass:_resourceClass] autorelease];
-    
-}
-- (void)didLoadModel:(BOOL)firstTime {
-	[super didLoadModel:firstTime];
-    
-    if ([self.model isKindOfClass:[RKRequestTTModel class]]) {
-		RKRequestTTModel* model = (RKRequestTTModel*)self.model;
-        NSMutableArray* productItems = [NSMutableArray arrayWithCapacity:[model.objects count]];
-        
-        for (DBProduct* _product in model.objects) {
-			NSString* URL = RKMakePathWithObject(@"db://product/(product_id)", _product);
-			TTTableImageItem * item = [TTTableImageItem itemWithText:_product.name
-                                    imageURL:[_product getImagePath]
-                                    URL:URL];
-            item.imageStyle = [TTImageStyle styleWithImage:nil defaultImage:nil contentMode:UIViewContentModeScaleAspectFill
-                                                      size:CGSizeMake(60.f, 60.f)
-                                                      next:nil];
-			[productItems addObject:item];
-		}
-        
-		TTListDataSource* dataSource = [TTListDataSource dataSourceWithItems:productItems];
-		dataSource.model = model;
-		self.dataSource = dataSource;
-        
-    }
 }
 
 
@@ -71,16 +37,18 @@
     [super loadView];
     
     CGRect applicationFrame = [UIScreen mainScreen].applicationFrame;
-    self.tableView.frame = CGRectMake(0, segmentedControl.bottom + 10, applicationFrame.size.width, applicationFrame.size.height - 60);
-    self.tableView.rowHeight = 70;
     
-    // Setup the Table Header
-    UIImage* logo = [UIImage imageNamed:@"logo2.png"];
-	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:CGRectMake(120, 6, 100, 38)];
-	[headerBackgroundImage setImage:logo];
-    
-    self.navigationItem.titleView = headerBackgroundImage;
-    self.navigationBarTintColor = [UIColor blackColor];
+    UIImage* drive_image = [UIImage imageNamed:@"drive.png"];
+    self.driveButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.driveButton.frame = CGRectMake(40, 385, 160, 38);
+    [self.driveButton setBackgroundImage:drive_image forState:UIControlStateNormal];
+    [self.view addSubview:driveButton];
+
+    UIImage* request_image = [UIImage imageNamed:@"request.png"];
+    self.requestButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.requestButton.frame = CGRectMake(240, 385, 160, 38);
+    [self.requestButton setBackgroundImage:request_image forState:UIControlStateNormal];
+    [self.view addSubview:requestButton];
 
     
 }

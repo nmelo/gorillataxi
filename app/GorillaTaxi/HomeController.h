@@ -5,19 +5,12 @@
 #import <RestKit/CoreData/CoreData.h>
 #import <RestKit/Three20/Three20.h>
 
-#import "DBProduct.h"
-
-@interface HomeController : TTTableViewController<TTTabDelegate> {
-    UISegmentedControl *segmentedControl; 
-    
-    NSString* _resourcePath;
-	Class _resourceClass;
-    
+@interface HomeController : TTViewController{
+    UIButton *driveButton;
+    UIButton *requestButton;
 }
 
-@property (nonatomic, retain) NSString* _resourcePath;
-@property (nonatomic, retain) Class _resourceClass;
-
-- (id<TTTableViewDataSource>)getDataSourceWithIndex:(NSInteger) selectedIndex;
+@property (nonatomic, retain) UIButton *driveButton;
+@property (nonatomic, retain) UIButton *requestButton;
 
 @end

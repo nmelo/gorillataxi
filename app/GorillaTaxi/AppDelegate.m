@@ -15,8 +15,7 @@
     TTURLMap* map = navigator.URLMap;
     
     [map from:@"*" toViewController:[TTWebController class]];
-    [map from:@"db://tabBar" toSharedViewController:[TabBarController class]];
-    
+
     [map from:@"db://signup" toViewController:[SignUpController class]];
     [map from:@"db://leaveFeedback" toViewController:[LeaveFeedbackController class]];
     
@@ -36,7 +35,7 @@
     [[TTURLRequestQueue mainQueue] setMaxContentLength:0]; // Don't limit content length.	
     
     // Fire up the UI!
-	TTOpenURL(@"db://signup");
+	TTOpenURL(@"db://home");
     
 }
 
@@ -140,13 +139,6 @@
     return [facebook handleOpenURL:url]; 
 }
 
-- (void)fbDidLogin {
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject:[facebook accessToken] forKey:@"FBAccessTokenKey"];
-    [defaults setObject:[facebook expirationDate] forKey:@"FBExpirationDateKey"];
-    [defaults synchronize];
-    
-}
 - (void)applicationWillTerminate:(UIApplication *)application {
     
     //Logout the user as soon as the app ends. 

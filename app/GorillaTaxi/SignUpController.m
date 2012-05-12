@@ -149,17 +149,17 @@
 
     NSString* facebook_id = [loginResults objectForKey:@"id"];    
     
-    DBUser *currentUser = [DBUser currentUser];
-    currentUser.delegate = self;
-    
-    if([currentUser isNewRecord]){
+//    DBUser *currentUser = [DBUser currentUser];
+//    currentUser.delegate = self;
+//    
+//    if([currentUser isNewRecord]){
 
         //Check the user exists on Rails. 
-        [currentUser loginWithFacebookId:facebook_id delegate:self]; 
-    }
-    else {
+//        [currentUser loginWithFacebookId:facebook_id delegate:self]; 
+//    }
+//    else {
         [self sendUserToHomepage];
-    }
+//    }
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
