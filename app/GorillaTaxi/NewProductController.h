@@ -13,26 +13,12 @@
 #import <RestKit/CoreData/CoreData.h>
 #import <RestKit/Three20/Three20.h>
 
-@interface NewProductController : TTTableViewController <UIImagePickerControllerDelegate, UITextFieldDelegate> 
+@interface NewProductController : TTViewController
 {
-	CGFloat animatedDistance;
-	BOOL	hasPhoto;
-	
-	UIButton		*imageButton;
-	UITextField		*brandField;
-	UITextField		*productField;
-	UITextField		*upcField;
-	UITextField		*colorField;
+    UIButton *acceptButton;
 }
 
-@property (nonatomic, retain) UIButton *imageButton;
-@property (nonatomic, retain) UITextField *brandField;
-@property (nonatomic, retain) UITextField *productField;
-@property (nonatomic, retain) UITextField *upcField;
-@property (nonatomic, retain) UITextField *colorField;
-
-- (void)doneButtonClicked;
-- (void)addPhotoClicked;
-
+@property (nonatomic, retain) UIButton *acceptButton;
+- (IBAction)accept_OnClick;
 
 @end

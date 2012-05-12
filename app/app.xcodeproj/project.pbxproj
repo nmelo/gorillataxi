@@ -38,10 +38,14 @@
 		F9911639155E335400B1F8FD /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96128E114E9FAF200619AB7 /* libThree20UICommon.a */; };
 		F991163A155E335400B1F8FD /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96128E914E9FAF300619AB7 /* libThree20UINavigator.a */; };
 		F991163C155E33E500B1F8FD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F991163B155E33E500B1F8FD /* Model.xcdatamodeld */; };
+		F9AAC11F155E5C92005FC587 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AAC11E155E5C92005FC587 /* accept.png */; };
+		F9AAC122155E5D24005FC587 /* ConfirmationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AAC121155E5D23005FC587 /* ConfirmationController.m */; };
+		F9AAC124155E5D8D005FC587 /* confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AAC123155E5D8D005FC587 /* confirm.png */; };
 		F9B5E9EE155E3BC600DCBDAD /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E9ED155E3BC600DCBDAD /* FBDialog.bundle */; };
 		F9B5E9F0155E3DE600DCBDAD /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E9EF155E3DE600DCBDAD /* facebook_login.png */; };
 		F9B5E9F2155E3E4200DCBDAD /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E9F1155E3E4200DCBDAD /* background.jpg */; };
 		F9B5E9F4155E40E900DCBDAD /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E9F3155E40E900DCBDAD /* logo2.png */; };
+		F9E2878C155E59F30030E3DE /* letsgo.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2878B155E59F30030E3DE /* letsgo.png */; };
 		F9E50261155E1A2F001514E8 /* DBEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5025E155E1A2F001514E8 /* DBEnvironment.m */; };
 		F9E50262155E1A2F001514E8 /* DBManagedObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50260155E1A2F001514E8 /* DBManagedObjectCache.m */; };
 		F9E50265155E1A3C001514E8 /* QSStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50264155E1A3C001514E8 /* QSStrings.m */; };
@@ -57,23 +61,10 @@
 		F9E5028B155E1A76001514E8 /* DBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50281155E1A76001514E8 /* DBUser.m */; };
 		F9E5028C155E1A76001514E8 /* DBVote.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50283155E1A76001514E8 /* DBVote.m */; };
 		F9E5028F155E1A84001514E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5028E155E1A84001514E8 /* AppDelegate.m */; };
-		F9E50294155E1A94001514E8 /* LeaveFeedbackController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50291155E1A94001514E8 /* LeaveFeedbackController.m */; };
 		F9E50295155E1A94001514E8 /* SignUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50293155E1A94001514E8 /* SignUpController.m */; };
 		F9E5029A155E1AA6001514E8 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50297155E1AA6001514E8 /* HomeController.m */; };
-		F9E5029E155E1AB7001514E8 /* FeedbackableController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5029D155E1AB7001514E8 /* FeedbackableController.m */; };
 		F9E502A1155E1AC0001514E8 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502A0155E1AC0001514E8 /* ProductController.m */; };
-		F9E502A8155E1AD3001514E8 /* FeedbackDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502A3155E1AD3001514E8 /* FeedbackDataSource.m */; };
-		F9E502A9155E1AD3001514E8 /* FeedbackItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502A5155E1AD3001514E8 /* FeedbackItemCell.m */; };
-		F9E502AA155E1AD3001514E8 /* FeedbackTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502A7155E1AD3001514E8 /* FeedbackTableItem.m */; };
-		F9E502AF155E1AE6001514E8 /* ProductSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502AC155E1AE6001514E8 /* ProductSearchController.m */; };
-		F9E502B0155E1AE6001514E8 /* ProductSearchDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502AE155E1AE6001514E8 /* ProductSearchDataSource.m */; };
-		F9E502B9155E1AF7001514E8 /* FeedbackTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502B2155E1AF7001514E8 /* FeedbackTextController.m */; };
-		F9E502BA155E1AF7001514E8 /* FeedbackTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502B4155E1AF7001514E8 /* FeedbackTypeController.m */; };
-		F9E502BB155E1AF7001514E8 /* NewFeedbackController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502B6155E1AF7001514E8 /* NewFeedbackController.m */; };
 		F9E502BC155E1AF7001514E8 /* NewProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502B8155E1AF7001514E8 /* NewProductController.m */; };
-		F9E502C3155E1B37001514E8 /* CompanyController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502BE155E1B37001514E8 /* CompanyController.m */; };
-		F9E502C4155E1B37001514E8 /* CompanySearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502C0155E1B37001514E8 /* CompanySearchController.m */; };
-		F9E502C5155E1B37001514E8 /* CompanySearchDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502C2155E1B37001514E8 /* CompanySearchDataSource.m */; };
 		F9E502C9155E1B73001514E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502C8155E1B73001514E8 /* main.m */; };
 		F9FDF5FD155E472B006D9CEA /* drive.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FDF5FB155E472B006D9CEA /* drive.png */; };
 		F9FDF5FE155E472B006D9CEA /* request.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FDF5FC155E472B006D9CEA /* request.png */; };
@@ -334,10 +325,15 @@
 		F960C9A11371F56100793D86 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F960C9CB1371F56200793D86 /* appTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F991161D155E2FC600B1F8FD /* app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "app-Info.plist"; path = "GorillaTaxi/app-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F9AAC11E155E5C92005FC587 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accept.png; path = Resources/accept.png; sourceTree = SOURCE_ROOT; };
+		F9AAC120155E5D23005FC587 /* ConfirmationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmationController.h; path = GorillaTaxi/ConfirmationController.h; sourceTree = SOURCE_ROOT; };
+		F9AAC121155E5D23005FC587 /* ConfirmationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmationController.m; path = GorillaTaxi/ConfirmationController.m; sourceTree = SOURCE_ROOT; };
+		F9AAC123155E5D8D005FC587 /* confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confirm.png; path = Resources/confirm.png; sourceTree = SOURCE_ROOT; };
 		F9B5E9ED155E3BC600DCBDAD /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = SOURCE_ROOT; };
 		F9B5E9EF155E3DE600DCBDAD /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_login.png; path = Resources/facebook_login.png; sourceTree = SOURCE_ROOT; };
 		F9B5E9F1155E3E4200DCBDAD /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = Resources/background.jpg; sourceTree = SOURCE_ROOT; };
 		F9B5E9F3155E40E900DCBDAD /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo2.png; path = Resources/logo2.png; sourceTree = SOURCE_ROOT; };
+		F9E2878B155E59F30030E3DE /* letsgo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = letsgo.png; path = Resources/letsgo.png; sourceTree = SOURCE_ROOT; };
 		F9E5025D155E1A2F001514E8 /* DBEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBEnvironment.h; path = GorillaTaxi/DBEnvironment.h; sourceTree = SOURCE_ROOT; };
 		F9E5025E155E1A2F001514E8 /* DBEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBEnvironment.m; path = GorillaTaxi/DBEnvironment.m; sourceTree = SOURCE_ROOT; };
 		F9E5025F155E1A2F001514E8 /* DBManagedObjectCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManagedObjectCache.h; path = GorillaTaxi/DBManagedObjectCache.h; sourceTree = SOURCE_ROOT; };
@@ -368,40 +364,14 @@
 		F9E50283155E1A76001514E8 /* DBVote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBVote.m; path = GorillaTaxi/DBVote.m; sourceTree = SOURCE_ROOT; };
 		F9E5028D155E1A84001514E8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GorillaTaxi/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		F9E5028E155E1A84001514E8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GorillaTaxi/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		F9E50290155E1A94001514E8 /* LeaveFeedbackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaveFeedbackController.h; path = GorillaTaxi/LeaveFeedbackController.h; sourceTree = SOURCE_ROOT; };
-		F9E50291155E1A94001514E8 /* LeaveFeedbackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaveFeedbackController.m; path = GorillaTaxi/LeaveFeedbackController.m; sourceTree = SOURCE_ROOT; };
 		F9E50292155E1A94001514E8 /* SignUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpController.h; path = GorillaTaxi/SignUpController.h; sourceTree = SOURCE_ROOT; };
 		F9E50293155E1A94001514E8 /* SignUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpController.m; path = GorillaTaxi/SignUpController.m; sourceTree = SOURCE_ROOT; };
 		F9E50296155E1AA6001514E8 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeController.h; path = GorillaTaxi/HomeController.h; sourceTree = SOURCE_ROOT; };
 		F9E50297155E1AA6001514E8 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeController.m; path = GorillaTaxi/HomeController.m; sourceTree = SOURCE_ROOT; };
-		F9E5029C155E1AB7001514E8 /* FeedbackableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackableController.h; path = GorillaTaxi/FeedbackableController.h; sourceTree = SOURCE_ROOT; };
-		F9E5029D155E1AB7001514E8 /* FeedbackableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackableController.m; path = GorillaTaxi/FeedbackableController.m; sourceTree = SOURCE_ROOT; };
 		F9E5029F155E1AC0001514E8 /* ProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductController.h; path = GorillaTaxi/ProductController.h; sourceTree = SOURCE_ROOT; };
 		F9E502A0155E1AC0001514E8 /* ProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductController.m; path = GorillaTaxi/ProductController.m; sourceTree = SOURCE_ROOT; };
-		F9E502A2155E1AD3001514E8 /* FeedbackDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackDataSource.h; path = GorillaTaxi/FeedbackDataSource.h; sourceTree = SOURCE_ROOT; };
-		F9E502A3155E1AD3001514E8 /* FeedbackDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackDataSource.m; path = GorillaTaxi/FeedbackDataSource.m; sourceTree = SOURCE_ROOT; };
-		F9E502A4155E1AD3001514E8 /* FeedbackItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackItemCell.h; path = GorillaTaxi/FeedbackItemCell.h; sourceTree = SOURCE_ROOT; };
-		F9E502A5155E1AD3001514E8 /* FeedbackItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackItemCell.m; path = GorillaTaxi/FeedbackItemCell.m; sourceTree = SOURCE_ROOT; };
-		F9E502A6155E1AD3001514E8 /* FeedbackTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackTableItem.h; path = GorillaTaxi/FeedbackTableItem.h; sourceTree = SOURCE_ROOT; };
-		F9E502A7155E1AD3001514E8 /* FeedbackTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackTableItem.m; path = GorillaTaxi/FeedbackTableItem.m; sourceTree = SOURCE_ROOT; };
-		F9E502AB155E1AE6001514E8 /* ProductSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductSearchController.h; path = GorillaTaxi/ProductSearchController.h; sourceTree = SOURCE_ROOT; };
-		F9E502AC155E1AE6001514E8 /* ProductSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductSearchController.m; path = GorillaTaxi/ProductSearchController.m; sourceTree = SOURCE_ROOT; };
-		F9E502AD155E1AE6001514E8 /* ProductSearchDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductSearchDataSource.h; path = GorillaTaxi/ProductSearchDataSource.h; sourceTree = SOURCE_ROOT; };
-		F9E502AE155E1AE6001514E8 /* ProductSearchDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductSearchDataSource.m; path = GorillaTaxi/ProductSearchDataSource.m; sourceTree = SOURCE_ROOT; };
-		F9E502B1155E1AF7001514E8 /* FeedbackTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackTextController.h; path = GorillaTaxi/FeedbackTextController.h; sourceTree = SOURCE_ROOT; };
-		F9E502B2155E1AF7001514E8 /* FeedbackTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackTextController.m; path = GorillaTaxi/FeedbackTextController.m; sourceTree = SOURCE_ROOT; };
-		F9E502B3155E1AF7001514E8 /* FeedbackTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackTypeController.h; path = GorillaTaxi/FeedbackTypeController.h; sourceTree = SOURCE_ROOT; };
-		F9E502B4155E1AF7001514E8 /* FeedbackTypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackTypeController.m; path = GorillaTaxi/FeedbackTypeController.m; sourceTree = SOURCE_ROOT; };
-		F9E502B5155E1AF7001514E8 /* NewFeedbackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewFeedbackController.h; path = GorillaTaxi/NewFeedbackController.h; sourceTree = SOURCE_ROOT; };
-		F9E502B6155E1AF7001514E8 /* NewFeedbackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewFeedbackController.m; path = GorillaTaxi/NewFeedbackController.m; sourceTree = SOURCE_ROOT; };
 		F9E502B7155E1AF7001514E8 /* NewProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewProductController.h; path = GorillaTaxi/NewProductController.h; sourceTree = SOURCE_ROOT; };
 		F9E502B8155E1AF7001514E8 /* NewProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewProductController.m; path = GorillaTaxi/NewProductController.m; sourceTree = SOURCE_ROOT; };
-		F9E502BD155E1B37001514E8 /* CompanyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyController.h; path = GorillaTaxi/CompanyController.h; sourceTree = SOURCE_ROOT; };
-		F9E502BE155E1B37001514E8 /* CompanyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanyController.m; path = GorillaTaxi/CompanyController.m; sourceTree = SOURCE_ROOT; };
-		F9E502BF155E1B37001514E8 /* CompanySearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanySearchController.h; path = GorillaTaxi/CompanySearchController.h; sourceTree = SOURCE_ROOT; };
-		F9E502C0155E1B37001514E8 /* CompanySearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanySearchController.m; path = GorillaTaxi/CompanySearchController.m; sourceTree = SOURCE_ROOT; };
-		F9E502C1155E1B37001514E8 /* CompanySearchDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanySearchDataSource.h; path = GorillaTaxi/CompanySearchDataSource.h; sourceTree = SOURCE_ROOT; };
-		F9E502C2155E1B37001514E8 /* CompanySearchDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanySearchDataSource.m; path = GorillaTaxi/CompanySearchDataSource.m; sourceTree = SOURCE_ROOT; };
 		F9E502C8155E1B73001514E8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GorillaTaxi/main.m; sourceTree = SOURCE_ROOT; };
 		F9E502CA155E1BFF001514E8 /* GorillaTaxi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GorillaTaxi-Prefix.pch"; path = "Class/GorillaTaxi-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		F9FDF5FB155E472B006D9CEA /* drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drive.png; path = Resources/drive.png; sourceTree = SOURCE_ROOT; };
@@ -575,7 +545,10 @@
 		F960C9AC1371F56100793D86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9E2878B155E59F30030E3DE /* letsgo.png */,
 				F9FDF5FB155E472B006D9CEA /* drive.png */,
+				F9AAC123155E5D8D005FC587 /* confirm.png */,
+				F9AAC11E155E5C92005FC587 /* accept.png */,
 				F9FDF5FC155E472B006D9CEA /* request.png */,
 				F9B5E9F3155E40E900DCBDAD /* logo2.png */,
 				F9B5E9EF155E3DE600DCBDAD /* facebook_login.png */,
@@ -632,8 +605,6 @@
 			children = (
 				F960CA5E1371F6E200793D86 /* Signup */,
 				F960CA5F1371F6E900793D86 /* Home */,
-				F960CA601371F6F000793D86 /* New  */,
-				F960CA611371F6F600793D86 /* Brands */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -658,8 +629,6 @@
 		F960CA5E1371F6E200793D86 /* Signup */ = {
 			isa = PBXGroup;
 			children = (
-				F9E50290155E1A94001514E8 /* LeaveFeedbackController.h */,
-				F9E50291155E1A94001514E8 /* LeaveFeedbackController.m */,
 				F9E50292155E1A94001514E8 /* SignUpController.h */,
 				F9E50293155E1A94001514E8 /* SignUpController.m */,
 			);
@@ -669,52 +638,16 @@
 		F960CA5F1371F6E900793D86 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F9E5029C155E1AB7001514E8 /* FeedbackableController.h */,
-				F9E5029D155E1AB7001514E8 /* FeedbackableController.m */,
+				F9AAC120155E5D23005FC587 /* ConfirmationController.h */,
+				F9AAC121155E5D23005FC587 /* ConfirmationController.m */,
 				F9E5029F155E1AC0001514E8 /* ProductController.h */,
 				F9E502A0155E1AC0001514E8 /* ProductController.m */,
 				F9E50296155E1AA6001514E8 /* HomeController.h */,
 				F9E50297155E1AA6001514E8 /* HomeController.m */,
-				F9E502A2155E1AD3001514E8 /* FeedbackDataSource.h */,
-				F9E502A3155E1AD3001514E8 /* FeedbackDataSource.m */,
-				F9E502A4155E1AD3001514E8 /* FeedbackItemCell.h */,
-				F9E502A5155E1AD3001514E8 /* FeedbackItemCell.m */,
-				F9E502A6155E1AD3001514E8 /* FeedbackTableItem.h */,
-				F9E502A7155E1AD3001514E8 /* FeedbackTableItem.m */,
-			);
-			name = Home;
-			sourceTree = "<group>";
-		};
-		F960CA601371F6F000793D86 /* New  */ = {
-			isa = PBXGroup;
-			children = (
-				F9E502AB155E1AE6001514E8 /* ProductSearchController.h */,
-				F9E502AC155E1AE6001514E8 /* ProductSearchController.m */,
-				F9E502AD155E1AE6001514E8 /* ProductSearchDataSource.h */,
-				F9E502AE155E1AE6001514E8 /* ProductSearchDataSource.m */,
-				F9E502B1155E1AF7001514E8 /* FeedbackTextController.h */,
-				F9E502B2155E1AF7001514E8 /* FeedbackTextController.m */,
-				F9E502B3155E1AF7001514E8 /* FeedbackTypeController.h */,
-				F9E502B4155E1AF7001514E8 /* FeedbackTypeController.m */,
-				F9E502B5155E1AF7001514E8 /* NewFeedbackController.h */,
-				F9E502B6155E1AF7001514E8 /* NewFeedbackController.m */,
 				F9E502B7155E1AF7001514E8 /* NewProductController.h */,
 				F9E502B8155E1AF7001514E8 /* NewProductController.m */,
 			);
-			name = "New ";
-			sourceTree = "<group>";
-		};
-		F960CA611371F6F600793D86 /* Brands */ = {
-			isa = PBXGroup;
-			children = (
-				F9E502BD155E1B37001514E8 /* CompanyController.h */,
-				F9E502BE155E1B37001514E8 /* CompanyController.m */,
-				F9E502BF155E1B37001514E8 /* CompanySearchController.h */,
-				F9E502C0155E1B37001514E8 /* CompanySearchController.m */,
-				F9E502C1155E1B37001514E8 /* CompanySearchDataSource.h */,
-				F9E502C2155E1B37001514E8 /* CompanySearchDataSource.m */,
-			);
-			name = Brands;
+			name = Home;
 			sourceTree = "<group>";
 		};
 		F960CA621371F79B00793D86 /* RestKit */ = {
@@ -1094,6 +1027,9 @@
 				F9B5E9F4155E40E900DCBDAD /* logo2.png in Resources */,
 				F9FDF5FD155E472B006D9CEA /* drive.png in Resources */,
 				F9FDF5FE155E472B006D9CEA /* request.png in Resources */,
+				F9E2878C155E59F30030E3DE /* letsgo.png in Resources */,
+				F9AAC11F155E5C92005FC587 /* accept.png in Resources */,
+				F9AAC124155E5D8D005FC587 /* confirm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1142,25 +1078,13 @@
 				F9E5028B155E1A76001514E8 /* DBUser.m in Sources */,
 				F9E5028C155E1A76001514E8 /* DBVote.m in Sources */,
 				F9E5028F155E1A84001514E8 /* AppDelegate.m in Sources */,
-				F9E50294155E1A94001514E8 /* LeaveFeedbackController.m in Sources */,
 				F9E50295155E1A94001514E8 /* SignUpController.m in Sources */,
 				F9E5029A155E1AA6001514E8 /* HomeController.m in Sources */,
-				F9E5029E155E1AB7001514E8 /* FeedbackableController.m in Sources */,
 				F9E502A1155E1AC0001514E8 /* ProductController.m in Sources */,
-				F9E502A8155E1AD3001514E8 /* FeedbackDataSource.m in Sources */,
-				F9E502A9155E1AD3001514E8 /* FeedbackItemCell.m in Sources */,
-				F9E502AA155E1AD3001514E8 /* FeedbackTableItem.m in Sources */,
-				F9E502AF155E1AE6001514E8 /* ProductSearchController.m in Sources */,
-				F9E502B0155E1AE6001514E8 /* ProductSearchDataSource.m in Sources */,
-				F9E502B9155E1AF7001514E8 /* FeedbackTextController.m in Sources */,
-				F9E502BA155E1AF7001514E8 /* FeedbackTypeController.m in Sources */,
-				F9E502BB155E1AF7001514E8 /* NewFeedbackController.m in Sources */,
 				F9E502BC155E1AF7001514E8 /* NewProductController.m in Sources */,
-				F9E502C3155E1B37001514E8 /* CompanyController.m in Sources */,
-				F9E502C4155E1B37001514E8 /* CompanySearchController.m in Sources */,
-				F9E502C5155E1B37001514E8 /* CompanySearchDataSource.m in Sources */,
 				F9E502C9155E1B73001514E8 /* main.m in Sources */,
 				F991163C155E33E500B1F8FD /* Model.xcdatamodeld in Sources */,
+				F9AAC122155E5D24005FC587 /* ConfirmationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

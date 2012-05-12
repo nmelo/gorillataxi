@@ -17,23 +17,15 @@
     [map from:@"*" toViewController:[TTWebController class]];
 
     [map from:@"db://signup" toViewController:[SignUpController class]];
-    [map from:@"db://leaveFeedback" toViewController:[LeaveFeedbackController class]];
-    
     [map from:@"db://home" toViewController:[HomeController class]];
-    
-    [map from:@"db://product/" toViewController:[ProductController class]];
-    [map from:@"db://company/(initWithID:)" toViewController:[CompanyController class]];
-    
+    [map from:@"db://product" toViewController:[ProductController class]];
     [map from:@"db://newProduct" toViewController:[NewProductController class]];
-    [map from:@"db://newFeedback/(initWithProdID:)" toViewController:[NewFeedbackController class]];
-    [map from:@"db://feedbackType/(initWithFeedbackID:)" toViewController:[FeedbackTypeController class]];
-    [map from:@"db://feedbackText/(initWithFeedbackID:)" toViewController:[FeedbackTextController class]];
-    
+    [map from:@"db://confirm" toViewController:[ConfirmationController class]];
     
     [[TTURLRequestQueue mainQueue] setMaxContentLength:0]; // Don't limit content length.	
     
     // Fire up the UI!
-	TTOpenURL(@"db://home");
+	TTOpenURL(@"db://signup");
     
 }
 

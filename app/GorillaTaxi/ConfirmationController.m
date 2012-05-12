@@ -6,9 +6,9 @@
 //  Copyright 2011 Hollowire Inc. All rights reserved.
 //
 
-#import "NewProductController.h"
+#import "ConfirmationController.h"
 
-@implementation NewProductController
+@implementation ConfirmationController
 
 @synthesize acceptButton;
 
@@ -29,17 +29,25 @@
     [self.view addSubview:headerBackgroundImage];
     [self.view sendSubviewToBack:headerBackgroundImage];
 
-    UIImage* accept_image = [UIImage imageNamed:@"accept.png"];
+    UIImage* accept_image = [UIImage imageNamed:@"confirm.png"];
     self.acceptButton = [UIButton buttonWithType:UIButtonTypeCustom];
     self.acceptButton.frame = CGRectMake(60, 260, 133, 38);
     [self.acceptButton setBackgroundImage:accept_image forState:UIControlStateNormal];
-    [self.acceptButton  addTarget:self action:@selector(accept_OnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.acceptButton  addTarget:self action:@selector(confirm_OnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:acceptButton];
 
 }
 
-- (void)accept_OnClick {
-    TTOpenURL(@"db://confirm");
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// IBActions
+- (void)confirm_OnClick {
+    TTOpenURL(@"db://newProduct");
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

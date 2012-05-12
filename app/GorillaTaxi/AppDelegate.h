@@ -10,6 +10,7 @@
 #import "ProductSearchController.h"
 
 #import "NewProductController.h"
+#import "ConfirmationController.h"
 #import "SignUpController.h"
 #import "LeaveFeedbackController.h"
 #import "NewFeedbackController.h"

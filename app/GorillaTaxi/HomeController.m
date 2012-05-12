@@ -34,11 +34,11 @@
 // IBActions
 - (void)drive_OnClick
 {
-    TTOpenURL(@"db://new");
+    TTOpenURL(@"db://product");
 }
 - (void)request_OnClick
 {
-    TTOpenURL(@"db://new");
+    TTOpenURL(@"db://product");
 }
 
 
