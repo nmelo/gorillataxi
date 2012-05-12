@@ -7,11 +7,11 @@
 //
 
 #import "NewProductController.h"
-#import "DisplayMap.h"
+#import "AppDelegate.h"
 
 @implementation NewProductController
 
-@synthesize acceptButton, map, txt;
+@synthesize acceptButton, map, txt, ann;
 
 CEPubnub *pubnub;
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -24,27 +24,7 @@ CEPubnub *pubnub;
 	[super loadView];
     
     self.navigationController.navigationBar.hidden = YES;
-    
-    UIImage* background = [UIImage imageNamed:@"GC_background.png"];
-	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
-	[headerBackgroundImage setImage:background];
-    [self.view addSubview:headerBackgroundImage];
-    [self.view sendSubviewToBack:headerBackgroundImage];
-
-    UIImage* accept_image = [UIImage imageNamed:@"accept.png"];
-    self.acceptButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.acceptButton.frame = CGRectMake(60, 340, 133, 38);
-    [self.acceptButton setBackgroundImage:accept_image forState:UIControlStateNormal];
-    [self.acceptButton  addTarget:self action:@selector(accept_OnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:acceptButton];
-
-    self.txt = [[UITextView alloc] initWithFrame:CGRectMake(20, 390, 280, 100)];
-    [self.view addSubview:txt];
-
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
+        
     // 1
     CLLocationCoordinate2D zoomLocation;
     zoomLocation.latitude = 25.781894;
@@ -52,7 +32,7 @@ CEPubnub *pubnub;
     // 2
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 0.5*METERS_PER_MILE, 0.5*METERS_PER_MILE);
     // 3
-    map = [[MKMapView alloc] initWithFrame:CGRectMake(20, 20, 280, 300)];
+    map = [[MKMapView alloc] initWithFrame:CGRectMake(0, 42, 320, 440)];
     MKCoordinateRegion adjustedRegion = [map regionThatFits:viewRegion];                
     [map setMapType:MKMapTypeStandard];
     [map setZoomEnabled:YES];
@@ -62,21 +42,117 @@ CEPubnub *pubnub;
     [map setRegion:adjustedRegion animated:YES];
     [self.view addSubview:map];
     
-    DisplayMap *ann = [[DisplayMap alloc] init]; 
-    ann.title = @" Kolkata";
-    ann.subtitle = @"Mahatma Gandhi Road"; 
+    ann = [[DisplayMap alloc] init]; 
+    ann.title = @"Hi";
+    ann.subtitle = @"hello";
     ann.coordinate = adjustedRegion.center; 
     [map addAnnotation:ann];
     
-    pubnub = [[CEPubnub alloc] initWithPublishKey:@"pub-94da0339-155d-4d8e-9f92-04901bd8ad70" subscribeKey:@"sub-1d545368-9c3f-11e1-b15f-0132dae9fae6" secretKey:@"sec-ZGQxZmJlNWEtYTA2Ni00YzBjLWE5YWMtZDkzZjg4MjgzOTU0"   cipherKey:@"demo" useSSL:NO];
-    //subscribe to a few channels
-    
-    [pubnub setDelegate:self];
-    
-    [pubnub subscribe: @"hello_world"];
+    UIImage* header = [UIImage imageNamed:@"header.png"];
+	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+	[headerBackgroundImage setImage:header];
+    [self.view addSubview:headerBackgroundImage];
+    [self.view sendSubviewToBack:headerBackgroundImage];    
+//    [self apiFQLIMe];
 
-    NSString * text=@"Hi there!!!";
-    [pubnub publish:[NSDictionary dictionaryWithObjectsAndKeys:@"hello_world",@"channel",text,@"message", nil]];
+//    self.txt = [[UITextView alloc] initWithFrame:CGRectMake(20, 390, 280, 100)];
+//    [self.view addSubview:txt];
+
+}
+
+/**
+ * Make a Graph API Call to get information about the current logged in user.
+ */
+- (void)apiFQLIMe {
+    // Using the "pic" picture since this currently has a maximum width of 100 pixels
+    // and since the minimum profile picture size is 180 pixels wide we should be able
+    // to get a 100 pixel wide version of the profile picture
+    NSMutableDictionary *params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+                                   @"SELECT uid, name, pic FROM user WHERE uid=me()", @"query",
+                                   nil];
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [[delegate facebook] requestWithMethodName:@"fql.query"
+                                     andParams:params
+                                 andHttpMethod:@"POST"
+                                   andDelegate:self];
+}
+
+- (void)apiGraphUserPermissions {
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [[delegate facebook] requestWithGraphPath:@"me/permissions" andDelegate:self];
+}
+
+
+/**
+ * Called when a request returns and its response has been parsed into
+ * an object.
+ *
+ * The resulting object may be a dictionary, an array or a string, depending
+ * on the format of the API response. If you need access to the raw response,
+ * use:
+ *
+ * (void)request:(FBRequest *)request
+ *      didReceiveResponse:(NSURLResponse *)response
+ */
+- (void)request:(FBRequest *)request didLoad:(id)result {
+    if ([result isKindOfClass:[NSArray class]]) {
+        result = [result objectAtIndex:0];
+    }
+    // This callback can be a result of getting the user's basic
+    // information or getting the user's permissions.
+    if ([result objectForKey:@"name"]) {
+        // If basic information callback, set the UI objects to
+        // display this.
+//        ann.title = [result objectForKey:@"name"];
+        // Get the profile image
+        UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[result objectForKey:@"pic"]]]];
+        
+        // Resize, crop the image to make sure it is square and renders
+        // well on Retina display
+        float ratio;
+        float delta;
+        float px = 100; // Double the pixels of the UIImageView (to render on Retina)
+        CGPoint offset;
+        CGSize size = image.size;
+        if (size.width > size.height) {
+            ratio = px / size.width;
+            delta = (ratio*size.width - ratio*size.height);
+            offset = CGPointMake(delta/2, 0);
+        } else {
+            ratio = px / size.height;
+            delta = (ratio*size.height - ratio*size.width);
+            offset = CGPointMake(0, delta/2);
+        }
+        CGRect clipRect = CGRectMake(-offset.x, -offset.y,
+                                     (ratio * size.width) + delta,
+                                     (ratio * size.height) + delta);
+        UIGraphicsBeginImageContext(CGSizeMake(px, px));
+        UIRectClip(clipRect);
+        [image drawInRect:clipRect];
+        UIImage *imgThumb = UIGraphicsGetImageFromCurrentImageContext();
+//        UIGraphicsEndImageContext();
+//        ann.image = imgThumb;
+        
+        [self apiGraphUserPermissions];
+    } else {
+        // Processing permissions information
+        AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+        [delegate setUserPermissions:[[result objectForKey:@"data"] objectAtIndex:0]];
+    }
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+        
+//    pubnub = [[CEPubnub alloc] initWithPublishKey:@"pub-94da0339-155d-4d8e-9f92-04901bd8ad70" subscribeKey:@"sub-1d545368-9c3f-11e1-b15f-0132dae9fae6" secretKey:@"sec-ZGQxZmJlNWEtYTA2Ni00YzBjLWE5YWMtZDkzZjg4MjgzOTU0"   cipherKey:@"demo" useSSL:NO];
+//    //subscribe to a few channels
+//    
+//    [pubnub setDelegate:self];
+//    
+//    [pubnub subscribe: @"hello_world"];
+//
+//    NSString * text=@"Hi there!!!";
+//    [pubnub publish:[NSDictionary dictionaryWithObjectsAndKeys:@"hello_world",@"channel",text,@"message", nil]];
 
 }
 
@@ -199,7 +275,7 @@ CEPubnub *pubnub;
         
         pinView.pinColor = MKPinAnnotationColorRed; 
         pinView.canShowCallout = YES;
-        pinView.animatesDrop = YES;
+        pinView.animatesDrop = NO;
     } 
     else {
         [map.userLocation setTitle:@"I am here"];

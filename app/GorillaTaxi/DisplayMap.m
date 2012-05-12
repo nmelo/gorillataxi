@@ -1,8 +1,9 @@
 #import "DisplayMap.h"
 
+
 @implementation DisplayMap
 
-@synthesize coordinate,title,subtitle;
+@synthesize coordinate,title,subtitle,image;
 
 -(void)dealloc{
     [title release];

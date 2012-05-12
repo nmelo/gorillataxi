@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>CFBundleDisplayName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleDocumentTypes</key>
@@ -16,6 +18,8 @@
 	<array>
 		<string>icon_retina_114.png</string>
 		<string>icon_retina_57.png</string>
+		<string>57x57 icon.png</string>
+		<string>114x114.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>
@@ -25,6 +29,8 @@
 			<array>
 				<string>icon_retina_114.png</string>
 				<string>icon_retina_57.png</string>
+				<string>57x57 icon.png</string>
+				<string>114x114.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<false/>
@@ -58,7 +64,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIPrerenderedIcon</key>
-	<true/>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

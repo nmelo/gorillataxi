@@ -8,11 +8,12 @@
 
 @interface ProductController : TTViewController <UIPickerViewDataSource, UIPickerViewDelegate>  {
     
-    IBOutlet TTLabel *productName;
-    IBOutlet TTLabel *modelName;
+    IBOutlet UIImageView *productName;
+    IBOutlet UIImageView *modelName;
+    IBOutlet UIImageView * getAride;
     IBOutlet UIButton *letsGoButton;
     IBOutlet UITextView *address;
-    IBOutlet UIPickerView *price;
+    IBOutlet UITextView *price;
     NSMutableArray *prices;
 
 }
@@ -20,10 +21,11 @@
 
 @property(nonatomic, retain) IBOutlet UIButton *letsGoButton;
 @property(nonatomic, retain) NSMutableArray *prices;
-@property(nonatomic, retain) IBOutlet TTLabel *productName;
-@property(nonatomic, retain) IBOutlet TTLabel *modelName;
+@property(nonatomic, retain) IBOutlet UIImageView *productName;
+@property(nonatomic, retain) IBOutlet UIImageView *modelName;
 @property(nonatomic, retain) IBOutlet UITextView *address;
-@property(nonatomic, retain) IBOutlet UIPickerView *price;
+@property(nonatomic, retain) IBOutlet UITextView *price;
+@property(nonatomic, retain) IBOutlet UIImageView * getAride;
 
 
 - (IBAction)letsGo_OnClick;

@@ -42,13 +42,7 @@
     [self.view addSubview:headerBackgroundImage];
     [self.view sendSubviewToBack:headerBackgroundImage];
     
-    UIImage* create_image = [UIImage imageNamed:@"create_app.png"];
-    self.createButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.createButton.frame = CGRectMake(500, 325, 92, 129);
-    [self.createButton setBackgroundImage:create_image forState:UIControlStateNormal];
-    [self.view addSubview:createButton];
-    
-    self.fbButton = [[FBLoginButton alloc] initWithFrame:CGRectMake(60, 325, 200, 47)];
+    self.fbButton = [[FBLoginButton alloc] initWithFrame:CGRectMake(42, 345, 238, 54)];
     [self.view addSubview:fbButton];
     
     self.fbButton.isLoggedIn = NO;

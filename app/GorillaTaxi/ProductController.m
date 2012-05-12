@@ -2,7 +2,7 @@
 
 @implementation ProductController
  
-@synthesize productName, modelName, address, price, prices, letsGoButton;
+@synthesize productName, modelName, address, price, prices, letsGoButton, getAride;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -17,47 +17,63 @@
 - (void)loadView {
     [super loadView];
     self.navigationController.navigationBar.hidden = YES;
-    
-    prices = [[NSMutableArray alloc] init];
-    [prices addObject:@"$5.00"];
-    [prices addObject:@"$10.00"];
-    [prices addObject:@"$15.00"];
-    [prices addObject:@"$20.00"];
-    [prices addObject:@"$25.00"];
-    [prices addObject:@"$30.00"];
-    [prices addObject:@"$35.00"];
-    
-    UIImage* background = [UIImage imageNamed:@"GC_background.png"];
-	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
-	[headerBackgroundImage setImage:background];
+        
+    UIImage* backgroundImage = [UIImage imageNamed:@"background_screen3.png"];
+	UIImageView* background = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	[background setImage:backgroundImage];
+    [self.view addSubview:background];
+    [self.view sendSubviewToBack:background];
+
+    UIImage* header = [UIImage imageNamed:@"header.png"];
+	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+	[headerBackgroundImage setImage:header];
     [self.view addSubview:headerBackgroundImage];
-    [self.view sendSubviewToBack:headerBackgroundImage];
     
-    productName = [[UILabel alloc] initWithFrame:CGRectMake(20, 28,145, 30)];
-    productName.text = @"I'm going to:";
-    productName.font = [UIFont boldSystemFontOfSize:17];
-    productName.backgroundColor = [UIColor clearColor];
-    [self.view addSubview:productName];
+    UIImage* getarideImage = [UIImage imageNamed:@"getaride.png"];
+    UIImageView* getaride = [[UIImageView alloc] initWithFrame:CGRectMake(100, 90,117, 19)];
+	[getaride setImage:getarideImage];
+    [self.view addSubview:getaride];
     
-    address = [[UITextView alloc] initWithFrame:CGRectMake(20, 60, 250, 40)];
+    UIImage* enteryourImage = [UIImage imageNamed:@"enteryour.png"];
+    UIImageView* enteryour = [[UIImageView alloc] initWithFrame:CGRectMake(20, 148,188, 15)];
+	[enteryour setImage:enteryourImage];
+    [self.view addSubview:enteryour];
+    
+    UIImage* willingtopayImage = [UIImage imageNamed:@"willingtopay.png"];
+    UIImageView* willingtopay = [[UIImageView alloc] initWithFrame:CGRectMake(20, 228,219, 15)];
+	[willingtopay setImage:willingtopayImage];
+    [self.view addSubview:willingtopay];
+
+    UIImage* faceImage = [UIImage imageNamed:@"face.png"];
+    UIImageView* face = [[UIImageView alloc] initWithFrame:CGRectMake(140, 320,33, 54)];
+	[face setImage:faceImage];
+    [self.view addSubview:face];
+    
+    address = [[UITextView alloc] initWithFrame:CGRectMake(20, 170, 250, 35)];
+    address.backgroundColor = [UIColor clearColor];
+     UIImageView *imgView = [[UIImageView alloc]initWithFrame: address.bounds];
+    [address setFont:[UIFont fontWithName:@"ArialMT" size:16]];
+    imgView.image = [UIImage imageNamed: @"textview1.png"];
+    [address addSubview: imgView];
+    [address sendSubviewToBack: imgView];
     [self.view addSubview:address]; 
     
-    modelName = [[UILabel alloc] initWithFrame:CGRectMake(20, 130,145,30)];
-    modelName.text = @"Willing to pay:";
-    modelName.backgroundColor = [UIColor clearColor];
-    [self.view addSubview:modelName];
+    price = [[UITextView alloc] initWithFrame:CGRectMake(20, 250, 110, 35)];
+    price.backgroundColor = [UIColor clearColor];
+    imgView = [[UIImageView alloc]initWithFrame: price.bounds];
+    [price setFont:[UIFont fontWithName:@"ArialMT" size:16]];
+    imgView.image = [UIImage imageNamed: @"textview2.png"];
+    [price addSubview: imgView];
+    [price sendSubviewToBack: imgView];
 
-    price = [[UIPickerView alloc] initWithFrame:CGRectMake(20, 170, 250, 200)];
-    [price setDelegate:self];
     [self.view addSubview:price]; 
     
-    UIImage* drive_image = [UIImage imageNamed:@"letsgo.png"];
+    UIImage* drive_image = [UIImage imageNamed:@"letsroll.png"];
     self.letsGoButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.letsGoButton.frame = CGRectMake(20, 360, 133, 38);
+    self.letsGoButton.frame = CGRectMake(60, 390, 203, 48);
     [self.letsGoButton setBackgroundImage:drive_image forState:UIControlStateNormal];
     [self.letsGoButton  addTarget:self action:@selector(letsGo_OnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:letsGoButton];
-
 
     
 }

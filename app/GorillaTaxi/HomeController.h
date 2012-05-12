@@ -4,14 +4,22 @@
 #import <RestKit/RestKit.h>
 #import <RestKit/CoreData/CoreData.h>
 #import <RestKit/Three20/Three20.h>
+#import <MapKit/MapKit.h>
+#import "DisplayMap.h"
 
-@interface HomeController : TTViewController{
+#define METERS_PER_MILE 1609.344
+
+@interface HomeController : TTViewController <MKMapViewDelegate>{
     UIButton *driveButton;
     UIButton *requestButton;
+    IBOutlet MKMapView *map;
+    DisplayMap * ann;
 }
 
 @property (nonatomic, retain) UIButton *driveButton;
 @property (nonatomic, retain) UIButton *requestButton;
+@property(nonatomic, retain) IBOutlet MKMapView *map;
+@property(nonatomic, retain) DisplayMap * ann;
 - (IBAction)drive_OnClick;
 - (IBAction)request_OnClick;
 @end
