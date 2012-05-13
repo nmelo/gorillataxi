@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F960C9A01371F56100793D86"
-               BuildableName = "app.app"
+               BuildableName = "GorillaCab.app"
                BlueprintName = "GorillaCab"
                ReferencedContainer = "container:GorillaCab.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F960C9CA1371F56200793D86"
-               BuildableName = "appTests.octest"
+               BuildableName = "GorillaCabTests.octest"
                BlueprintName = "GorillaCabTests"
                ReferencedContainer = "container:GorillaCab.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F960C9A01371F56100793D86"
-            BuildableName = "app.app"
+            BuildableName = "GorillaCab.app"
             BlueprintName = "GorillaCab"
             ReferencedContainer = "container:GorillaCab.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F960C9A01371F56100793D86"
-            BuildableName = "app.app"
+            BuildableName = "GorillaCab.app"
             BlueprintName = "GorillaCab"
             ReferencedContainer = "container:GorillaCab.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F960C9A01371F56100793D86"
-            BuildableName = "app.app"
+            BuildableName = "GorillaCab.app"
             BlueprintName = "GorillaCab"
             ReferencedContainer = "container:GorillaCab.xcodeproj">
          </BuildableReference>
@@ -93,6 +93,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "GorillaCap"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

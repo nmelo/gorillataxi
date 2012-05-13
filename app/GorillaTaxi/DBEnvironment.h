@@ -2,8 +2,8 @@
 //  DBEnvironment.h
 //  DiscussionBoard
 //
-//  Created by Daniel Hammond on 1/7/11.
-//  Copyright 2011 Two Toasters. All rights reserved.
+//  Created by Nelson Melo on 1/7/11.
+//  Copyright 2011 CodeModLabs LLC. All rights reserved.
 //
 
 /**
