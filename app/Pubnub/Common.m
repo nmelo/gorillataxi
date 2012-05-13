@@ -17,13 +17,12 @@
 
 
 - (NSString*) urlEscapedString {
-    return [(id)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (CFStringRef)self, NULL, CFSTR(":@/?&=+"),
-                                                        kCFStringEncodingUTF8) autorelease];
+    return (NSString*)(__bridge id)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (__bridge  CFStringRef)(self), NULL, CFSTR(":@/?&=+"), kCFStringEncodingUTF8);
 }
 
 - (NSString*) unescapeURLString {
-    return [(id)CFURLCreateStringByReplacingPercentEscapesUsingEncoding(kCFAllocatorDefault, (CFStringRef)self, CFSTR(""),
-                                                                        kCFStringEncodingUTF8) autorelease];
+    return (__bridge id)CFURLCreateStringByReplacingPercentEscapesUsingEncoding(kCFAllocatorDefault, (__bridge CFStringRef)self, CFSTR(""),
+                                                                        kCFStringEncodingUTF8);
 }
 - (BOOL) containsString:(NSString*)string {
     NSRange range = [self rangeOfString:string];
@@ -65,11 +64,8 @@
     
     // create a new CFStringRef (toll-free bridged to NSString)
     // that you own
-    NSString *uuidString = (NSString *)CFUUIDCreateString(kCFAllocatorDefault, uuid);
-    
-    // transfer ownership of the string
+    NSString *uuidString = (__bridge NSString *)CFUUIDCreateString(kCFAllocatorDefault, uuid);
     // to the autorelease pool
-    [uuidString autorelease];
     
     // release the UUID
     CFRelease(uuid);

@@ -1,15 +1,15 @@
 //
-//  GorillaCab Mobile App
+//  TrackerSampleViewController.m
+//  TrackerSample
 //
-//  Created by Nelson Melo on 5/11/12.
-//  Copyright 2012 CodeModLabs LLC. All rights reserved.
+//  Copyright (c) 2012 Geoloqi, Inc. All rights reserved.
 //
 
-#import "HomeController.h"
+#import "TrackerSampleViewController.h"
+#import "JSONKit.h"
 
-@implementation HomeController
 
-@synthesize driveButton, requestButton, map, ann, isDriver;
+@implementation TrackerSampleViewController
 
 @synthesize currentTrackingProfile;
 @synthesize pushNotificationStatus;
@@ -18,120 +18,7 @@
 @synthesize pushNotificationAlerts, pushNotificationBadges, pushNotificationSounds;
 @synthesize webview;
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// TTViewController
-- (id)initWithNavigatorURL:(NSURL*)URL query:(NSDictionary*)query {
-    return self;
-}
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-//TTTableViewController
-- (void)createModel {
-    
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// IBActions
-- (void)drive_OnClick
-{
-    UIAlertView *alert =
-    [[UIAlertView alloc] initWithTitle: @"Success"
-                               message: @"We'll notify you when a passenger requests a ride."
-                              delegate: self
-                     cancelButtonTitle: @"Done"
-                     otherButtonTitles: nil];
-    [alert show];
-    
-    isDriver = YES;
-
-}
-- (void)request_OnClick
-{
-//    TTOpenURL(@"db://product");
-}
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-//UIViewController
-- (void)loadView {
-    [super loadView];
-    self.navigationController.navigationBar.hidden = YES;
-    
-    UIImage* or = [UIImage imageNamed:@"or.png"];
-	UIImageView* orImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 400, 320, 83)];
-	[orImage setImage:or];
-    [self.view addSubview:orImage];
-    
-    UIImage* drive_image = [UIImage imageNamed:@"drive.png"];
-    self.driveButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.driveButton.frame = CGRectMake(20, 417, 111, 41);
-    [self.driveButton setBackgroundImage:drive_image forState:UIControlStateNormal];
-    [self.driveButton  addTarget:self action:@selector(drive_OnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:driveButton];
-
-    UIImage* request_image = [UIImage imageNamed:@"ride.png"];
-    self.requestButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.requestButton.frame = CGRectMake(188, 417, 111, 41);
-    [self.requestButton setBackgroundImage:request_image forState:UIControlStateNormal];
-    [self.requestButton  addTarget:self action:@selector(request_OnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:requestButton];
-    
-    // 1
-    CLLocationCoordinate2D zoomLocation;
-    zoomLocation.latitude = 25.781894;
-    zoomLocation.longitude= -80.190057;
-    // 2
-    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 0.5*METERS_PER_MILE, 0.5*METERS_PER_MILE);
-    // 3
-    map = [[MKMapView alloc] initWithFrame:CGRectMake(0, 42, 320, 358)];
-    MKCoordinateRegion adjustedRegion = [map regionThatFits:viewRegion];                
-    [map setMapType:MKMapTypeStandard];
-    [map setZoomEnabled:YES];
-    [map setScrollEnabled:YES];
-    [map setDelegate:self];
-    // 4
-    [map setRegion:adjustedRegion animated:YES];
-    [self.view addSubview:map];
-    
-    ann = [[DisplayMap alloc] init]; 
-    ann.title = @"Hi";
-    ann.subtitle = @"hello";
-    ann.coordinate = adjustedRegion.center; 
-    [map addAnnotation:ann];
-    
-    UIImage* header = [UIImage imageNamed:@"header.png"];
-	UIImageView* headerBackgroundImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
-	[headerBackgroundImage setImage:header];
-    [self.view addSubview:headerBackgroundImage];
-    [self.view sendSubviewToBack:headerBackgroundImage];
-    
-}
-
-#pragma mark -
-#pragma mark CEPubnubDelegate stuff
-
--(MKAnnotationView *)mapView:(MKMapView *)mV viewForAnnotation:(id <MKAnnotation>)annotation {
-    MKPinAnnotationView *pinView = nil; 
-    if(annotation != map.userLocation) 
-    {
-        static NSString *defaultPinID = @"com.invasivecode.pin";
-        pinView = (MKPinAnnotationView *)[map dequeueReusableAnnotationViewWithIdentifier:defaultPinID];
-        if ( pinView == nil ) pinView = [[MKPinAnnotationView alloc]
-                                          initWithAnnotation:annotation reuseIdentifier:defaultPinID];
-        
-        pinView.pinColor = MKPinAnnotationColorRed; 
-        pinView.canShowCallout = YES;
-        pinView.animatesDrop = NO;
-    } 
-    else {
-        [map.userLocation setTitle:@"I am here"];
-    }
-    return pinView;
-}
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Geolooqi
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -164,7 +51,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    
+
     // Tell the SDK the user is currently interacting with the app, which gives it a chance to re-register location updates if needed
     [[LQTracker sharedTracker] appDidBecomeActive];
 }
@@ -274,52 +161,56 @@
 {
     NSLog(@"Create link action starting.");
     
-     NSMutableDictionary *groupObject = [[NSMutableDictionary alloc] init];
-     
-//     [groupDictionary setObject:@"Ride" forKey:@"title"];
-//     [groupDictionary setObject:@"open" forKey:@"visibility"];
-//     [groupDictionary setObject:@"open" forKey:@"publish_access"];
-     
-     
-//     NSURLRequest *createGroupRequest = [[LQSession savedSession] requestWithMethod:@"POST" path:@"/group/create" payload:[groupObject JSONData]];
-//     
-//     [[LQSession savedSession] runAPIRequest:createGroupRequest completion:^(NSHTTPURLResponse *response, NSDictionary *responseDictionary, NSError *error){
-//     NSLog(@"Response: %@ error%@", responseDictionary, error);
-//     if(error)
-//     {
-//     self.currentLocationField.text = [error localizedDescription];
-//     }
-//     }];
-     
-//     {
-//     "group_token" = ff9UkfH1L;
-//     }
+     /*
+    NSMutableDictionary *groupObject = [[NSMutableDictionary alloc] init];
     
+    [groupDictionary setObject:@"Ride" forKey:@"title"];
+    [groupDictionary setObject:@"open" forKey:@"visibility"];
+    [groupDictionary setObject:@"open" forKey:@"publish_access"];
+
+   
+    NSURLRequest *createGroupRequest = [[LQSession savedSession] requestWithMethod:@"POST" path:@"/group/create" payload:[groupObject JSONData]];
+    
+    [[LQSession savedSession] runAPIRequest:createGroupRequest completion:^(NSHTTPURLResponse *response, NSDictionary *responseDictionary, NSError *error){
+        NSLog(@"Response: %@ error%@", responseDictionary, error);
+        if(error)
+        {
+            self.currentLocationField.text = [error localizedDescription];
+        }
+    }];
+     
+     {
+     "group_token" = ff9UkfH1L;
+     }
+    */
+    
+    /*
     NSURLRequest *createLinkRequest = [[LQSession savedSession] requestWithMethod:@"POST" path:@"/link/create" payload:nil];
-     
-     [[LQSession savedSession] runAPIRequest:createLinkRequest completion:^(NSHTTPURLResponse *response, NSDictionary *responseDictionary, NSError *error){
-     NSLog(@"Response: %@ error%@", responseDictionary, error);
-     if(error)
-     {
-     self.currentLocationField.text = [error localizedDescription];
-     }
-     else
-     {
-     NSString *token = [responseDictionary objectForKey:@"token"];
-     
-     
-     }
-     
-     }];
-//     
-//     {
-//     "can_facebook" = 0;
-//     "can_tweet" = 0;
-//     link = "https://geoloqi.com/_1UBwK1i94uvwD33FH/x_ihrV4";
-//     shortlink = "http://loqi.me/x_ihrV4";
-//     token = "x_ihrV4";
-//     } 
-//     
+    
+    [[LQSession savedSession] runAPIRequest:createLinkRequest completion:^(NSHTTPURLResponse *response, NSDictionary *responseDictionary, NSError *error){
+        NSLog(@"Response: %@ error%@", responseDictionary, error);
+        if(error)
+        {
+            self.currentLocationField.text = [error localizedDescription];
+        }
+        else
+        {
+            NSString *token = [responseDictionary objectForKey:@"token"];
+            
+
+        }
+
+    }];
+    
+    {
+        "can_facebook" = 0;
+        "can_tweet" = 0;
+        link = "https://geoloqi.com/_1UBwK1i94uvwD33FH/x_ihrV4";
+        shortlink = "http://loqi.me/x_ihrV4";
+        token = "x_ihrV4";
+    } 
+    
+    */
     
     
     //NSString *shareToken = [[NSString alloc] initWithFormat:@"share_token=%@", @"2134"];
@@ -338,7 +229,7 @@
     }];
     
     NSString *path = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"map.html"];
-    
+
     if([[NSFileManager defaultManager] fileExistsAtPath:path])
     {
         NSString *html = [NSString stringWithContentsOfFile:path
@@ -347,14 +238,6 @@
         
         [self.webview loadHTMLString:html baseURL:nil];
     }
-}
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// NSObject
-- (void)dealloc {
- 
 }
 
 

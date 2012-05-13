@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F908BB7D155E1367005FF4E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F908BB7C155E1367005FF4E8 /* Default@2x.png */; };
-		F908BB7F155E136A005FF4E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F908BB7E155E1369005FF4E8 /* Default.png */; };
 		F9120CB1155ECD3100E76A61 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9120CB0155ECD3000E76A61 /* CoreLocation.framework */; };
 		F9120CBD155EEB0E00E76A61 /* 57x57 icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120CBA155EEB0E00E76A61 /* 57x57 icon.png */; };
 		F9120CBE155EEB0E00E76A61 /* 75x75.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120CBB155EEB0E00E76A61 /* 75x75.png */; };
 		F9120CBF155EEB0E00E76A61 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120CBC155EEB0E00E76A61 /* 114x114.png */; };
 		F9120CF2155EED0D00E76A61 /* GorillaCab-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9120CF1155EED0D00E76A61 /* GorillaCab-Info.plist */; };
-		F9120CF6155EEDC100E76A61 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9120CF3155EEDC100E76A61 /* libThree20Core.a */; };
-		F9120CF7155EEDC100E76A61 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9120CF4155EEDC100E76A61 /* libThree20Network.a */; };
-		F9120CF8155EEDC100E76A61 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9120CF5155EEDC100E76A61 /* libThree20Style.a */; };
 		F9120CFD155EEF7A00E76A61 /* drive.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120CF9155EEF7A00E76A61 /* drive.png */; };
 		F9120CFE155EEF7A00E76A61 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120CFA155EEF7A00E76A61 /* header.png */; };
 		F9120CFF155EEF7A00E76A61 /* or.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120CFB155EEF7A00E76A61 /* or.png */; };
@@ -36,35 +31,17 @@
 		F9120D1D155F0DF700E76A61 /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120D1B155F0DF700E76A61 /* pass.png */; };
 		F9120D1E155F0DF700E76A61 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = F9120D1C155F0DF700E76A61 /* accept.png */; };
 		F92F4D2D13F1856A002421FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F4D2C13F1856A002421FC /* QuartzCore.framework */; };
+		F94E18651560257600A1A0FE /* map.html in Resources */ = {isa = PBXBuildFile; fileRef = F94E18641560257500A1A0FE /* map.html */; };
 		F9580AAD13F1831A007A5ABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9580AAC13F1831A007A5ABE /* UIKit.framework */; };
 		F9580AAF13F18375007A5ABE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9580AAE13F18375007A5ABE /* CoreGraphics.framework */; };
 		F95D647213F0849E00DA9054 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F95D647113F0849E00DA9054 /* FBConnect.bundle */; };
-		F95D647413F084C500DA9054 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F95D647313F084C500DA9054 /* Three20.bundle */; };
 		F95D64E213F0857F00DA9054 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D64D913F0857E00DA9054 /* CFNetwork.framework */; };
 		F95D64E313F0857F00DA9054 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D64DA13F0857E00DA9054 /* CoreData.framework */; };
 		F95D64E513F0857F00DA9054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D64DC13F0857E00DA9054 /* Foundation.framework */; };
-		F95D64E613F0857F00DA9054 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D64DD13F0857E00DA9054 /* libxml2.dylib */; };
 		F95D64E713F0857F00DA9054 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D64DE13F0857E00DA9054 /* MobileCoreServices.framework */; };
 		F95D64E913F0857F00DA9054 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D64E013F0857E00DA9054 /* SystemConfiguration.framework */; };
 		F991162D155E335400B1F8FD /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D647013F0849300DA9054 /* libfacebook_ios_sdk.a */; };
-		F991162E155E335400B1F8FD /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D643213F0847D00DA9054 /* libRestKitCoreData.a */; };
-		F991162F155E335400B1F8FD /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D642E13F0847D00DA9054 /* libRestKitJSONParserJSONKit.a */; };
-		F9911630155E335400B1F8FD /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D642413F0847D00DA9054 /* libRestKitNetwork.a */; };
-		F9911631155E335400B1F8FD /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D642613F0847D00DA9054 /* libRestKitObjectMapping.a */; };
-		F9911632155E335400B1F8FD /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D642813F0847D00DA9054 /* libRestKitSupport.a */; };
-		F9911633155E335400B1F8FD /* libRestKitThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D643413F0847D00DA9054 /* libRestKitThree20.a */; };
-		F9911634155E335400B1F8FD /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D646413F0848A00DA9054 /* libThree20.a */; };
-		F9911638155E335400B1F8FD /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96128F114E9FAF300619AB7 /* libThree20UI.a */; };
-		F9911639155E335400B1F8FD /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96128E114E9FAF200619AB7 /* libThree20UICommon.a */; };
-		F991163A155E335400B1F8FD /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96128E914E9FAF300619AB7 /* libThree20UINavigator.a */; };
-		F991163C155E33E500B1F8FD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F991163B155E33E500B1F8FD /* Model.xcdatamodeld */; };
 		F997D755155EA79B00BDC4EA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997D754155EA79B00BDC4EA /* MapKit.framework */; };
-		F997D7A5155EB51F00BDC4EA /* CEPubnub.m in Sources */ = {isa = PBXBuildFile; fileRef = F997D799155EB51F00BDC4EA /* CEPubnub.m */; };
-		F997D7A6155EB51F00BDC4EA /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F997D79B155EB51F00BDC4EA /* Common.m */; };
-		F997D7A7155EB51F00BDC4EA /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F997D79D155EB51F00BDC4EA /* Base64.m */; };
-		F997D7A8155EB51F00BDC4EA /* Cipher.m in Sources */ = {isa = PBXBuildFile; fileRef = F997D7A0155EB51F00BDC4EA /* Cipher.m */; };
-		F997D7A9155EB51F00BDC4EA /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F997D7A3155EB51F00BDC4EA /* JSON.m */; };
-		F997D7AC155EBF6C00BDC4EA /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F997D7AB155EBF6C00BDC4EA /* JSONKit.m */; };
 		F997D7B0155EC33E00BDC4EA /* DisplayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F997D7AF155EC33E00BDC4EA /* DisplayMap.m */; };
 		F997D7B5155EC9B300BDC4EA /* GC_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F997D7B1155EC9B300BDC4EA /* GC_background.png */; };
 		F997D7B6155EC9B300BDC4EA /* GC_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F997D7B2155EC9B300BDC4EA /* GC_button_pressed.png */; };
@@ -72,141 +49,31 @@
 		F997D7B8155EC9B300BDC4EA /* GC_illustration.png in Resources */ = {isa = PBXBuildFile; fileRef = F997D7B4155EC9B300BDC4EA /* GC_illustration.png */; };
 		F997D7BA155ECA6200BDC4EA /* GC_background_login.png in Resources */ = {isa = PBXBuildFile; fileRef = F997D7B9155ECA6100BDC4EA /* GC_background_login.png */; };
 		F9AAC11F155E5C92005FC587 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AAC11E155E5C92005FC587 /* accept.png */; };
-		F9AAC122155E5D24005FC587 /* ConfirmationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AAC121155E5D23005FC587 /* ConfirmationController.m */; };
+		F9AAC122155E5D24005FC587 /* RideConfirmationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AAC121155E5D23005FC587 /* RideConfirmationController.m */; };
 		F9AAC124155E5D8D005FC587 /* confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AAC123155E5D8D005FC587 /* confirm.png */; };
 		F9B5E9EE155E3BC600DCBDAD /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E9ED155E3BC600DCBDAD /* FBDialog.bundle */; };
 		F9B5E9F0155E3DE600DCBDAD /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E9EF155E3DE600DCBDAD /* facebook_login.png */; };
 		F9B5E9F2155E3E4200DCBDAD /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E9F1155E3E4200DCBDAD /* background.jpg */; };
 		F9B5E9F4155E40E900DCBDAD /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B5E9F3155E40E900DCBDAD /* logo2.png */; };
-		F9E50261155E1A2F001514E8 /* DBEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5025E155E1A2F001514E8 /* DBEnvironment.m */; };
-		F9E50262155E1A2F001514E8 /* DBManagedObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50260155E1A2F001514E8 /* DBManagedObjectCache.m */; };
-		F9E50265155E1A3C001514E8 /* QSStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50264155E1A3C001514E8 /* QSStrings.m */; };
+		F9DB889C155F6ECE00826EA3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DB889B155F6ECE00826EA3 /* libsqlite3.dylib */; };
 		F9E50268155E1A53001514E8 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50267155E1A53001514E8 /* FBLoginButton.m */; };
-		F9E5026F155E1A68001514E8 /* DefaultStylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5026A155E1A68001514E8 /* DefaultStylesheet.m */; };
-		F9E50270155E1A68001514E8 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5026C155E1A68001514E8 /* ImageDownloader.m */; };
-		F9E50271155E1A68001514E8 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5026E155E1A68001514E8 /* JSONHelper.m */; };
-		F9E50284155E1A76001514E8 /* DBCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50273155E1A76001514E8 /* DBCompany.m */; };
-		F9E50285155E1A76001514E8 /* DBCompanyFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50275155E1A76001514E8 /* DBCompanyFeedback.m */; };
-		F9E50287155E1A76001514E8 /* DBFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50279155E1A76001514E8 /* DBFeedback.m */; };
-		F9E50289155E1A76001514E8 /* DBProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5027D155E1A76001514E8 /* DBProduct.m */; };
-		F9E5028A155E1A76001514E8 /* DBProductFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5027F155E1A76001514E8 /* DBProductFeedback.m */; };
-		F9E5028B155E1A76001514E8 /* DBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50281155E1A76001514E8 /* DBUser.m */; };
-		F9E5028C155E1A76001514E8 /* DBVote.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50283155E1A76001514E8 /* DBVote.m */; };
 		F9E5028F155E1A84001514E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E5028E155E1A84001514E8 /* AppDelegate.m */; };
 		F9E50295155E1A94001514E8 /* SignUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50293155E1A94001514E8 /* SignUpController.m */; };
 		F9E5029A155E1AA6001514E8 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E50297155E1AA6001514E8 /* HomeController.m */; };
-		F9E502A1155E1AC0001514E8 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502A0155E1AC0001514E8 /* ProductController.m */; };
-		F9E502BC155E1AF7001514E8 /* NewProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502B8155E1AF7001514E8 /* NewProductController.m */; };
+		F9E502A1155E1AC0001514E8 /* RideDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502A0155E1AC0001514E8 /* RideDetailsController.m */; };
+		F9E502BC155E1AF7001514E8 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502B8155E1AF7001514E8 /* NavigationController.m */; };
 		F9E502C9155E1B73001514E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E502C8155E1B73001514E8 /* main.m */; };
 		F9FDF5FD155E472B006D9CEA /* drive.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FDF5FB155E472B006D9CEA /* drive.png */; };
 		F9FDF5FE155E472B006D9CEA /* request.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FDF5FC155E472B006D9CEA /* request.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F95D642313F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 253A07FC1255161B00976E89;
-			remoteInfo = RestKitNetwork;
-		};
-		F95D642513F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 253A08031255162C00976E89;
-			remoteInfo = RestKitObjectMapping;
-		};
-		F95D642713F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 253A080C12551D3000976E89;
-			remoteInfo = RestKitSupport;
-		};
-		F95D642913F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2590E64F125231F600531FA8;
-			remoteInfo = "RestKitJSONParser+YAJL";
-		};
-		F95D642B13F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2590E66B1252353700531FA8;
-			remoteInfo = "RestKitJSONParser+SBJSON";
-		};
-		F95D642D13F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 73057FD11331AD2E001908EE;
-			remoteInfo = "RestKitJSONParser+JSONKit";
-		};
-		F95D642F13F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25BD43BD1340315800DBACDD;
-			remoteInfo = "RestKitXMLParser+Libxml";
-		};
-		F95D643113F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 253A081412551D5300976E89;
-			remoteInfo = RestKitCoreData;
-		};
-		F95D643313F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2523360511E79F090048F9B4;
-			remoteInfo = RestKitThree20;
-		};
-		F95D643513F0847D00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3F6C39A510FE5C95008F47C5;
-			remoteInfo = UISpec;
-		};
-		F95D646313F0848A00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D643813F0848800DA9054 /* Three20.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
-			remoteInfo = Three20;
-		};
-		F95D646513F0848A00DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D643813F0848800DA9054 /* Three20.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
-			remoteInfo = Three20UnitTests;
-		};
 		F95D646F13F0849300DA9054 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F95D646813F0849300DA9054 /* facebook-ios-sdk.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = "facebook-ios-sdk";
-		};
-		F95D64AF13F0851400DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D643813F0848800DA9054 /* Three20.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
-			remoteInfo = Three20;
-		};
-		F95D64B513F0851400DA9054 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 255B7588133BABBF00ED76AD;
-			remoteInfo = RestKit;
 		};
 		F95D64B713F0851400DA9054 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -222,61 +89,14 @@
 			remoteGlobalIDString = F960C9A01371F56100793D86;
 			remoteInfo = Frankly;
 		};
-		F96128E014E9FAF200619AB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D647813F084D900DA9054 /* Three20UICommon.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
-			remoteInfo = Three20UICommon;
-		};
-		F96128E214E9FAF200619AB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D647813F084D900DA9054 /* Three20UICommon.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
-			remoteInfo = Three20UICommonUnitTests;
-		};
-		F96128E814E9FAF300619AB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D647913F084D900DA9054 /* Three20UINavigator.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
-			remoteInfo = Three20UINavigator;
-		};
-		F96128EA14E9FAF300619AB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D647913F084D900DA9054 /* Three20UINavigator.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
-			remoteInfo = Three20UINavigatorUnitTests;
-		};
-		F96128F014E9FAF300619AB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D647A13F084D900DA9054 /* Three20UI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
-			remoteInfo = Three20UI;
-		};
-		F96128F214E9FAF300619AB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95D647A13F084D900DA9054 /* Three20UI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
-			remoteInfo = Three20UIUnitTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F908BB7C155E1367005FF4E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F908BB7E155E1369005FF4E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F9120CB0155ECD3000E76A61 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F9120CBA155EEB0E00E76A61 /* 57x57 icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57x57 icon.png"; sourceTree = SOURCE_ROOT; };
 		F9120CBB155EEB0E00E76A61 /* 75x75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 75x75.png; sourceTree = SOURCE_ROOT; };
 		F9120CBC155EEB0E00E76A61 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = SOURCE_ROOT; };
 		F9120CF1155EED0D00E76A61 /* GorillaCab-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GorillaCab-Info.plist"; path = "GorillaTaxi/GorillaCab-Info.plist"; sourceTree = SOURCE_ROOT; };
-		F9120CF3155EEDC100E76A61 /* libThree20Core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libThree20Core.a; path = "../Three20/Build/Products/Release-iphoneos/libThree20Core.a"; sourceTree = "<group>"; };
-		F9120CF4155EEDC100E76A61 /* libThree20Network.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libThree20Network.a; path = "../Three20/Build/Products/Release-iphoneos/libThree20Network.a"; sourceTree = "<group>"; };
-		F9120CF5155EEDC100E76A61 /* libThree20Style.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libThree20Style.a; path = "../Three20/Build/Products/Release-iphoneos/libThree20Style.a"; sourceTree = "<group>"; };
 		F9120CF9155EEF7A00E76A61 /* drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drive.png; path = Resources/drive.png; sourceTree = SOURCE_ROOT; };
 		F9120CFA155EEF7A00E76A61 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = Resources/header.png; sourceTree = SOURCE_ROOT; };
 		F9120CFB155EEF7A00E76A61 /* or.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = or.png; path = Resources/or.png; sourceTree = SOURCE_ROOT; };
@@ -298,37 +118,21 @@
 		F9120D1B155F0DF700E76A61 /* pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pass.png; path = Resources/pass.png; sourceTree = SOURCE_ROOT; };
 		F9120D1C155F0DF700E76A61 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accept.png; path = Resources/accept.png; sourceTree = SOURCE_ROOT; };
 		F92F4D2C13F1856A002421FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F94E18641560257500A1A0FE /* map.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = map.html; path = Resources/map.html; sourceTree = SOURCE_ROOT; };
+		F94E18661560258400A1A0FE /* LQConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LQConfig.h; path = GeoloqiSDK/LQConfig.h; sourceTree = SOURCE_ROOT; };
+		F94E186D156027E600A1A0FE /* GorillaTaxi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GorillaTaxi-Prefix.pch"; path = "GorillaTaxi/GorillaTaxi-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		F9580AAC13F1831A007A5ABE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F9580AAE13F18375007A5ABE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = SOURCE_ROOT; };
-		F95D643813F0848800DA9054 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = Three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		F95D646813F0849300DA9054 /* facebook-ios-sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "facebook-ios-sdk.xcodeproj"; path = "IPhoneiOsSDK/src/facebook-ios-sdk.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		F95D647113F0849E00DA9054 /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = IPhoneiOsSDK/sample/FBConnect.bundle; sourceTree = SOURCE_ROOT; };
-		F95D647313F084C500DA9054 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = Three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
-		F95D647813F084D900DA9054 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = Three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
-		F95D647913F084D900DA9054 /* Three20UINavigator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UINavigator.xcodeproj; path = Three20/src/Three20UINavigator/Three20UINavigator.xcodeproj; sourceTree = SOURCE_ROOT; };
-		F95D647A13F084D900DA9054 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = Three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		F95D64D913F0857E00DA9054 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F95D64DA13F0857E00DA9054 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F95D64DC13F0857E00DA9054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F95D64DD13F0857E00DA9054 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		F95D64DE13F0857E00DA9054 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F95D64E013F0857E00DA9054 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F960C9A11371F56100793D86 /* GorillaCab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GorillaCab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F960C9CB1371F56200793D86 /* GorillaCabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GorillaCabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997D754155EA79B00BDC4EA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		F997D799155EB51F00BDC4EA /* CEPubnub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEPubnub.m; path = Pubnub/CEPubnub.m; sourceTree = SOURCE_ROOT; };
-		F997D79B155EB51F00BDC4EA /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Pubnub/Common.m; sourceTree = SOURCE_ROOT; };
-		F997D79C155EB51F00BDC4EA /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Pubnub/Base64.h; sourceTree = SOURCE_ROOT; };
-		F997D79D155EB51F00BDC4EA /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Pubnub/Base64.m; sourceTree = SOURCE_ROOT; };
-		F997D79E155EB51F00BDC4EA /* CEPubnub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEPubnub.h; path = Pubnub/CEPubnub.h; sourceTree = SOURCE_ROOT; };
-		F997D79F155EB51F00BDC4EA /* Cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cipher.h; path = Pubnub/Cipher.h; sourceTree = SOURCE_ROOT; };
-		F997D7A0155EB51F00BDC4EA /* Cipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cipher.m; path = Pubnub/Cipher.m; sourceTree = SOURCE_ROOT; };
-		F997D7A1155EB51F00BDC4EA /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Pubnub/Common.h; sourceTree = SOURCE_ROOT; };
-		F997D7A2155EB51F00BDC4EA /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = Pubnub/JSON.h; sourceTree = SOURCE_ROOT; };
-		F997D7A3155EB51F00BDC4EA /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSON.m; path = Pubnub/JSON.m; sourceTree = SOURCE_ROOT; };
-		F997D7AA155EBF6C00BDC4EA /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = Pubnub/JSONKit.h; sourceTree = SOURCE_ROOT; };
-		F997D7AB155EBF6C00BDC4EA /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = Pubnub/JSONKit.m; sourceTree = SOURCE_ROOT; };
 		F997D7AE155EC33D00BDC4EA /* DisplayMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayMap.h; path = GorillaTaxi/DisplayMap.h; sourceTree = SOURCE_ROOT; };
 		F997D7AF155EC33E00BDC4EA /* DisplayMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayMap.m; path = GorillaTaxi/DisplayMap.m; sourceTree = SOURCE_ROOT; };
 		F997D7B1155EC9B300BDC4EA /* GC_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GC_background.png; path = Resources/GC_background.png; sourceTree = SOURCE_ROOT; };
@@ -337,53 +141,32 @@
 		F997D7B4155EC9B300BDC4EA /* GC_illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GC_illustration.png; path = Resources/GC_illustration.png; sourceTree = SOURCE_ROOT; };
 		F997D7B9155ECA6100BDC4EA /* GC_background_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GC_background_login.png; path = Resources/GC_background_login.png; sourceTree = SOURCE_ROOT; };
 		F9AAC11E155E5C92005FC587 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accept.png; path = Resources/accept.png; sourceTree = SOURCE_ROOT; };
-		F9AAC120155E5D23005FC587 /* ConfirmationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmationController.h; path = GorillaTaxi/ConfirmationController.h; sourceTree = SOURCE_ROOT; };
-		F9AAC121155E5D23005FC587 /* ConfirmationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmationController.m; path = GorillaTaxi/ConfirmationController.m; sourceTree = SOURCE_ROOT; };
+		F9AAC120155E5D23005FC587 /* RideConfirmationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RideConfirmationController.h; path = GorillaTaxi/RideConfirmationController.h; sourceTree = SOURCE_ROOT; };
+		F9AAC121155E5D23005FC587 /* RideConfirmationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RideConfirmationController.m; path = GorillaTaxi/RideConfirmationController.m; sourceTree = SOURCE_ROOT; };
 		F9AAC123155E5D8D005FC587 /* confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confirm.png; path = Resources/confirm.png; sourceTree = SOURCE_ROOT; };
 		F9B5E9ED155E3BC600DCBDAD /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = SOURCE_ROOT; };
 		F9B5E9EF155E3DE600DCBDAD /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_login.png; path = Resources/facebook_login.png; sourceTree = SOURCE_ROOT; };
 		F9B5E9F1155E3E4200DCBDAD /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = Resources/background.jpg; sourceTree = SOURCE_ROOT; };
 		F9B5E9F3155E40E900DCBDAD /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo2.png; path = Resources/logo2.png; sourceTree = SOURCE_ROOT; };
-		F9E5025D155E1A2F001514E8 /* DBEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBEnvironment.h; path = GorillaTaxi/DBEnvironment.h; sourceTree = SOURCE_ROOT; };
-		F9E5025E155E1A2F001514E8 /* DBEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBEnvironment.m; path = GorillaTaxi/DBEnvironment.m; sourceTree = SOURCE_ROOT; };
-		F9E5025F155E1A2F001514E8 /* DBManagedObjectCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManagedObjectCache.h; path = GorillaTaxi/DBManagedObjectCache.h; sourceTree = SOURCE_ROOT; };
-		F9E50260155E1A2F001514E8 /* DBManagedObjectCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManagedObjectCache.m; path = GorillaTaxi/DBManagedObjectCache.m; sourceTree = SOURCE_ROOT; };
-		F9E50263155E1A3C001514E8 /* QSStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSStrings.h; path = GorillaTaxi/QSStrings.h; sourceTree = SOURCE_ROOT; };
-		F9E50264155E1A3C001514E8 /* QSStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSStrings.m; path = GorillaTaxi/QSStrings.m; sourceTree = SOURCE_ROOT; };
+		F9DB888B155F6DD100826EA3 /* Geoloqi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geoloqi.h; sourceTree = "<group>"; };
+		F9DB888E155F6DD100826EA3 /* LQError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQError.h; sourceTree = "<group>"; };
+		F9DB888F155F6DD100826EA3 /* LQSDKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSDKVersion.h; sourceTree = "<group>"; };
+		F9DB8890155F6DD100826EA3 /* LQSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSession.h; sourceTree = "<group>"; };
+		F9DB8891155F6DD100826EA3 /* LQTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQTracker.h; sourceTree = "<group>"; };
+		F9DB889B155F6ECE00826EA3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F9E50266155E1A53001514E8 /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginButton.h; path = GorillaTaxi/FBLoginButton.h; sourceTree = SOURCE_ROOT; };
 		F9E50267155E1A53001514E8 /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginButton.m; path = GorillaTaxi/FBLoginButton.m; sourceTree = SOURCE_ROOT; };
-		F9E50269155E1A68001514E8 /* DefaultStylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultStylesheet.h; path = GorillaTaxi/DefaultStylesheet.h; sourceTree = SOURCE_ROOT; };
-		F9E5026A155E1A68001514E8 /* DefaultStylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefaultStylesheet.m; path = GorillaTaxi/DefaultStylesheet.m; sourceTree = SOURCE_ROOT; };
-		F9E5026B155E1A68001514E8 /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageDownloader.h; path = GorillaTaxi/ImageDownloader.h; sourceTree = SOURCE_ROOT; };
-		F9E5026C155E1A68001514E8 /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageDownloader.m; path = GorillaTaxi/ImageDownloader.m; sourceTree = SOURCE_ROOT; };
-		F9E5026D155E1A68001514E8 /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONHelper.h; path = GorillaTaxi/JSONHelper.h; sourceTree = SOURCE_ROOT; };
-		F9E5026E155E1A68001514E8 /* JSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHelper.m; path = GorillaTaxi/JSONHelper.m; sourceTree = SOURCE_ROOT; };
-		F9E50272155E1A76001514E8 /* DBCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBCompany.h; path = GorillaTaxi/DBCompany.h; sourceTree = SOURCE_ROOT; };
-		F9E50273155E1A76001514E8 /* DBCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBCompany.m; path = GorillaTaxi/DBCompany.m; sourceTree = SOURCE_ROOT; };
-		F9E50274155E1A76001514E8 /* DBCompanyFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBCompanyFeedback.h; path = GorillaTaxi/DBCompanyFeedback.h; sourceTree = SOURCE_ROOT; };
-		F9E50275155E1A76001514E8 /* DBCompanyFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBCompanyFeedback.m; path = GorillaTaxi/DBCompanyFeedback.m; sourceTree = SOURCE_ROOT; };
-		F9E50278155E1A76001514E8 /* DBFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBFeedback.h; path = GorillaTaxi/DBFeedback.h; sourceTree = SOURCE_ROOT; };
-		F9E50279155E1A76001514E8 /* DBFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBFeedback.m; path = GorillaTaxi/DBFeedback.m; sourceTree = SOURCE_ROOT; };
-		F9E5027C155E1A76001514E8 /* DBProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBProduct.h; path = GorillaTaxi/DBProduct.h; sourceTree = SOURCE_ROOT; };
-		F9E5027D155E1A76001514E8 /* DBProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBProduct.m; path = GorillaTaxi/DBProduct.m; sourceTree = SOURCE_ROOT; };
-		F9E5027E155E1A76001514E8 /* DBProductFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBProductFeedback.h; path = GorillaTaxi/DBProductFeedback.h; sourceTree = SOURCE_ROOT; };
-		F9E5027F155E1A76001514E8 /* DBProductFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBProductFeedback.m; path = GorillaTaxi/DBProductFeedback.m; sourceTree = SOURCE_ROOT; };
-		F9E50280155E1A76001514E8 /* DBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBUser.h; path = GorillaTaxi/DBUser.h; sourceTree = SOURCE_ROOT; };
-		F9E50281155E1A76001514E8 /* DBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBUser.m; path = GorillaTaxi/DBUser.m; sourceTree = SOURCE_ROOT; };
-		F9E50282155E1A76001514E8 /* DBVote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBVote.h; path = GorillaTaxi/DBVote.h; sourceTree = SOURCE_ROOT; };
-		F9E50283155E1A76001514E8 /* DBVote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBVote.m; path = GorillaTaxi/DBVote.m; sourceTree = SOURCE_ROOT; };
 		F9E5028D155E1A84001514E8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GorillaTaxi/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		F9E5028E155E1A84001514E8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GorillaTaxi/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		F9E50292155E1A94001514E8 /* SignUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpController.h; path = GorillaTaxi/SignUpController.h; sourceTree = SOURCE_ROOT; };
 		F9E50293155E1A94001514E8 /* SignUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpController.m; path = GorillaTaxi/SignUpController.m; sourceTree = SOURCE_ROOT; };
 		F9E50296155E1AA6001514E8 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeController.h; path = GorillaTaxi/HomeController.h; sourceTree = SOURCE_ROOT; };
 		F9E50297155E1AA6001514E8 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeController.m; path = GorillaTaxi/HomeController.m; sourceTree = SOURCE_ROOT; };
-		F9E5029F155E1AC0001514E8 /* ProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductController.h; path = GorillaTaxi/ProductController.h; sourceTree = SOURCE_ROOT; };
-		F9E502A0155E1AC0001514E8 /* ProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductController.m; path = GorillaTaxi/ProductController.m; sourceTree = SOURCE_ROOT; };
-		F9E502B7155E1AF7001514E8 /* NewProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewProductController.h; path = GorillaTaxi/NewProductController.h; sourceTree = SOURCE_ROOT; };
-		F9E502B8155E1AF7001514E8 /* NewProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewProductController.m; path = GorillaTaxi/NewProductController.m; sourceTree = SOURCE_ROOT; };
+		F9E5029F155E1AC0001514E8 /* RideDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RideDetailsController.h; path = GorillaTaxi/RideDetailsController.h; sourceTree = SOURCE_ROOT; };
+		F9E502A0155E1AC0001514E8 /* RideDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RideDetailsController.m; path = GorillaTaxi/RideDetailsController.m; sourceTree = SOURCE_ROOT; };
+		F9E502B7155E1AF7001514E8 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationController.h; path = GorillaTaxi/NavigationController.h; sourceTree = SOURCE_ROOT; };
+		F9E502B8155E1AF7001514E8 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationController.m; path = GorillaTaxi/NavigationController.m; sourceTree = SOURCE_ROOT; };
 		F9E502C8155E1B73001514E8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GorillaTaxi/main.m; sourceTree = SOURCE_ROOT; };
-		F9E502CA155E1BFF001514E8 /* GorillaTaxi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GorillaTaxi-Prefix.pch"; path = "Class/GorillaTaxi-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		F9FDF5FB155E472B006D9CEA /* drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drive.png; path = Resources/drive.png; sourceTree = SOURCE_ROOT; };
 		F9FDF5FC155E472B006D9CEA /* request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = request.png; path = Resources/request.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -393,29 +176,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9120CF6155EEDC100E76A61 /* libThree20Core.a in Frameworks */,
-				F9120CF7155EEDC100E76A61 /* libThree20Network.a in Frameworks */,
-				F9120CF8155EEDC100E76A61 /* libThree20Style.a in Frameworks */,
 				F9120CB1155ECD3100E76A61 /* CoreLocation.framework in Frameworks */,
+				F9DB889C155F6ECE00826EA3 /* libsqlite3.dylib in Frameworks */,
 				F997D755155EA79B00BDC4EA /* MapKit.framework in Frameworks */,
 				F991162D155E335400B1F8FD /* libfacebook_ios_sdk.a in Frameworks */,
-				F991162E155E335400B1F8FD /* libRestKitCoreData.a in Frameworks */,
-				F991162F155E335400B1F8FD /* libRestKitJSONParserJSONKit.a in Frameworks */,
-				F9911630155E335400B1F8FD /* libRestKitNetwork.a in Frameworks */,
-				F9911631155E335400B1F8FD /* libRestKitObjectMapping.a in Frameworks */,
-				F9911632155E335400B1F8FD /* libRestKitSupport.a in Frameworks */,
-				F9911633155E335400B1F8FD /* libRestKitThree20.a in Frameworks */,
-				F9911634155E335400B1F8FD /* libThree20.a in Frameworks */,
-				F9911638155E335400B1F8FD /* libThree20UI.a in Frameworks */,
-				F9911639155E335400B1F8FD /* libThree20UICommon.a in Frameworks */,
-				F991163A155E335400B1F8FD /* libThree20UINavigator.a in Frameworks */,
 				F92F4D2D13F1856A002421FC /* QuartzCore.framework in Frameworks */,
 				F9580AAF13F18375007A5ABE /* CoreGraphics.framework in Frameworks */,
 				F9580AAD13F1831A007A5ABE /* UIKit.framework in Frameworks */,
 				F95D64E213F0857F00DA9054 /* CFNetwork.framework in Frameworks */,
 				F95D64E313F0857F00DA9054 /* CoreData.framework in Frameworks */,
 				F95D64E513F0857F00DA9054 /* Foundation.framework in Frameworks */,
-				F95D64E613F0857F00DA9054 /* libxml2.dylib in Frameworks */,
 				F95D64E713F0857F00DA9054 /* MobileCoreServices.framework in Frameworks */,
 				F95D64E913F0857F00DA9054 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -434,38 +204,19 @@
 		F92F4D2E13F18687002421FC /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				F997D785155EAEFF00BDC4EA /* PubNub */,
+				F9DB888A155F6DD100826EA3 /* GeoloqiSDK */,
 				F960CA641371F7B200793D86 /* iPhoneIOSSDK */,
-				F960CA631371F7A400793D86 /* Three20 */,
-				F960CA621371F79B00793D86 /* RestKit */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
 		};
-		F95D641013F0847D00DA9054 /* Products */ = {
+		F94E1867156025C500A1A0FE /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F95D642413F0847D00DA9054 /* libRestKitNetwork.a */,
-				F95D642613F0847D00DA9054 /* libRestKitObjectMapping.a */,
-				F95D642813F0847D00DA9054 /* libRestKitSupport.a */,
-				F95D642A13F0847D00DA9054 /* libRestKitJSONParserYAJL.a */,
-				F95D642C13F0847D00DA9054 /* libRestKitJSONParserSBJSON.a */,
-				F95D642E13F0847D00DA9054 /* libRestKitJSONParserJSONKit.a */,
-				F95D643013F0847D00DA9054 /* libRestKitXMLParserLibxml.a */,
-				F95D643213F0847D00DA9054 /* libRestKitCoreData.a */,
-				F95D643413F0847D00DA9054 /* libRestKitThree20.a */,
-				F95D643613F0847D00DA9054 /* UISpec.app */,
+				F9E50296155E1AA6001514E8 /* HomeController.h */,
+				F9E50297155E1AA6001514E8 /* HomeController.m */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F95D643913F0848800DA9054 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F95D646413F0848A00DA9054 /* libThree20.a */,
-				F95D646613F0848A00DA9054 /* Three20UnitTests.octest */,
-			);
-			name = Products;
+			name = Home;
 			sourceTree = "<group>";
 		};
 		F95D646913F0849300DA9054 /* Products */ = {
@@ -479,9 +230,6 @@
 		F960C9961371F56100793D86 = {
 			isa = PBXGroup;
 			children = (
-				F95D647113F0849E00DA9054 /* FBConnect.bundle */,
-				F908BB7E155E1369005FF4E8 /* Default.png */,
-				F908BB7C155E1367005FF4E8 /* Default@2x.png */,
 				F960C9AB1371F56100793D86 /* GorillaTaxi */,
 				F960C9A41371F56100793D86 /* Frameworks */,
 				F960C9A21371F56100793D86 /* Products */,
@@ -500,6 +248,7 @@
 		F960C9A41371F56100793D86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F9DB889B155F6ECE00826EA3 /* libsqlite3.dylib */,
 				F9120CB0155ECD3000E76A61 /* CoreLocation.framework */,
 				F997D754155EA79B00BDC4EA /* MapKit.framework */,
 				F92F4D2C13F1856A002421FC /* QuartzCore.framework */,
@@ -520,8 +269,8 @@
 				F960C9FA1371F62400793D86 /* Code */,
 				F92F4D2E13F18687002421FC /* Libraries */,
 				F960C9AC1371F56100793D86 /* Supporting Files */,
-				F9E502CA155E1BFF001514E8 /* GorillaTaxi-Prefix.pch */,
 				F9120CF1155EED0D00E76A61 /* GorillaCab-Info.plist */,
+				F94E186D156027E600A1A0FE /* GorillaTaxi-Prefix.pch */,
 				F9E502C8155E1B73001514E8 /* main.m */,
 			);
 			name = GorillaTaxi;
@@ -578,42 +327,20 @@
 		F960C9FA1371F62400793D86 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				F96F21CC1372079B000BE282 /* Env & Cache */,
+				F94E18641560257500A1A0FE /* map.html */,
 				F960CA5D1371F6C600793D86 /* Helpers */,
-				F960CA5B1371F67000793D86 /* Model */,
 				F960C9F91371F61600793D86 /* AppDelegate */,
 				F960CA5C1371F68700793D86 /* Controllers */,
 			);
 			name = Code;
 			sourceTree = "<group>";
 		};
-		F960CA5B1371F67000793D86 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F991163B155E33E500B1F8FD /* Model.xcdatamodeld */,
-				F9E50272155E1A76001514E8 /* DBCompany.h */,
-				F9E50273155E1A76001514E8 /* DBCompany.m */,
-				F9E50274155E1A76001514E8 /* DBCompanyFeedback.h */,
-				F9E50275155E1A76001514E8 /* DBCompanyFeedback.m */,
-				F9E50278155E1A76001514E8 /* DBFeedback.h */,
-				F9E50279155E1A76001514E8 /* DBFeedback.m */,
-				F9E5027C155E1A76001514E8 /* DBProduct.h */,
-				F9E5027D155E1A76001514E8 /* DBProduct.m */,
-				F9E5027E155E1A76001514E8 /* DBProductFeedback.h */,
-				F9E5027F155E1A76001514E8 /* DBProductFeedback.m */,
-				F9E50280155E1A76001514E8 /* DBUser.h */,
-				F9E50281155E1A76001514E8 /* DBUser.m */,
-				F9E50282155E1A76001514E8 /* DBVote.h */,
-				F9E50283155E1A76001514E8 /* DBVote.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
 		F960CA5C1371F68700793D86 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				F960CA5E1371F6E200793D86 /* Signup */,
-				F960CA5F1371F6E900793D86 /* Home */,
+				F94E1867156025C500A1A0FE /* Home */,
+				F960CA5F1371F6E900793D86 /* DriverPassenger */,
 				F997D7AE155EC33D00BDC4EA /* DisplayMap.h */,
 				F997D7AF155EC33E00BDC4EA /* DisplayMap.m */,
 			);
@@ -623,16 +350,9 @@
 		F960CA5D1371F6C600793D86 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				F94E18661560258400A1A0FE /* LQConfig.h */,
 				F9E50266155E1A53001514E8 /* FBLoginButton.h */,
 				F9E50267155E1A53001514E8 /* FBLoginButton.m */,
-				F9E50263155E1A3C001514E8 /* QSStrings.h */,
-				F9E50264155E1A3C001514E8 /* QSStrings.m */,
-				F9E50269155E1A68001514E8 /* DefaultStylesheet.h */,
-				F9E5026A155E1A68001514E8 /* DefaultStylesheet.m */,
-				F9E5026B155E1A68001514E8 /* ImageDownloader.h */,
-				F9E5026C155E1A68001514E8 /* ImageDownloader.m */,
-				F9E5026D155E1A68001514E8 /* JSONHelper.h */,
-				F9E5026E155E1A68001514E8 /* JSONHelper.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -646,115 +366,44 @@
 			name = Signup;
 			sourceTree = "<group>";
 		};
-		F960CA5F1371F6E900793D86 /* Home */ = {
+		F960CA5F1371F6E900793D86 /* DriverPassenger */ = {
 			isa = PBXGroup;
 			children = (
 				F9120D18155F0D8700E76A61 /* DriverConfirmationController.h */,
 				F9120D19155F0D8800E76A61 /* DriverConfirmationController.m */,
 				F9120D15155F0D8000E76A61 /* PassengerConfirmationController.h */,
 				F9120D16155F0D8000E76A61 /* PassengerConfirmationController.m */,
-				F9AAC120155E5D23005FC587 /* ConfirmationController.h */,
-				F9AAC121155E5D23005FC587 /* ConfirmationController.m */,
-				F9E5029F155E1AC0001514E8 /* ProductController.h */,
-				F9E502A0155E1AC0001514E8 /* ProductController.m */,
-				F9E50296155E1AA6001514E8 /* HomeController.h */,
-				F9E50297155E1AA6001514E8 /* HomeController.m */,
-				F9E502B7155E1AF7001514E8 /* NewProductController.h */,
-				F9E502B8155E1AF7001514E8 /* NewProductController.m */,
+				F9AAC120155E5D23005FC587 /* RideConfirmationController.h */,
+				F9AAC121155E5D23005FC587 /* RideConfirmationController.m */,
+				F9E5029F155E1AC0001514E8 /* RideDetailsController.h */,
+				F9E502A0155E1AC0001514E8 /* RideDetailsController.m */,
+				F9E502B7155E1AF7001514E8 /* NavigationController.h */,
+				F9E502B8155E1AF7001514E8 /* NavigationController.m */,
 			);
-			name = Home;
-			sourceTree = "<group>";
-		};
-		F960CA621371F79B00793D86 /* RestKit */ = {
-			isa = PBXGroup;
-			children = (
-				F95D64DD13F0857E00DA9054 /* libxml2.dylib */,
-				F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */,
-			);
-			name = RestKit;
-			sourceTree = "<group>";
-		};
-		F960CA631371F7A400793D86 /* Three20 */ = {
-			isa = PBXGroup;
-			children = (
-				F9120CF3155EEDC100E76A61 /* libThree20Core.a */,
-				F9120CF4155EEDC100E76A61 /* libThree20Network.a */,
-				F9120CF5155EEDC100E76A61 /* libThree20Style.a */,
-				F95D647813F084D900DA9054 /* Three20UICommon.xcodeproj */,
-				F95D647913F084D900DA9054 /* Three20UINavigator.xcodeproj */,
-				F95D647A13F084D900DA9054 /* Three20UI.xcodeproj */,
-				F95D647313F084C500DA9054 /* Three20.bundle */,
-				F95D643813F0848800DA9054 /* Three20.xcodeproj */,
-			);
-			name = Three20;
+			name = DriverPassenger;
 			sourceTree = "<group>";
 		};
 		F960CA641371F7B200793D86 /* iPhoneIOSSDK */ = {
 			isa = PBXGroup;
 			children = (
+				F95D647113F0849E00DA9054 /* FBConnect.bundle */,
 				F9B5E9ED155E3BC600DCBDAD /* FBDialog.bundle */,
 				F95D646813F0849300DA9054 /* facebook-ios-sdk.xcodeproj */,
 			);
 			name = iPhoneIOSSDK;
 			sourceTree = "<group>";
 		};
-		F96128DC14E9FAF200619AB7 /* Products */ = {
+		F9DB888A155F6DD100826EA3 /* GeoloqiSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F96128E114E9FAF200619AB7 /* libThree20UICommon.a */,
-				F96128E314E9FAF200619AB7 /* UICommonUnitTests.octest */,
+				F9DB888B155F6DD100826EA3 /* Geoloqi.h */,
+				F9DB888E155F6DD100826EA3 /* LQError.h */,
+				F9DB888F155F6DD100826EA3 /* LQSDKVersion.h */,
+				F9DB8890155F6DD100826EA3 /* LQSession.h */,
+				F9DB8891155F6DD100826EA3 /* LQTracker.h */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F96128E414E9FAF300619AB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F96128E914E9FAF300619AB7 /* libThree20UINavigator.a */,
-				F96128EB14E9FAF300619AB7 /* UINavigatorUnitTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F96128EC14E9FAF300619AB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F96128F114E9FAF300619AB7 /* libThree20UI.a */,
-				F96128F314E9FAF300619AB7 /* UIUnitTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F96F21CC1372079B000BE282 /* Env & Cache */ = {
-			isa = PBXGroup;
-			children = (
-				F9E5025D155E1A2F001514E8 /* DBEnvironment.h */,
-				F9E5025E155E1A2F001514E8 /* DBEnvironment.m */,
-				F9E5025F155E1A2F001514E8 /* DBManagedObjectCache.h */,
-				F9E50260155E1A2F001514E8 /* DBManagedObjectCache.m */,
-			);
-			name = "Env & Cache";
-			sourceTree = "<group>";
-		};
-		F997D785155EAEFF00BDC4EA /* PubNub */ = {
-			isa = PBXGroup;
-			children = (
-				F997D7AA155EBF6C00BDC4EA /* JSONKit.h */,
-				F997D7AB155EBF6C00BDC4EA /* JSONKit.m */,
-				F997D799155EB51F00BDC4EA /* CEPubnub.m */,
-				F997D79B155EB51F00BDC4EA /* Common.m */,
-				F997D79C155EB51F00BDC4EA /* Base64.h */,
-				F997D79D155EB51F00BDC4EA /* Base64.m */,
-				F997D79E155EB51F00BDC4EA /* CEPubnub.h */,
-				F997D79F155EB51F00BDC4EA /* Cipher.h */,
-				F997D7A0155EB51F00BDC4EA /* Cipher.m */,
-				F997D7A1155EB51F00BDC4EA /* Common.h */,
-				F997D7A2155EB51F00BDC4EA /* JSON.h */,
-				F997D7A3155EB51F00BDC4EA /* JSON.m */,
-			);
-			name = PubNub;
-			path = ../Pubnub/PubNub;
-			sourceTree = "<group>";
+			path = GeoloqiSDK;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -770,8 +419,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				F95D64B013F0851400DA9054 /* PBXTargetDependency */,
-				F95D64B613F0851400DA9054 /* PBXTargetDependency */,
 				F95D64B813F0851400DA9054 /* PBXTargetDependency */,
 			);
 			name = GorillaCab;
@@ -822,26 +469,6 @@
 					ProductGroup = F95D646913F0849300DA9054 /* Products */;
 					ProjectRef = F95D646813F0849300DA9054 /* facebook-ios-sdk.xcodeproj */;
 				},
-				{
-					ProductGroup = F95D641013F0847D00DA9054 /* Products */;
-					ProjectRef = F95D640F13F0847D00DA9054 /* RestKit.xcodeproj */;
-				},
-				{
-					ProductGroup = F95D643913F0848800DA9054 /* Products */;
-					ProjectRef = F95D643813F0848800DA9054 /* Three20.xcodeproj */;
-				},
-				{
-					ProductGroup = F96128EC14E9FAF300619AB7 /* Products */;
-					ProjectRef = F95D647A13F084D900DA9054 /* Three20UI.xcodeproj */;
-				},
-				{
-					ProductGroup = F96128DC14E9FAF200619AB7 /* Products */;
-					ProjectRef = F95D647813F084D900DA9054 /* Three20UICommon.xcodeproj */;
-				},
-				{
-					ProductGroup = F96128E414E9FAF300619AB7 /* Products */;
-					ProjectRef = F95D647913F084D900DA9054 /* Three20UINavigator.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -852,137 +479,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		F95D642413F0847D00DA9054 /* libRestKitNetwork.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitNetwork.a;
-			remoteRef = F95D642313F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D642613F0847D00DA9054 /* libRestKitObjectMapping.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitObjectMapping.a;
-			remoteRef = F95D642513F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D642813F0847D00DA9054 /* libRestKitSupport.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitSupport.a;
-			remoteRef = F95D642713F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D642A13F0847D00DA9054 /* libRestKitJSONParserYAJL.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitJSONParserYAJL.a;
-			remoteRef = F95D642913F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D642C13F0847D00DA9054 /* libRestKitJSONParserSBJSON.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitJSONParserSBJSON.a;
-			remoteRef = F95D642B13F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D642E13F0847D00DA9054 /* libRestKitJSONParserJSONKit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitJSONParserJSONKit.a;
-			remoteRef = F95D642D13F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D643013F0847D00DA9054 /* libRestKitXMLParserLibxml.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitXMLParserLibxml.a;
-			remoteRef = F95D642F13F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D643213F0847D00DA9054 /* libRestKitCoreData.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitCoreData.a;
-			remoteRef = F95D643113F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D643413F0847D00DA9054 /* libRestKitThree20.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRestKitThree20.a;
-			remoteRef = F95D643313F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D643613F0847D00DA9054 /* UISpec.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = UISpec.app;
-			remoteRef = F95D643513F0847D00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D646413F0848A00DA9054 /* libThree20.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libThree20.a;
-			remoteRef = F95D646313F0848A00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F95D646613F0848A00DA9054 /* Three20UnitTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Three20UnitTests.octest;
-			remoteRef = F95D646513F0848A00DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		F95D647013F0849300DA9054 /* libfacebook_ios_sdk.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libfacebook_ios_sdk.a;
 			remoteRef = F95D646F13F0849300DA9054 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F96128E114E9FAF200619AB7 /* libThree20UICommon.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libThree20UICommon.a;
-			remoteRef = F96128E014E9FAF200619AB7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F96128E314E9FAF200619AB7 /* UICommonUnitTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UICommonUnitTests.octest;
-			remoteRef = F96128E214E9FAF200619AB7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F96128E914E9FAF300619AB7 /* libThree20UINavigator.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libThree20UINavigator.a;
-			remoteRef = F96128E814E9FAF300619AB7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F96128EB14E9FAF300619AB7 /* UINavigatorUnitTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UINavigatorUnitTests.octest;
-			remoteRef = F96128EA14E9FAF300619AB7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F96128F114E9FAF300619AB7 /* libThree20UI.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libThree20UI.a;
-			remoteRef = F96128F014E9FAF300619AB7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F96128F314E9FAF300619AB7 /* UIUnitTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UIUnitTests.octest;
-			remoteRef = F96128F214E9FAF300619AB7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -993,9 +494,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95D647213F0849E00DA9054 /* FBConnect.bundle in Resources */,
-				F95D647413F084C500DA9054 /* Three20.bundle in Resources */,
-				F908BB7D155E1367005FF4E8 /* Default@2x.png in Resources */,
-				F908BB7F155E136A005FF4E8 /* Default.png in Resources */,
 				F9B5E9EE155E3BC600DCBDAD /* FBDialog.bundle in Resources */,
 				F9B5E9F0155E3DE600DCBDAD /* facebook_login.png in Resources */,
 				F9B5E9F2155E3E4200DCBDAD /* background.jpg in Resources */,
@@ -1029,6 +527,7 @@
 				F9120D14155F04F000E76A61 /* rideconfirmation.png in Resources */,
 				F9120D1D155F0DF700E76A61 /* pass.png in Resources */,
 				F9120D1E155F0DF700E76A61 /* accept.png in Resources */,
+				F94E18651560257600A1A0FE /* map.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,34 +561,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9E50261155E1A2F001514E8 /* DBEnvironment.m in Sources */,
-				F9E50262155E1A2F001514E8 /* DBManagedObjectCache.m in Sources */,
-				F9E50265155E1A3C001514E8 /* QSStrings.m in Sources */,
 				F9E50268155E1A53001514E8 /* FBLoginButton.m in Sources */,
-				F9E5026F155E1A68001514E8 /* DefaultStylesheet.m in Sources */,
-				F9E50270155E1A68001514E8 /* ImageDownloader.m in Sources */,
-				F9E50271155E1A68001514E8 /* JSONHelper.m in Sources */,
-				F9E50284155E1A76001514E8 /* DBCompany.m in Sources */,
-				F9E50285155E1A76001514E8 /* DBCompanyFeedback.m in Sources */,
-				F9E50287155E1A76001514E8 /* DBFeedback.m in Sources */,
-				F9E50289155E1A76001514E8 /* DBProduct.m in Sources */,
-				F9E5028A155E1A76001514E8 /* DBProductFeedback.m in Sources */,
-				F9E5028B155E1A76001514E8 /* DBUser.m in Sources */,
-				F9E5028C155E1A76001514E8 /* DBVote.m in Sources */,
 				F9E5028F155E1A84001514E8 /* AppDelegate.m in Sources */,
 				F9E50295155E1A94001514E8 /* SignUpController.m in Sources */,
 				F9E5029A155E1AA6001514E8 /* HomeController.m in Sources */,
-				F9E502A1155E1AC0001514E8 /* ProductController.m in Sources */,
-				F9E502BC155E1AF7001514E8 /* NewProductController.m in Sources */,
+				F9E502A1155E1AC0001514E8 /* RideDetailsController.m in Sources */,
+				F9E502BC155E1AF7001514E8 /* NavigationController.m in Sources */,
 				F9E502C9155E1B73001514E8 /* main.m in Sources */,
-				F991163C155E33E500B1F8FD /* Model.xcdatamodeld in Sources */,
-				F9AAC122155E5D24005FC587 /* ConfirmationController.m in Sources */,
-				F997D7A5155EB51F00BDC4EA /* CEPubnub.m in Sources */,
-				F997D7A6155EB51F00BDC4EA /* Common.m in Sources */,
-				F997D7A7155EB51F00BDC4EA /* Base64.m in Sources */,
-				F997D7A8155EB51F00BDC4EA /* Cipher.m in Sources */,
-				F997D7A9155EB51F00BDC4EA /* JSON.m in Sources */,
-				F997D7AC155EBF6C00BDC4EA /* JSONKit.m in Sources */,
+				F9AAC122155E5D24005FC587 /* RideConfirmationController.m in Sources */,
 				F997D7B0155EC33E00BDC4EA /* DisplayMap.m in Sources */,
 				F9120D17155F0D8100E76A61 /* PassengerConfirmationController.m in Sources */,
 				F9120D1A155F0D8800E76A61 /* DriverConfirmationController.m in Sources */,
@@ -1106,16 +585,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F95D64B013F0851400DA9054 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Three20;
-			targetProxy = F95D64AF13F0851400DA9054 /* PBXContainerItemProxy */;
-		};
-		F95D64B613F0851400DA9054 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RestKit;
-			targetProxy = F95D64B513F0851400DA9054 /* PBXContainerItemProxy */;
-		};
 		F95D64B813F0851400DA9054 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "facebook-ios-sdk";
@@ -1133,13 +602,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nelson Melo (C88Y6GKY4D)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nelson Melo (C88Y6GKY4D)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1165,10 +635,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nelson Melo (C88Y6GKY4D)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nelson Melo (C88Y6GKY4D)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1195,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1204,8 +676,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					/Users/nmelo/Desktop/TrackerSample/GeoloqiSDK,
+					"\"$(SRCROOT)/GeoloqiSDK\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lGeoloqi-Debug",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = GorillaCab;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1217,6 +696,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GorillaTaxi/GorillaTaxi-Prefix.pch";
@@ -1225,8 +705,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					/Users/nmelo/Desktop/TrackerSample/GeoloqiSDK,
+					"\"$(SRCROOT)/GeoloqiSDK\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lGeoloqi-Release",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = GorillaCab;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1310,18 +797,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F991163B155E33E500B1F8FD /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-			);
-			name = Model.xcdatamodeld;
-			path = ../GorillaTaxi/Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F960C9981371F56100793D86 /* Project object */;
 }

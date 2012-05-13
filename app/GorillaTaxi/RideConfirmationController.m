@@ -6,9 +6,9 @@
 //
 
 
-#import "DriverConfirmationController.h"
+#import "RideConfirmationController.h"
 
-@implementation DriverConfirmationController
+@implementation RideConfirmationController
 
 @synthesize acceptButton;
 
@@ -46,7 +46,7 @@
     
     UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(80, 80, 160, 140)];
     label.numberOfLines = 6;
-    label.text = @"Joe needs a ride to 123 Main St, Miami FL 33146.";
+    label.text = @"You’re about ride with Joe to 123 Main St, Miami FL 33146\nOnce you Confirm you’re expected to arrive.";
     [label setFont:[UIFont fontWithName:@"ArialMT" size:11]];
     [label setTextColor:[UIColor whiteColor]];
     [label setBackgroundColor:[UIColor clearColor]];
@@ -57,19 +57,12 @@
 	[face setImage:faceImage];
     [self.view addSubview:face];
         
-    UIImage* acceptImage = [UIImage imageNamed:@"accept.png"];
-    UIButton* accept = [UIButton buttonWithType:UIButtonTypeCustom];
-    accept.frame = CGRectMake(60, 310, 203, 48);
-    [accept setBackgroundImage:acceptImage forState:UIControlStateNormal];
-    [accept  addTarget:self action:@selector(accept_OnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:accept];
-    
-    UIImage* passImage = [UIImage imageNamed:@"pass.png"];
-    UIButton* pass = [UIButton buttonWithType:UIButtonTypeCustom];
-    pass.frame = CGRectMake(60, 370, 203, 48);
-    [pass setBackgroundImage:passImage forState:UIControlStateNormal];
-    [pass  addTarget:self action:@selector(pass_OnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:pass];
+    UIImage* drive_image = [UIImage imageNamed:@"letsroll.png"];
+    UIButton* letsGoButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    letsGoButton.frame = CGRectMake(60, 310, 203, 48);
+    [letsGoButton setBackgroundImage:drive_image forState:UIControlStateNormal];
+    [letsGoButton  addTarget:self action:@selector(confirm_OnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:letsGoButton];
 
 }
 
@@ -81,10 +74,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // IBActions
-- (void)accept_OnClick {
-//    TTOpenURL(@"db://newProduct");
-}
-- (void)pass_OnClick {
+- (void)confirm_OnClick {
 //    TTOpenURL(@"db://newProduct");
 }
 

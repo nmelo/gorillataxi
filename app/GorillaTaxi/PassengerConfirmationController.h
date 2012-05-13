@@ -1,19 +1,15 @@
 //
-//  NewProductViewController.h
-//  MobileFeedback
+//  GorillaCab Mobile App
 //
-//  Created by Ralph Tavarez on 4/13/11.
-//  Copyright 2011 Hollowire Inc. All rights reserved.
+//  Created by Nelson Melo on 5/11/12.
+//  Copyright 2012 CodeModLabs LLC. All rights reserved.
 //
 
-#import <Three20/Three20.h>
-#import <Three20/Three20+Additions.h>
 
-#import <RestKit/RestKit.h>
-#import <RestKit/CoreData/CoreData.h>
-#import <RestKit/Three20/Three20.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface PassengerConfirmationController : TTViewController
+@interface PassengerConfirmationController : UIViewController
 {
     UIButton *acceptButton;
 }

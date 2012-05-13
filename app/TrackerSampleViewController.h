@@ -1,36 +1,15 @@
 //
-//  GorillaCab Mobile App
+//  TrackerSampleViewController.h
+//  TrackerSample
 //
-//  Created by Nelson Melo on 5/11/12.
-//  Copyright 2012 CodeModLabs LLC. All rights reserved.
+//  Copyright (c) 2012 Geoloqi, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
-#import <MapKit/MapKit.h>
-#import "DisplayMap.h"
 
-#import "Geoloqi.h"
-#import "LQConfig.h"
-
-#define METERS_PER_MILE 1609.344
-
-@interface HomeController : UIViewController <MKMapViewDelegate>{
-    UIButton *driveButton;
-    UIButton *requestButton;
-    IBOutlet MKMapView *map;
-    DisplayMap * ann;
-    BOOL isDriver;
+@interface TrackerSampleViewController : UIViewController {
+    
 }
-
-@property (nonatomic, retain) UIButton *driveButton;
-@property (nonatomic, retain) UIButton *requestButton;
-@property(nonatomic, retain) IBOutlet MKMapView *map;
-@property(nonatomic, retain) DisplayMap * ann;
-@property(nonatomic) BOOL isDriver;
-- (IBAction)drive_OnClick;
-- (IBAction)request_OnClick;
-
 
 @property (strong) IBOutlet UISegmentedControl *currentTrackingProfile;
 @property (strong) IBOutlet UITextView *pushNotificationStatus;

@@ -1,9 +1,8 @@
 //
-//  SignUpViewController.m
-//  MobileFeedback
+//  GorillaCab Mobile App
 //
-//  Created by Ralph Tavarez on 3/16/11.
-//  Copyright 2011 Hollowire Inc. All rights reserved.
+//  Created by Nelson Melo on 5/11/12.
+//  Copyright 2012 CodeModLabs LLC. All rights reserved.
 //
 
 #import "SignUpController.h"
@@ -15,8 +14,8 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // TTViewController
-- (id)initWithNavigatorURL:(NSURL*)URL query:(NSDictionary*)query {
-	if ((self = [super initWithNavigatorURL:URL query:query])) {
+- (id)init {
+	if ((self = [super init])) {
         self.hidesBottomBarWhenPushed = YES;   
     }
 	return self;
@@ -25,8 +24,6 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // NSobject
 - (void)dealloc {
-    [super dealloc];
-	[fbButton release];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -65,8 +62,8 @@
         
 	} else {
 		NSArray* permissions = 
-			[[NSArray arrayWithObjects: 
-			  @"email", @"user_birthday", @"publish_stream", nil] retain];
+			[NSArray arrayWithObjects: 
+			  @"email", @"user_birthday", @"publish_stream", nil];
 	
 		[fbInstance authorize:permissions delegate:self];
 	}
@@ -94,52 +91,11 @@
 	[fbButton updateImage];
 }
 
-- (void)sendUserToHomepage {
-    
-    //I already have you logged-in, you can continue. 
-    TTOpenURL(@"db://home");
-}
-
-- (void)sendUserToLeaveFeedback {
-    TTOpenURL(@"db://leaveFeedback");
-}
-
--(DBUser*) setupUser {
-    
-    DBUser *user = [DBUser currentUser];
-    
-    //Initialize all data for the current user 
-    user.first_name  =  [loginResults objectForKey:@"first_name"];
-    user.last_name = [loginResults objectForKey:@"last_name"];
-    user.email =  [loginResults objectForKey:@"email"];
-    user.gender = [[[loginResults objectForKey:@"gender"] substringToIndex:1] uppercaseString];
-    //newUser.created_at = [NSDate date];
-    //newUser.updated_at = [NSDate date];
-    
-    //Parsing facebook_id from string
-    NSString* facebook_id = [loginResults objectForKey:@"id"];
-    user.facebook_id = (NSNumber*)[[[[NSNumberFormatter alloc] init] autorelease] numberFromString:facebook_id];
-    
-    //Parsing birth_year from string
-    NSString* birth_year = [[loginResults objectForKey:@"birthday"] substringFromIndex:6];
-    user.birth_year = (NSNumber*)[[[[NSNumberFormatter alloc] init] autorelease] numberFromString:birth_year];
-    
-    return user;
-}
-
-- (void) signup {
-    
-    DBUser * user = [self setupUser];
-    //Using the signup functionality built into DBUser.
-    [user signUpWithDelegate:self];
-
-}
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Facebook just finished authenticating the user
 - (void)request:(FBRequest *)request didLoad:(id)result {
    
     loginResults = (NSDictionary*)result;
-    [result retain];
 
     NSString* facebook_id = [loginResults objectForKey:@"id"];    
     
@@ -152,35 +108,8 @@
 //        [currentUser loginWithFacebookId:facebook_id delegate:self]; 
 //    }
 //    else {
-        [self sendUserToHomepage];
+        
 //    }
-}
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-//RKObjectLoaderDelegate
-- (void)userDidLogin:(DBUser*)user {
-    [self sendUserToHomepage];
-}
-
-- (void)userDidNotExist:(DBUser*)user {
-    [self signup];
-}
-
-- (void)userDidSignUp:(DBUser*)user {
-    [self sendUserToLeaveFeedback];
-}
-
-- (void)user:(DBUser*)user didFailSignUpWithError:(NSError*)error {	
-    TTAlert([error localizedDescription]);
-}
-
-- (void)user:(DBUser*)user didFailLoginWithError:(NSError*)error {
-    [[[[UIAlertView alloc] initWithTitle:@"Error"
-								 message:[error localizedDescription]
-								delegate:nil
-					   cancelButtonTitle:@"OK"
-					   otherButtonTitles:nil] autorelease] show];
-    
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -193,7 +122,6 @@
 											   otherButtonTitles:nil];
 
 	[errorAlert show];
-	[errorAlert release];
 }
 
 

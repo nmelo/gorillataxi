@@ -5,9 +5,4 @@
 
 @synthesize coordinate,title,subtitle,image;
 
--(void)dealloc{
-    [title release];
-    [super dealloc];
-}
-
 @end

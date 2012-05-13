@@ -1,10 +1,10 @@
 //
-//  NewProductViewController.m
-//  MobileFeedback
+//  GorillaCab Mobile App
 //
-//  Created by Ralph Tavarez on 4/13/11.
-//  Copyright 2011 Hollowire Inc. All rights reserved.
+//  Created by Nelson Melo on 5/11/12.
+//  Copyright 2012 CodeModLabs LLC. All rights reserved.
 //
+
 
 #import "PassengerConfirmationController.h"
 
@@ -82,16 +82,16 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // IBActions
 - (void)accept_OnClick {
-    TTOpenURL(@"db://newProduct");
+//    TTOpenURL(@"db://newProduct");
 }
 - (void)pass_OnClick {
-    TTOpenURL(@"db://newProduct");
+//    TTOpenURL(@"db://newProduct");
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // NSObject
 - (void)dealloc {
-    [super dealloc];
+
 }
 
 

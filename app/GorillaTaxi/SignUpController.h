@@ -1,24 +1,18 @@
 //
-//  SignUpViewController.h
-//  MobileFeedback
+//  GorillaCab Mobile App
 //
-//  Created by Ralph Tavarez on 3/16/11.
-//  Copyright 2011 Hollowire Inc. All rights reserved.
+//  Created by Nelson Melo on 5/11/12.
+//  Copyright 2012 CodeModLabs LLC. All rights reserved.
 //
+
 
 #import "FBConnect.h"
 #import "FBLoginButton.h"
 
 #import "AppDelegate.h"
-#import "JSONHelper.h"
-#import "LeaveFeedbackController.h"
-#import "DBUser.h"
-
-#import <Three20/Three20.h>
-#import <Three20/Three20+Additions.h>
 
 
-@interface SignUpController : TTViewController <FBSessionDelegate, FBRequestDelegate, DBUserAuthenticationDelegate> {
+@interface SignUpController : UIViewController <FBSessionDelegate, FBRequestDelegate> {
 
 	FBLoginButton       *fbButton;
     UIButton            *createButton;
